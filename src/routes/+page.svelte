@@ -1,5 +1,6 @@
 <script lang="ts">
 	import Icon from '@iconify/svelte';
+	import OnRampModal from '$lib/components/OnRampModal.svelte';
 	let showModal = false;
 </script>
 
@@ -11,37 +12,23 @@
 			<img src="/img/blockrok_logo.png" alt="Blockrok" class="h-32" />
 			<p class="text-xl font-medium">The World's Largest Memecoin Asset Manager</p>
 			<button
-				class="flex items-center gap-2 rounded-lg bg-green-500 px-4 py-2 font-medium text-gray-100 transition-colors hover:bg-g-600"
-				on:click={() => showModal = true}
+				class="hover:bg-g-600 flex items-center gap-2 rounded-lg bg-green-500 px-4 py-2 font-medium text-gray-100 transition-colors"
+				on:click={() => (showModal = true)}
 			>
 				<Icon icon="lucide:credit-card" class="h-5 w-5" />
 				<div>Deposit</div>
 			</button>
 		</div>
 
-		<div class="mb-8 absolute bottom-0 flex items-center gap-2 px-4 py-2 font-medium text-gray-100">
+		<div class="absolute bottom-0 mb-8 flex items-center gap-2 px-4 py-2 font-medium text-gray-100">
 			<div>Learn More</div>
 			<Icon icon="lucide:arrow-down" class="h-5 w-5" />
 		</div>
-
 	</div>
 </div>
 
 {#if showModal}
-	<div class="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-50">
-		<div class="relative h-[90vh] w-[90vw] rounded-lg bg-white">
-			<button
-				class="absolute right-2 top-2 rounded-full bg-gray-200 p-2"
-				on:click={() => showModal = false}
-			>
-				<Icon icon="lucide:x" class="h-5 w-5 text-gray-700" />
-			</button>
-			<iframe
-				src="https://global.transak.com/"
-				title="Deposit"
-				class="h-full w-full rounded-lg"
-			>
-			</iframe>
-		</div>
-	</div>
+	<OnRampModal 
+		onClose={() => showModal = false} 
+	/>
 {/if}
