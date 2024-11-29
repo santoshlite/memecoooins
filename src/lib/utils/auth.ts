@@ -1,8 +1,11 @@
 import { useClerkContext } from 'svelte-clerk';
 
-export function handleSignIn() {
+export function createSignInHandler() {
 	const ctx = useClerkContext();
-	ctx.clerk?.openSignIn({
-		redirectUrl: window.location.href
-	});
+	
+	return () => {
+		ctx.clerk?.openSignIn({
+			forceRedirectUrl: window.location.origin + '?trigger=buy'
+		});
+	};
 }

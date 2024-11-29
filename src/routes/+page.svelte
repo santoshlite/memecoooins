@@ -5,11 +5,13 @@
 	import { SignedIn, SignedOut, UserButton } from 'svelte-clerk';
 	import Icon from '@iconify/svelte';
 	import StatusModal from '$lib/components/StatusModal.svelte';
-	import { handleSignIn } from '$lib/utils/auth';
+	import { createSignInHandler } from '$lib/utils/auth';
 
 	let showModal = false;
 	let modalMessage = '';
 	let modalType: 'success' | 'error' = 'success';
+
+	const handleSignIn = createSignInHandler();
 
 	async function handleBuy() {
 		const result = await createCheckoutSession();
@@ -21,16 +23,23 @@
 	}
 
 	onMount(() => {
+		// Handle payment status
 		const paymentStatus = $page.url.searchParams.get('payment');
-		const status = handlePaymentStatus(paymentStatus);
+		if (paymentStatus) {
+			const status = handlePaymentStatus(paymentStatus);
+			if (status) {
+				showModal = true;
+				modalType = status.type as 'success' | 'error';
+				modalMessage = status.message;
+				window.history.replaceState({}, '', '/');
+			}
+		}
 
-		if (status) {
-			showModal = true;
-			modalType = status.type as 'success' | 'error';
-			modalMessage = status.message;
-
-			// Clean up the URL
-			window.history.replaceState({}, '', '/');
+		// Handle buy trigger after login
+		const trigger = $page.url.searchParams.get('trigger');
+		if (trigger === 'buy') {
+			handleBuy();
+			window.history.replaceState({}, '', '/');  // Clean up URL
 		}
 	});
 
