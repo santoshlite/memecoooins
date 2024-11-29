@@ -1,0 +1,6030 @@
+[
+    {
+        "symbol": "bonk",
+        "id": "bonk",
+        "name": "Bonk",
+        "solana_contract_address": "DezXAZ8z7PnrnRJjz3wXBoRgixCa6xjnB7YaB1pPB263"
+    },
+    {
+        "symbol": "wif",
+        "id": "dogwifcoin",
+        "name": "dogwifhat",
+        "solana_contract_address": "EKpQGSJtjMFqKZ9KQanSqYXRcF8fBopzLHYxdM65zcjm"
+    },
+    {
+        "symbol": "popcat",
+        "id": "popcat",
+        "name": "Popcat",
+        "solana_contract_address": "7GCihgDB8fe6KNjn2MYtkzZcRjQy3t9GHdC8uHYmW2hr"
+    },
+    {
+        "symbol": "pnut",
+        "id": "peanut-the-squirrel",
+        "name": "Peanut the Squirrel",
+        "solana_contract_address": "2qEHjDLDLbuBgRYvsxhc5D6uDWAivNFZGan56P1tpump"
+    },
+    {
+        "symbol": "goat",
+        "id": "goatseus-maximus",
+        "name": "Goatseus Maximus",
+        "solana_contract_address": "CzLSujWBLFsSjncfkh59rUFqvafWcY5tzedWJSuypump"
+    },
+    {
+        "symbol": "mew",
+        "id": "cat-in-a-dogs-world",
+        "name": "cat in a dogs world",
+        "solana_contract_address": "MEW1gQWJ3nEXg2qgERiKu7FAFj79PHvQVREQUzScPP5"
+    },
+    {
+        "symbol": "bome",
+        "id": "book-of-meme",
+        "name": "BOOK OF MEME",
+        "solana_contract_address": "ukHH6c7mMyiWCf1b9pnWe25TSpkDDt3H5pQZgZ74J82"
+    },
+    {
+        "symbol": "act",
+        "id": "act-i-the-ai-prophecy",
+        "name": "Act I The AI Prophecy",
+        "solana_contract_address": "GJAFwWjJ3vnTsrQVabjBVK2TYB1YtRCQXRDfDgUnpump"
+    },
+    {
+        "symbol": "chillguy",
+        "id": "chill-guy",
+        "name": "Just a chill guy",
+        "solana_contract_address": "Df6yfrKC8kZE3KNkrHERKzAetSxbrWeniQfyJY4Jpump"
+    },
+    {
+        "symbol": "zerebro",
+        "id": "zerebro",
+        "name": "Zerebro",
+        "solana_contract_address": "8x5VqbHA8D7NkD52uNuS5nnt3PwA8pLD34ymskeSo2Wn"
+    },
+    {
+        "symbol": "giga",
+        "id": "gigachad-2",
+        "name": "Gigachad",
+        "solana_contract_address": "63LfDmNb3MQ8mw9MtZ2To9bEA2M71kZUUGq5tiJxcqj9"
+    },
+    {
+        "symbol": "fwog",
+        "id": "fwog",
+        "name": "Fwog",
+        "solana_contract_address": "A8C3xuqscfmyLrte3VmTqrAq8kgMASius9AFNANwpump"
+    },
+    {
+        "symbol": "moodeng",
+        "id": "moo-deng",
+        "name": "Moo Deng",
+        "solana_contract_address": "ED5nyyWEzpPPiWimP8vYm7sD7TD3LAt3Q3gRTWHzPJBY"
+    },
+    {
+        "symbol": "fartcoin",
+        "id": "fartcoin",
+        "name": "Fartcoin",
+        "solana_contract_address": "9BB6NFEcjBCtnNLFko2FqVQBq8HHM13kCyYcdQbgpump"
+    },
+    {
+        "symbol": "ai16z",
+        "id": "ai16z",
+        "name": "ai16z",
+        "solana_contract_address": "HeLp6NuQkmYB4pYWo2zYs22mESHXPQYzXbB8n4V98jwC"
+    },
+    {
+        "symbol": "ponke",
+        "id": "ponke",
+        "name": "PONKE",
+        "solana_contract_address": "5z3EqYQo9HiCEs3R84RCDMu2n7anpDMxRhdK8PSWmrRC"
+    },
+    {
+        "symbol": "bink",
+        "id": "big-dog-fink",
+        "name": "Big Dog Fink",
+        "solana_contract_address": "CeK6k4BMmiqkxkzYAbQuUp3hrVFSHxuQ1LJXmNybc3vz"
+    },
+    {
+        "symbol": "bully",
+        "id": "dolos-the-bully",
+        "name": "Dolos The Bully",
+        "solana_contract_address": "79yTpy8uwmAkrdgZdq6ZSBTvxKsgPrNqTLvYQBh1pump"
+    },
+    {
+        "symbol": "luce",
+        "id": "offcial-mascot-of-the-holy-year",
+        "name": "Luce",
+        "solana_contract_address": "CBdCxKo9QavR9hfShgpEBG3zekorAeD7W1jfq2o3pump"
+    },
+    {
+        "symbol": "$michi",
+        "id": "michicoin",
+        "name": "michi",
+        "solana_contract_address": "5mbK36SZ7J19An8jFochhQS4of8g6BwUjbeCSxBSoWdp"
+    },
+    {
+        "symbol": "ban",
+        "id": "comedian",
+        "name": "Comedian",
+        "solana_contract_address": "9PR7nCP9DpcUotnDPVLUBUZKu5WAYkwrCUx9wDnSpump"
+    },
+    {
+        "symbol": "slerf",
+        "id": "slerf",
+        "name": "Slerf",
+        "solana_contract_address": "7BgBvyjrZX1YKz4oh9mjb8ZScatkkwb8DzFx7LoiVkM3"
+    },
+    {
+        "symbol": "retardio",
+        "id": "retardio",
+        "name": "RETARDIO",
+        "solana_contract_address": "6ogzHhzdrQr9Pgv6hZ2MNze7UrzBMAFyBBWUYp1Fhitx"
+    },
+    {
+        "symbol": "mumu",
+        "id": "mumu-the-bull-3",
+        "name": "MUMU THE BULL",
+        "solana_contract_address": "5LafQUrVco6o7KMz42eqVEJ9LW31StPyGjeeu5sKoMtA"
+    },
+    {
+        "symbol": "stnk",
+        "id": "stonks-4",
+        "name": "Stonks",
+        "solana_contract_address": "43VWkd99HjqkhFTZbWBpMpRhjG469nWa7x7uEsgSH7We"
+    },
+    {
+        "symbol": "$myro",
+        "id": "myro",
+        "name": "Myro",
+        "solana_contract_address": "HhJpBhRRn4g56VsyLuT8DL5Bv31HkXqsrahTTUCZeZg4"
+    },
+    {
+        "symbol": "wen",
+        "id": "wen-4",
+        "name": "Wen",
+        "solana_contract_address": "WENWENvqqNya429ubCdR81ZmD69brwQaaBYY6p3LCpk"
+    },
+    {
+        "symbol": "tits",
+        "id": "we-love-t",
+        "name": "We Love Tits",
+        "solana_contract_address": "23CTZMjEYNNZUE4itfn3iv6kgM4xn7X7dx1kVX1Gr8Xi"
+    },
+    {
+        "symbol": "maneki",
+        "id": "maneki",
+        "name": "MANEKI",
+        "solana_contract_address": "25hAyBQfoDhfWx9ay6rarbgvWGwDdNqcHsXS3jQ3mTDJ"
+    },
+    {
+        "symbol": "$rif",
+        "id": "rifampicin",
+        "name": "Rifampicin",
+        "solana_contract_address": "GJtJuWD9qYcCkrwMBmtY1tpapV1sKfB2zUv9Q4aqpump"
+    },
+    {
+        "symbol": "fred",
+        "id": "first-convicted-raccon",
+        "name": "First Convicted RACCON",
+        "solana_contract_address": "CNvitvFnSM5ed6K28RUNSaAjqqz5tX1rA5HgaBN9pump"
+    },
+    {
+        "symbol": "mcdull",
+        "id": "mcdull",
+        "name": "McDull (Meme)",
+        "solana_contract_address": "Buoj8HCZMnLRwzDmjzaswhkVhLZD58PG4pZ7rnYp6pCr"
+    },
+    {
+        "symbol": "memesai",
+        "id": "memes-ai",
+        "name": "Memes AI",
+        "solana_contract_address": "39qibQxVzemuZTEvjSB7NePhw9WyyHdQCqP8xmBMpump"
+    },
+    {
+        "symbol": "sigma",
+        "id": "sigma",
+        "name": "Sigma",
+        "solana_contract_address": "5SVG3T9CNQsm2kEwzbRq6hASqh1oGfjqTtLXYUibpump"
+    },
+    {
+        "symbol": "lockin",
+        "id": "lock-in",
+        "name": "LOCK IN",
+        "solana_contract_address": "8Ki8DpuWNxu9VsS3kQbarsCWMcFGWkzzA8pUPto9zBd5"
+    },
+    {
+        "symbol": "shoggoth",
+        "id": "shoggoth",
+        "name": "Shoggoth",
+        "solana_contract_address": "H2c31USxu35MDkBrGph8pUDUnmzo2e4Rf4hnvL2Upump"
+    },
+    {
+        "symbol": "opus",
+        "id": "opus-2",
+        "name": "Opus",
+        "solana_contract_address": "9JhFqCA21MoAXs2PTaeqNQp2XngPn1PgYr2rsEVCpump"
+    },
+    {
+        "symbol": "hat",
+        "id": "top-hat",
+        "name": "Top Hat",
+        "solana_contract_address": "AxGAbdFtdbj2oNXa4dKqFvwHzgFtW9mFHWmd7vQfpump"
+    },
+    {
+        "symbol": "avb",
+        "id": "autonomous-virtual-beings",
+        "name": "Autonomous Virtual Beings",
+        "solana_contract_address": "6d5zHW5B8RkGKd51Lpb9RqFQSqDudr9GJgZ1SgQZpump"
+    },
+    {
+        "symbol": "mother",
+        "id": "mother-iggy",
+        "name": "Mother Iggy",
+        "solana_contract_address": "3S8qX1MsMqRbiwKg2cQyx7nis1oHMgaCuc9c4VfvVdPN"
+    },
+    {
+        "symbol": "samo",
+        "id": "samoyedcoin",
+        "name": "Samoyedcoin",
+        "solana_contract_address": "7xKXtg2CW87d97TXJSDpbD5jBkheTqA83TZRuJosgAsU"
+    },
+    {
+        "symbol": "ava",
+        "id": "ava-ai",
+        "name": "Ava AI",
+        "solana_contract_address": "DKu9kykSfbN5LBfFXtNNDPaX35o4Fv6vJ9FKk7pZpump"
+    },
+    {
+        "symbol": "billy",
+        "id": "billy",
+        "name": "Billy",
+        "solana_contract_address": "3B5wuUrMEi5yATD7on46hKfej3pfmd7t1RKgrsN3pump"
+    },
+    {
+        "symbol": "bobaoppa",
+        "id": "boba-oppa",
+        "name": "Boba Oppa",
+        "solana_contract_address": "bobaM3u8QmqZhY1HwAtnvze9DLXvkgKYk3td3t8MLva"
+    },
+    {
+        "symbol": "daddy",
+        "id": "daddy-tate",
+        "name": "Daddy Tate",
+        "solana_contract_address": "4Cnk9EPnW5ixfLZatCPJjDB1PUtcRpVVgTQukm9epump"
+    },
+    {
+        "symbol": "major",
+        "id": "major-frog",
+        "name": "Major Frog",
+        "solana_contract_address": "CNyMaRR4krm1yAxfCvPXevNMArZZZk7sRqKwX68uCeJk"
+    },
+    {
+        "symbol": "chaos",
+        "id": "chaos-and-disorder",
+        "name": "chaos and disorder",
+        "solana_contract_address": "8SgNwESovnbG1oNEaPVhg6CR9mTMSK7jPvcYRe3wpump"
+    },
+    {
+        "symbol": "gme",
+        "id": "gme",
+        "name": "GME",
+        "solana_contract_address": "8wXtPeU6557ETkp9WHFY1n1EcU6NxDvbAggHGsMYiHsB"
+    },
+    {
+        "symbol": "mad",
+        "id": "mad-2",
+        "name": "MAD",
+        "solana_contract_address": "madHpjRn6bd8t78Rsy7NuSuNwWa2HU8ByPobZprHbHv"
+    },
+    {
+        "symbol": "$uro",
+        "id": "urolithin-a",
+        "name": "Urolithin A",
+        "solana_contract_address": "FvgqHMfL9yn39V79huDPy3YUNDoYJpuLWng2JfmQpump"
+    },
+    {
+        "symbol": "dolan",
+        "id": "dolan-duck",
+        "name": "Dolan Duck",
+        "solana_contract_address": "4YK1njyeCkBuXG6phNtidJWKCbBhB659iwGkUJx98P5Z"
+    },
+    {
+        "symbol": "skbdi",
+        "id": "skibidi-toilet-2",
+        "name": "Skibidi Toilet",
+        "solana_contract_address": "DPaQfq5sFnoqw2Sh9WMmmASFL9LNu6RdtDqwE1tab2tB"
+    },
+    {
+        "symbol": "scf",
+        "id": "smoking-chicken-fish",
+        "name": "Smoking Chicken Fish",
+        "solana_contract_address": "GiG7Hr61RVm4CSUxJmgiCoySFQtdiwxtqf64MsRppump"
+    },
+    {
+        "symbol": "$hege",
+        "id": "hege",
+        "name": "Hege",
+        "solana_contract_address": "ULwSJmmpxmnRfpu6BjnK6rprKXqD5jXUmPpS1FxHXFy"
+    },
+    {
+        "symbol": "khai",
+        "id": "kitten-haimer",
+        "name": "Kitten Haimer",
+        "solana_contract_address": "3TWgDvYBL2YPET2LxnWAwsMeoA8aL4DutNuwat2pKCjC"
+    },
+    {
+        "symbol": "eliza",
+        "id": "eliza",
+        "name": "Eliza",
+        "solana_contract_address": "5voS9evDjxF589WuEub5i4ti7FWQmZCsAsyD5ucbuRqM"
+    },
+    {
+        "symbol": "harambe",
+        "id": "harambe-2",
+        "name": "Harambe on Solana",
+        "solana_contract_address": "Fch1oixTPri8zxBnmdCEADoJW2toyFHxqDZacQkwdvSP"
+    },
+    {
+        "symbol": "koko",
+        "id": "koala-ai",
+        "name": "KOALA AI",
+        "solana_contract_address": "FsA54yL49WKs7rWoGv9sUcbSGWCWV756jTD349e6H2yW"
+    },
+    {
+        "symbol": "nailong",
+        "id": "nailong",
+        "name": "Nailong",
+        "solana_contract_address": "mkvXiNBpa8uiSApe5BrhWVJaT87pJFTZxRy7zFapump"
+    },
+    {
+        "symbol": "mini",
+        "id": "minimini",
+        "name": "mini",
+        "solana_contract_address": "2JcXacFwt9mVAwBQ5nZkYwCyXQkRcdsYrDXn6hj22SbP"
+    },
+    {
+        "symbol": "giko",
+        "id": "giko-cat",
+        "name": "Giko Cat",
+        "solana_contract_address": "3WPep4ufaToK1aS5s8BL9inzeUrt4DYaQCiic6ZkkC1U"
+    },
+    {
+        "symbol": "omega",
+        "id": "omega-2",
+        "name": "Omega",
+        "solana_contract_address": "3DkVGaNSMTcxFkgGDAm299FaVxgnCw2411vxZTmRpump"
+    },
+    {
+        "symbol": "pippin",
+        "id": "pippin",
+        "name": "pippin",
+        "solana_contract_address": "Dfh5DzRgSvvCFDoYc2ciTkMrbDfRKybA4SoFbPmApump"
+    },
+    {
+        "symbol": "usa",
+        "id": "american-coin",
+        "name": "American Coin",
+        "solana_contract_address": "69kdRLyP5DTRkpHraaSZAQbWmAwzF9guKjZfzMXzcbAs"
+    },
+    {
+        "symbol": "grumpy",
+        "id": "grumpy-cat-coin",
+        "name": "Grumpy Cat Coin",
+        "solana_contract_address": "GRUmPYbiTpq9ZPy5LAqBMMze7kErf5dEX2i9qYfwoSmR"
+    },
+    {
+        "symbol": "nub",
+        "id": "sillynubcat",
+        "name": "Sillynubcat",
+        "solana_contract_address": "GtDZKAqvMZMnti46ZewMiXCa4oXF4bZxwQPoKzXPFxZn"
+    },
+    {
+        "symbol": "abi",
+        "id": "abi",
+        "name": "Abi",
+        "solana_contract_address": "F2w7z5sVe72SXnkj5qc48KXgXY2Pzj1fNtJXarmGpump"
+    },
+    {
+        "symbol": "cents",
+        "id": "centience",
+        "name": "Centience",
+        "solana_contract_address": "C9FVTtx4WxgHmz55FEvQgykq8rqiLS8xRBVgqQVtpump"
+    },
+    {
+        "symbol": "$unfk",
+        "id": "unfk",
+        "name": "UNFK",
+        "solana_contract_address": "8MgghUHzWyCXSQb4ReqrYQZ9rL8cQNaZ84GsqWhTB4Uu"
+    },
+    {
+        "symbol": "kacy",
+        "id": "markkacy",
+        "name": "markkacy",
+        "solana_contract_address": "6QSVGUEyBZWRshnXKhS96NQ97vGWiTu61SyHLAbYpump"
+    },
+    {
+        "symbol": "brainlet",
+        "id": "brainlet-2",
+        "name": "Brainlet",
+        "solana_contract_address": "8NNXWrWVctNw1UFeaBypffimTdcLCcD8XJzHvYsmgwpF"
+    },
+    {
+        "symbol": "pox",
+        "id": "monkey-pox",
+        "name": "Monkey Pox",
+        "solana_contract_address": "mpoxP5wyoR3eRW8L9bZjGPFtCsmX8WcqU5BHxFW1xkn"
+    },
+    {
+        "symbol": "degenai",
+        "id": "degen-spartan-ai",
+        "name": "Degen Spartan AI",
+        "solana_contract_address": "Gu3LDkn7Vx3bmCzLafYNKcDxv2mH7YN44NJZFXnypump"
+    },
+    {
+        "symbol": "nomnom",
+        "id": "nomnom",
+        "name": "nomnom",
+        "solana_contract_address": "6ZrYhkwvoYE4QqzpdzJ7htEHwT2u2546EkTNJ7qepump"
+    },
+    {
+        "symbol": "shegen",
+        "id": "aiwithdaddyissues",
+        "name": "Aiwithdaddyissues",
+        "solana_contract_address": "2KgAN8nLAU74wjiyKi85m4ZT6Z9MtqrUTGfse8Xapump"
+    },
+    {
+        "symbol": "npcs",
+        "id": "npc-on-solana",
+        "name": "NPC On Solana",
+        "solana_contract_address": "5ToDNkiBAK6k697RRyngTburU7yZNFZFx7jzsD1Uc7pK"
+    },
+    {
+        "symbol": "selfie",
+        "id": "selfiedogcoin",
+        "name": "SelfieDogCoin",
+        "solana_contract_address": "9WPTUkh8fKuCnepRWoPYLH3aK9gSjPHFDenBq2X1Czdp"
+    },
+    {
+        "symbol": "scihub",
+        "id": "sci-hub",
+        "name": "sci-hub",
+        "solana_contract_address": "GxdTh6udNstGmLLk9ztBb6bkrms7oLbrJp5yzUaVpump"
+    },
+    {
+        "symbol": "aura",
+        "id": "aura-on-sol",
+        "name": "aura",
+        "solana_contract_address": "DtR4D9FtVoTX2569gaL837ZgrB6wNjj6tkmnX9Rdk9B2"
+    },
+    {
+        "symbol": "hehe",
+        "id": "hehecat",
+        "name": "hehe",
+        "solana_contract_address": "BreuhVohXX5fv6q41uyb3sojtAuGoGaiAhKBMtcrpump"
+    },
+    {
+        "symbol": "ginnan",
+        "id": "ginnan-the-cat",
+        "name": "Ginnan The Cat",
+        "solana_contract_address": "GinNabffZL4fUj9Vactxha74GDAW8kDPGaHqMtMzps2f"
+    },
+    {
+        "symbol": "peng",
+        "id": "peng",
+        "name": "Peng",
+        "solana_contract_address": "A3eME5CetyZPBoWbRUwY3tSe25S6tb18ba9ZPbWk9eFJ"
+    },
+    {
+        "symbol": "justice",
+        "id": "justice-for-pnut-and-fred",
+        "name": "Justice for Pnut and Fred",
+        "solana_contract_address": "DGagMywvLG3DwffZHX4eWWE6svnoJpiod3dSNBDwpump"
+    },
+    {
+        "symbol": "laika",
+        "id": "the-soldog",
+        "name": "the Soldog",
+        "solana_contract_address": "Euoq6CyQFCjCVSLR9wFaUPDW19Y6ZHwEcJoZsEi643i1"
+    },
+    {
+        "symbol": "wife",
+        "id": "wifejak",
+        "name": "Wifejak",
+        "solana_contract_address": "4y3oUrsJfSp431R3wJrWiaLxRPsnYtpkVJmoV2bYpBiy"
+    },
+    {
+        "symbol": "lol",
+        "id": "lol-3",
+        "name": "LOL",
+        "solana_contract_address": "LoL1RDQiUfifC2BX28xaef6r2G8ES8SEzgrzThJemMv"
+    },
+    {
+        "symbol": "$cwif",
+        "id": "catwifhat-2",
+        "name": "catwifhat",
+        "solana_contract_address": "7atgF8KQo4wJrD5ATGX7t1V2zVvykPJbFfNeVf1icFv1"
+    },
+    {
+        "symbol": "suwi",
+        "id": "suwi",
+        "name": "suwi",
+        "solana_contract_address": "ABDoiSudvFjjJ25rtXn8V2b6QGrH59KN6thAbsPvpump"
+    },
+    {
+        "symbol": "beer",
+        "id": "beercoin-2",
+        "name": "Beercoin",
+        "solana_contract_address": "AujTJJ7aMS8LDo3bFzoyXDwT3jBALUbu4VZhzZdTZLmG"
+    },
+    {
+        "symbol": "pino",
+        "id": "pino",
+        "name": "PINO",
+        "solana_contract_address": "7b36cKRYFZsMp3vLByVwfVQxW2ndcYth5rhPnyypump"
+    },
+    {
+        "symbol": "yousim",
+        "id": "yousim",
+        "name": "YouSim",
+        "solana_contract_address": "66gsTs88mXJ5L4AtJnWqFW6H2L5YQDRy4W41y6zbpump"
+    },
+    {
+        "symbol": "bendog",
+        "id": "ben-the-dog",
+        "name": "Ben the Dog",
+        "solana_contract_address": "AHW5N8iqZobTcBepkSJzZ61XtAuSzBDcpxtrLG6KUKPk"
+    },
+    {
+        "symbol": "tooker",
+        "id": "tooker-kurlson",
+        "name": "tooker kurlson",
+        "solana_contract_address": "9EYScpiysGnEimnQPzazr7Jn9GVfxFYzgTEj85hV9L6U"
+    },
+    {
+        "symbol": "hammy",
+        "id": "sad-hamster",
+        "name": "SAD HAMSTER",
+        "solana_contract_address": "26KMQVgDUoB6rEfnJ51yAABWWJND8uMtpnQgsHQ64Udr"
+    },
+    {
+        "symbol": "rizo",
+        "id": "hahayes",
+        "name": "HahaYes",
+        "solana_contract_address": "rizo34MUwbCBqpSTSfnEktdWB4CTByqqYh8zBxL3WAR"
+    },
+    {
+        "symbol": "e/acc",
+        "id": "effective-accelerationism",
+        "name": "Effective accelerationism",
+        "solana_contract_address": "GqmEdRD3zGUZdYPeuDeXxCc8Cj1DBmGSYK97TCwSpump"
+    },
+    {
+        "symbol": "sc",
+        "id": "shark-cat",
+        "name": "Shark Cat",
+        "solana_contract_address": "6D7NaB2xsLd7cauWu1wKk6KBsJohJmP2qZH9GEfVi5Ui"
+    },
+    {
+        "symbol": "chud",
+        "id": "chudjak",
+        "name": "Chudjak",
+        "solana_contract_address": "6yjNqPzTSanBWSa6dxVEgTjePXBrZ2FoHLDQwYwEsyM6"
+    },
+    {
+        "symbol": "duko",
+        "id": "duko",
+        "name": "DUKO",
+        "solana_contract_address": "HLptm5e6rTgh4EKgDpYFrnRHbjpkMyVdEeREEa2G7rf9"
+    },
+    {
+        "symbol": "frox",
+        "id": "frox",
+        "name": "Frox",
+        "solana_contract_address": "AXzueZQiCjJStGPuGTYt1jyJdG7pcSwjVorWmpN9vm1i"
+    },
+    {
+        "symbol": "solama",
+        "id": "solama",
+        "name": "Solama",
+        "solana_contract_address": "AVLhahDcDQ4m4vHM4ug63oh7xc8Jtk49Dm5hoe9Sazqr"
+    },
+    {
+        "symbol": "ropirito",
+        "id": "ropirito",
+        "name": "Ropirito",
+        "solana_contract_address": "CtaVq7fp5xwYFenGQypqdK97LJhTD72GgRsY8e4Npump"
+    },
+    {
+        "symbol": "$nap",
+        "id": "snap-kero",
+        "name": "SNAP",
+        "solana_contract_address": "4G86CMxGsMdLETrYnavMFKPhQzKTvDBYGMRAdVtr72nu"
+    },
+    {
+        "symbol": "rizzmas",
+        "id": "rizzmas",
+        "name": "Rizzmas",
+        "solana_contract_address": "85cQsFgbi8mBZxiPppbpPXuV7j1hA8tBwhjF4gKW6mHg"
+    },
+    {
+        "symbol": "manifest",
+        "id": "manifest-on-sol",
+        "name": "Manifest",
+        "solana_contract_address": "6cvrZWgEUkr82yKAmxp5cQu7wgYYBPULf16EUBp4pump"
+    },
+    {
+        "symbol": "ruri",
+        "id": "ruri-truth-terminal-s-crush",
+        "name": "Ruri - Truth Terminal's Crush",
+        "solana_contract_address": "DDij7Dp8updt3XSCzeHCaAoDoFTSE5Y27i2EQ9qjMQtr"
+    },
+    {
+        "symbol": "epik",
+        "id": "teh-epik-duck",
+        "name": "TEH EPIK DUCK",
+        "solana_contract_address": "3BgwJ8b7b9hHX4sgfZ2KJhv9496CoVfsMK2YePevsBRw"
+    },
+    {
+        "symbol": "wolf",
+        "id": "the-real-landwolf",
+        "name": "LandWolf",
+        "solana_contract_address": "Faf89929Ni9fbg4gmVZTca7eW6NFg877Jqn6MizT3Gvw"
+    },
+    {
+        "symbol": "loafcat",
+        "id": "loafcat",
+        "name": "LOAFCAT",
+        "solana_contract_address": "LoafdJ3WSAvsrx3zppSGKA6sRvL9GrRrU1iRV7HkLkm"
+    },
+    {
+        "symbol": "888",
+        "id": "888-token",
+        "name": "888",
+        "solana_contract_address": "888R77WmcLJKyGeJjk1WktFAB5u5fkvmokHYsAu6Spyd"
+    },
+    {
+        "symbol": "gnon",
+        "id": "numogram",
+        "name": "Numogram",
+        "solana_contract_address": "HeJUFDxfJSzYFUuHLxkMqCgytU31G6mjP4wKviwqpump"
+    },
+    {
+        "symbol": "bozo",
+        "id": "bozo-hybrid",
+        "name": "Bozo Benk",
+        "solana_contract_address": "EJPtJEDogxzDbvM8qvAsqYbLmPj5n1vQeqoAzj9Yfv3q"
+    },
+    {
+        "symbol": "cdoge",
+        "id": "cyberdoge-3",
+        "name": "Cyberdoge",
+        "solana_contract_address": "FXJAdx38aXJdQd3ABAVu7fQ7Bjh9oMN92eTxszFNpump"
+    },
+    {
+        "symbol": "peanut",
+        "id": "1-squirrel",
+        "name": "#1 Squirrel",
+        "solana_contract_address": "bGxHNbsacaVL35pkYWae5PYQDZXSpuQb3QDyW31pump"
+    },
+    {
+        "symbol": "sendor",
+        "id": "sendor",
+        "name": "Sendor",
+        "solana_contract_address": "4dPW2SdbKcTEUiHpQRTWspT78zgS98v5TMhVpGPoPLzq"
+    },
+    {
+        "symbol": "habibi",
+        "id": "habibi-sol",
+        "name": "Habibi (Sol)",
+        "solana_contract_address": "864YJRb3JAVARC4FNuDtPKFxdEsYRbB39Nwxkzudxy46"
+    },
+    {
+        "symbol": "crashout",
+        "id": "crashout",
+        "name": "Crashout",
+        "solana_contract_address": "6JGSHS9GrE9uG8ix63w3DPMYHrgrJ6J4QyHbBhAepump"
+    },
+    {
+        "symbol": "sloth",
+        "id": "slothana",
+        "name": "Slothana",
+        "solana_contract_address": "HQ7DaoiUxzC2K1Dr7KXRHccNtXvEYgNvoUextXe8dmBh"
+    },
+    {
+        "symbol": "flower",
+        "id": "flowerai",
+        "name": "FlowerAI",
+        "solana_contract_address": "AVyjco9j8vv7ZPkhCpEoPJ3bLEuw7G1wrrNt8DrApump"
+    },
+    {
+        "symbol": "earl",
+        "id": "earl",
+        "name": "earl",
+        "solana_contract_address": "BjjvKX5k7gQoGRmvQAA5WMr7EkQ2cirGTSGxAznDpump"
+    },
+    {
+        "symbol": "cheyenne",
+        "id": "cheyenne",
+        "name": "Cheyenne",
+        "solana_contract_address": "UrAE9vVdrWxncikcCRp7TgNqEsArFtP22iXzH7gpump"
+    },
+    {
+        "symbol": "xing",
+        "id": "xing-xing",
+        "name": "Xing Xing",
+        "solana_contract_address": "5JcdnWEwuHh1v3SAARq8zH9tEwDQGpaHzBrZ81m4pump"
+    },
+    {
+        "symbol": "wibwob",
+        "id": "wibwob",
+        "name": "WibWob",
+        "solana_contract_address": "5qmL9rCSfZ7pBYAsaoeG8SP76ZELeRCK8XtMmYZvpump"
+    },
+    {
+        "symbol": "tremp",
+        "id": "donald-tremp",
+        "name": "Doland Tremp",
+        "solana_contract_address": "FU1q8vJpZNUrmqsciSjp8bAKKidGsLmouB8CBdf8TKQv"
+    },
+    {
+        "symbol": "heehee",
+        "id": "heeeheee",
+        "name": "HeeeHeee",
+        "solana_contract_address": "9dLuVbJMd4ZpTpFgmaFHAGSsFwVjtcnzFWaLAA1expHg"
+    },
+    {
+        "symbol": "waffles",
+        "id": "waffles",
+        "name": "Waffles",
+        "solana_contract_address": "8doS8nzmgVZEaACxALkbK5fZtw4UuoRp4Yt8NEaXfDMb"
+    },
+    {
+        "symbol": "naval ai",
+        "id": "naval-ai",
+        "name": "NAVAL AI",
+        "solana_contract_address": "7wM4MnbsPsG95A3WhZgbrPWvMtydKmJjqKr2ZVJVpump"
+    },
+    {
+        "symbol": "hund",
+        "id": "hund",
+        "name": "Hund",
+        "solana_contract_address": "2XPqoKfJitk8YcMDGBKy7CMzRRyF2X9PniZeCykDUZev"
+    },
+    {
+        "symbol": "blob",
+        "id": "belikeblob",
+        "name": "Blob",
+        "solana_contract_address": "92kxUXDsBQLy5ptGxtmH9CDYd5E6ZQynzf2eFPiUpump"
+    },
+    {
+        "symbol": "pundu",
+        "id": "pundu",
+        "name": "Pundu",
+        "solana_contract_address": "WskzsKqEW3ZsmrhPAevfVZb6PuuLzWov9mJWZsfDePC"
+    },
+    {
+        "symbol": "krypt",
+        "id": "enkrypto",
+        "name": "EnKrypto",
+        "solana_contract_address": "GK7TPZKpd8ZsXfipzcEaPnoSp2bDCZg5BU4GZwVzpump"
+    },
+    {
+        "symbol": "waterbear",
+        "id": "waterbear",
+        "name": "waterbear",
+        "solana_contract_address": "9PSsX8SZAQLm3QaMqQkfWDKFPF1zKYtV2H8xq7tApump"
+    },
+    {
+        "symbol": "lea",
+        "id": "lea-ai",
+        "name": "LEA AI",
+        "solana_contract_address": "8SpPaFLycx897D6sowPZkEkcNdDahzRZb5itr6D8pump"
+    },
+    {
+        "symbol": "rnt",
+        "id": "rnt-token",
+        "name": "RNT",
+        "solana_contract_address": "2fUFhZyd47Mapv9wcfXh5gnQwFXtqcYu9xAN4THBpump"
+    },
+    {
+        "symbol": "cok",
+        "id": "catownkimono",
+        "name": "catownkimono",
+        "solana_contract_address": "Dnb9dLSXxAarXVexehzeH8W8nFmLMNJSuGoaddZSwtog"
+    },
+    {
+        "symbol": "solaris",
+        "id": "solaris-ai",
+        "name": "Solaris AI",
+        "solana_contract_address": "3RfQPYVJgJbwyB3BzqqypCEWWryxjTfFDAcXQsckpump"
+    },
+    {
+        "symbol": "orc",
+        "id": "orc",
+        "name": "ORC",
+        "solana_contract_address": "CzywqyWnzACqc7nphTAPHC8cb2h7ou6U9TehBrVnzJKx"
+    },
+    {
+        "symbol": "$sharbi",
+        "id": "sharbi",
+        "name": "Sharbi",
+        "solana_contract_address": "8D1nUMJQam54o34Kj2knFhSTaWoehEr4mBc7LfiDdCqq"
+    },
+    {
+        "symbol": "aurora",
+        "id": "aurora-terminal",
+        "name": "Aurora",
+        "solana_contract_address": "bozdUuCb2kdipxES9PzsYHmDVrf7FBTSW3p1CFBpump"
+    },
+    {
+        "symbol": "$toad",
+        "id": "toad-sol",
+        "name": "Toad (SOL)",
+        "solana_contract_address": "FViMp5phQH2bX81S7Yyn1yXjj3BRddFBNcMCbTH8FCze"
+    },
+    {
+        "symbol": "puffy",
+        "id": "puffy",
+        "name": "Puffy",
+        "solana_contract_address": "D9paufRCehpk2YGRPkzJPEUDsvQjaTFKNyFDqgd4xqd"
+    },
+    {
+        "symbol": "ily",
+        "id": "iiii-lovvv-youuuu",
+        "name": "iiii lovvvv youuuu",
+        "solana_contract_address": "GJLiErro8cbWeDngDMWJug9dkwwckYZg4Lvb79F3pump"
+    },
+    {
+        "symbol": "neiro",
+        "id": "neiro",
+        "name": "Neiro",
+        "solana_contract_address": "CTJf74cTo3cw8acFP1YXF3QpsQUUBGBjh2k2e8xsZ6UL"
+    },
+    {
+        "symbol": "$1",
+        "id": "just-buy-1-worth-of-this-coin",
+        "name": "just buy $1 worth of this coin",
+        "solana_contract_address": "GHichsGq8aPnqJyz6Jp1ASTK4PNLpB5KrD6XrfDjpump"
+    },
+    {
+        "symbol": "blob",
+        "id": "blobana-pet",
+        "name": "Blobana pet",
+        "solana_contract_address": "DgG9sM56ZcVidBV8bNArQPm93a2rmjzHkrrUntGSpump"
+    },
+    {
+        "symbol": "dtf",
+        "id": "believe-in-something-2",
+        "name": "believe in something",
+        "solana_contract_address": "EmhVWGUa2Q9PN4QjzFjvuVyzFKg4s3ERwjKR9dQDpump"
+    },
+    {
+        "symbol": "kappy",
+        "id": "kappy",
+        "name": "Kappy",
+        "solana_contract_address": "CEhFvMotKm3zucKUBEHVvTaxQ4e9QVPaAjSfkzFLpump"
+    },
+    {
+        "symbol": "gummy",
+        "id": "gummy",
+        "name": "GUMMY",
+        "solana_contract_address": "H7bTHGb5Cvo5fGe5jBDNDPUv8KykQnzyZA3qZ8sH7yxw"
+    },
+    {
+        "symbol": "coby",
+        "id": "coby",
+        "name": "coby",
+        "solana_contract_address": "8WnQQRbuEZ3CCDbH5MCVioBbw6o75NKANq9WdPhBDsWo"
+    },
+    {
+        "symbol": "xd",
+        "id": "rawr",
+        "name": "Rawr",
+        "solana_contract_address": "DEJiPKx5GActUtB6qUssreUxkhXtL4hTQAAJZ7Ccw8se"
+    },
+    {
+        "symbol": "glorp",
+        "id": "glorp",
+        "name": "Glorp",
+        "solana_contract_address": "FkBF9u1upwEMUPxnXjcydxxVSxgr8f3k1YXbz7G7bmtA"
+    },
+    {
+        "symbol": "efr",
+        "id": "end-federal-reserve",
+        "name": "End Federal Reserve",
+        "solana_contract_address": "9So37icWcKmuMGFPPR36a82Q1E5gZJ6HFSz7Eynfpump"
+    },
+    {
+        "symbol": "gotti",
+        "id": "gotti-token",
+        "name": "Gotti Token",
+        "solana_contract_address": "FoAnSCG6CcqTq2rsTi58yyYBNk1HgsbLzS6b1kTP2ACL"
+    },
+    {
+        "symbol": "cost",
+        "id": "costco-hot-dog",
+        "name": "Cost Hot Dog",
+        "solana_contract_address": "Av6qVigkb7USQyPXJkUvAEm4f599WTRvd75PUWBA9eNm"
+    },
+    {
+        "symbol": "r/snoofi",
+        "id": "r-snoofi",
+        "name": "r/snoofi",
+        "solana_contract_address": "7M9KJcPNC65ShLDmJmTNhVFcuY95Y1VMeYngKgt67D1t"
+    },
+    {
+        "symbol": "supercycle",
+        "id": "supercycle-real",
+        "name": "supercycle(real)",
+        "solana_contract_address": "2G8LH53fcr3aCrEsmAo73eunbZRbyjKrGH5qmur6pump"
+    },
+    {
+        "symbol": "guac",
+        "id": "guacamole",
+        "name": "Guacamole",
+        "solana_contract_address": "AZsHEMXd36Bj1EMNXhowJajpUXzrKcK57wW4ZGXVa7yR"
+    },
+    {
+        "symbol": "pajamas",
+        "id": "pajamas-cat",
+        "name": "Pajamas Cat",
+        "solana_contract_address": "FvER7SsvY5GqAMawf7Qfb5MnUUmDdbPNPg4nCa4zHoLw"
+    },
+    {
+        "symbol": "tnsr",
+        "id": "tensorium",
+        "name": "Tensorium"
+    },
+    {
+        "symbol": "gemini",
+        "id": "gemini-2",
+        "name": "Gemini",
+        "solana_contract_address": "ARiZfq6dK19uNqxWyRudhbM2MswLyYhVUHdndGkffdGc"
+    },
+    {
+        "symbol": "poupe",
+        "id": "poupe",
+        "name": "POUPE",
+        "solana_contract_address": "2FuP7DR7VT5EobzarajGZHCqU5xXoEMbY2XmXoBSqk9M"
+    },
+    {
+        "symbol": "bingus",
+        "id": "bingus-the-cat",
+        "name": "Bingus The Cat",
+        "solana_contract_address": "AQuuQ4xktyzGBFnbKHnYsXHxsKVQetAoiPeCEG97NUJw"
+    },
+    {
+        "symbol": "chatty",
+        "id": "chatgpt-s-mascot",
+        "name": "ChatGPT's Mascot",
+        "solana_contract_address": "9EwutmiMiLHoH5hj5aCLMDJUdsLZVg926ZmDdr8Ppump"
+    },
+    {
+        "symbol": "bitcat",
+        "id": "bitcat-3",
+        "name": "Bitcat",
+        "solana_contract_address": "4j9bDg7iWNah1Qa61rrqwWZMtEdqV3fV56SzyhfNpump"
+    },
+    {
+        "symbol": "kolin",
+        "id": "kolin-2",
+        "name": "Kolin",
+        "solana_contract_address": "4q3Z58YxrZEAVMLtMwnm7eHtodSD3LSpSNt3pDnqpump"
+    },
+    {
+        "symbol": "$cook",
+        "id": "let-him-cook",
+        "name": "Let Him Cook",
+        "solana_contract_address": "G8Vy25NzjRmuQtnN35xF7j3X2Z1TrV39XijZu8Mg4w8n"
+    },
+    {
+        "symbol": "$hami",
+        "id": "hami",
+        "name": "HAMI",
+        "solana_contract_address": "4sp2EUDrQf46rZun6sYAWzjrXwUpx2T3njuoKmV766RJ"
+    },
+    {
+        "symbol": "baskt",
+        "id": "baskt-fun",
+        "name": "Baskt.Fun",
+        "solana_contract_address": "Ejq4Xr7KwHtLPkfGr3DGkKSgyGCuZvsndeyj92yXpump"
+    },
+    {
+        "symbol": "popdog",
+        "id": "popdog",
+        "name": "POPDOG",
+        "solana_contract_address": "EATGZHJViJsk7nEKkrdJicwNbfpkJfAtmrEmrjXR8NBj"
+    },
+    {
+        "symbol": "cheese",
+        "id": "cheese-3",
+        "name": "Cheese",
+        "solana_contract_address": "B1KrhWbacPi3tpjWqnsbjKQJEkp3RvWppGxNzUYBpump"
+    },
+    {
+        "symbol": "mlg",
+        "id": "360noscope420blazeit",
+        "name": "360noscope420blazeit",
+        "solana_contract_address": "7XJiwLDrjzxDYdZipnJXzpr1iDTmK55XixSFAa7JgNEL"
+    },
+    {
+        "symbol": "pesto",
+        "id": "pesto-the-baby-king-penguin",
+        "name": "Pesto the Baby King Penguin",
+        "solana_contract_address": "34a8ALsPmbWxp7D3bQ6erERrCLz1ahr6u6o66Udmpump"
+    },
+    {
+        "symbol": "based",
+        "id": "based",
+        "name": "BASED",
+        "solana_contract_address": "Em4rcuhX6STfB7mxb66dUXDmZPYCjDiQFthvzSzpump"
+    },
+    {
+        "symbol": "rocky",
+        "id": "rocky-the-rock",
+        "name": "Rocky",
+        "solana_contract_address": "BVG3BJH4ghUPJT9mCi7JbziNwx3dqRTzgo9x5poGpump"
+    },
+    {
+        "symbol": "noods",
+        "id": "noods",
+        "name": "Noods",
+        "solana_contract_address": "J9KTtypTWfSp912harLxd9jGz8iwsnqGmD5Yqgoopump"
+    },
+    {
+        "symbol": "smilek",
+        "id": "eye-earn",
+        "name": "Smilek",
+        "solana_contract_address": "7x4FgiFfeqzs1tiUNvJzpt47GtLXAJ8Jfn8G1Hyyu6JH"
+    },
+    {
+        "symbol": "pisces",
+        "id": "pisces",
+        "name": "Pisces",
+        "solana_contract_address": "3JsSsmGzjWDNe9XCw2L9vznC5JU9wSqQeB6ns5pAkPeE"
+    },
+    {
+        "symbol": "virgo",
+        "id": "virgo-2",
+        "name": "Virgo",
+        "solana_contract_address": "Ez4bst5qu5uqX3AntYWUdafw9XvtFeJ3gugytKKbSJso"
+    },
+    {
+        "symbol": "coal",
+        "id": "coal-2",
+        "name": "COAL",
+        "solana_contract_address": "E3yUqBNTZxV8ELvW99oRLC7z4ddbJqqR4NphwrMug9zu"
+    },
+    {
+        "symbol": "autism",
+        "id": "autism-2",
+        "name": "autism",
+        "solana_contract_address": "BkVeSP2GsXV3AYoRJBSZTpFE8sXmcuGnRQcFgoWspump"
+    },
+    {
+        "symbol": "dji",
+        "id": "doge-jones-industrial-average",
+        "name": "Doge Jones Industrial Average",
+        "solana_contract_address": "BjotV424H4UBvrAiGFGjQGztLxoafxM4HSdCXZR6pump"
+    },
+    {
+        "symbol": "taurus",
+        "id": "taurus-2",
+        "name": "Taurus",
+        "solana_contract_address": "EjkkxYpfSwS6TAtKKuiJuNMMngYvumc1t1v9ZX1WJKMp"
+    },
+    {
+        "symbol": "dmaga",
+        "id": "dark-maga",
+        "name": "Dark MAGA",
+        "solana_contract_address": "7D7BRcBYepfi77vxySapmeqRNN1wsBBxnFPJGbH5pump"
+    },
+    {
+        "symbol": "tori",
+        "id": "tori-the-cat",
+        "name": "Tori the Cat",
+        "solana_contract_address": "D8F1FvrUhwg8WBjMqABopFYo13WwymGnVhsL3d7dRexP"
+    },
+    {
+        "symbol": "pepe",
+        "id": "pepe-sol",
+        "name": "Pepe on SOL",
+        "solana_contract_address": "B5WTLaRwaUQpKk7ir1wniNB6m5o8GgMrimhKMYan2R6B"
+    },
+    {
+        "symbol": "leo",
+        "id": "leo-2",
+        "name": "Leo",
+        "solana_contract_address": "8Cd7wXoPb5Yt9cUGtmHNqAEmpMDrhfcVqnGbLC48b8Qm"
+    },
+    {
+        "symbol": "wdog",
+        "id": "wrapped-dog",
+        "name": "Wrapped DOG",
+        "solana_contract_address": "GYKmdfcUmZVrqfcH1g579BGjuzSRijj3LBuwv79rpump"
+    },
+    {
+        "symbol": "buu",
+        "id": "buu",
+        "name": "BUU",
+        "solana_contract_address": "28tVhteKZkzzWjrdHGXzxfm4SQkhrDrjLur9TYCDVULE"
+    },
+    {
+        "symbol": "sagit",
+        "id": "sagittarius",
+        "name": "Sagittarius",
+        "solana_contract_address": "8x17zMmVjJxqswjX4hNpxVPc7Tr5UabVJF3kv8TKq8Y3"
+    },
+    {
+        "symbol": "aries",
+        "id": "aries",
+        "name": "Aries",
+        "solana_contract_address": "GhFiFrExPY3proVF96oth1gESWA5QPQzdtb8cy8b1YZv"
+    },
+    {
+        "symbol": "expert",
+        "id": "expert_money",
+        "name": "EXPERT_MONEY",
+        "solana_contract_address": "H7VfCzzPJvnqfs1b8uA9uUuVjXiYfzAUDw5gmyV9pump"
+    },
+    {
+        "symbol": "morris",
+        "id": "morris",
+        "name": "MORRIS",
+        "solana_contract_address": "HqqnXZ8S76rY3GnXgHR9LpbLEKNfxCZASWydNHydpump"
+    },
+    {
+        "symbol": "capricorn",
+        "id": "capricorn-2",
+        "name": "Capricorn",
+        "solana_contract_address": "3C2SN1FjzE9MiLFFVRp7Jhkp8Gjwpk29S2TCSJ2jkHn2"
+    },
+    {
+        "symbol": "\u971e",
+        "id": "mist-2",
+        "name": "MIST",
+        "solana_contract_address": "FjTJCCQpLU4fpH58mN1bTQXiQsjJVYai3QYFjYqYpump"
+    },
+    {
+        "symbol": "cancer",
+        "id": "cancer",
+        "name": "Cancer",
+        "solana_contract_address": "CmomKM8iPKRSMN7y1jqyW1QKj5bGoZmbvNZXWBJSUdnZ"
+    },
+    {
+        "symbol": "moth",
+        "id": "moth-2",
+        "name": "Moth",
+        "solana_contract_address": "C2MvcWD86peRanQAnJfiDPurs7e7CkMsnP1bHBNJvBpA"
+    },
+    {
+        "symbol": "aquarius",
+        "id": "aquarius-2",
+        "name": "Aquarius",
+        "solana_contract_address": "C49Ut3om3QFTDrMZ5Cr8VcTKPpHDcQ2Fv8mmuJHHigDt"
+    },
+    {
+        "symbol": "scorpio",
+        "id": "scorpio",
+        "name": "Scorpio",
+        "solana_contract_address": "J4fQTRN13MKpXhVE74t99msKJLbrjegjEgLBnzEv2YH1"
+    },
+    {
+        "symbol": "rbt",
+        "id": "ribbit-2",
+        "name": "RIBBIT",
+        "solana_contract_address": "65nTNuJGHme4PQvKQyJykKp1bJAkK4A8Q66sd2yBWugf"
+    },
+    {
+        "symbol": "egl",
+        "id": "eagle-of-truth",
+        "name": "Eagle of Truth",
+        "solana_contract_address": "DCCA1ivqRYFqwSQTz3ArKfKpD6uXv6an8jDW5s3EvkQZ"
+    },
+    {
+        "symbol": "libra",
+        "id": "libra-4",
+        "name": "Libra",
+        "solana_contract_address": "7Zt2KUh5mkpEpPGcNcFy51aGkh9Ycb5ELcqRH1n2GmAe"
+    },
+    {
+        "symbol": "look",
+        "id": "look-bro",
+        "name": "Look bro",
+        "solana_contract_address": "BSqMUYb6ePwKsby85zrXaDa4SNf6AgZ9YfA2c4mZpump"
+    },
+    {
+        "symbol": "swarm",
+        "id": "swarm-2",
+        "name": "Swarm",
+        "solana_contract_address": "JBSVUpKgYNHt4GLtNebQxTJmZgftTMWENQrziHtGpump"
+    },
+    {
+        "symbol": "manyu",
+        "id": "littlemanyu",
+        "name": "littlemanyu",
+        "solana_contract_address": "CS7LmjtuugEUWtFgfyto79nrksKigv7Fdcp9qPuigdLs"
+    },
+    {
+        "symbol": "pochita",
+        "id": "pochita",
+        "name": "Pochita",
+        "solana_contract_address": "E6AujzX54E1ZoPDFP2CyG3HHUVKygEkp6DRqig61pump"
+    },
+    {
+        "symbol": "bet",
+        "id": "bet-more",
+        "name": "Bet more",
+        "solana_contract_address": "5CLSw4viyMLfnRHHxZpDF8CuZt5e1ceq1AJqd4GjAJNX"
+    },
+    {
+        "symbol": "\ud83d\udfe5\ud83d\udfe9",
+        "id": "-5",
+        "name": "\ud83d\udfe5\ud83d\udfe9",
+        "solana_contract_address": "HwPtbFpd3VTe3tfyosoVtPf9WPuSk5gAKkN5xp6Npump"
+    },
+    {
+        "symbol": "whiskey",
+        "id": "whiskey",
+        "name": "WHISKEY",
+        "solana_contract_address": "9UNqoPEXXxEnEphmyYsZYdL5dnmAUtdiKRUchpnUF5Ph"
+    },
+    {
+        "symbol": "rex",
+        "id": "rex-3",
+        "name": "Rex",
+        "solana_contract_address": "CNKEXXypBC66cZ111Mg3JUxyczXS1E9T6MWEufzQZVMo"
+    },
+    {
+        "symbol": "alp",
+        "id": "alp",
+        "name": "ALP",
+        "solana_contract_address": "8ThSrRA6qpkva4bGE6DNfFKnuKuCPM22Db16zS1Mpump"
+    },
+    {
+        "symbol": "bag",
+        "id": "catwifbag",
+        "name": "catwifbag",
+        "solana_contract_address": "D8r8XTuCrUhLheWeGXSwC3G92RhASficV3YA7B2XWcLv"
+    },
+    {
+        "symbol": "intern",
+        "id": "intern",
+        "name": "Intern",
+        "solana_contract_address": "FPKcUb2ujG5n3Dmy6HZ1ZJSvNszvmeL243655pqfomo"
+    },
+    {
+        "symbol": "bis",
+        "id": "believe-in-something",
+        "name": "Believe In Something",
+        "solana_contract_address": "2GPJhV9jNrj7TaLYMRgWkcy6sTKLcwntv7nZ7qDyMRGM"
+    },
+    {
+        "symbol": "monk",
+        "id": "monkeyhaircut",
+        "name": "monkeyhaircut",
+        "solana_contract_address": "FYa25XnBsXQXAdTnsyKBKd5gZ1VZhChBRF57CqfRxJZX"
+    },
+    {
+        "symbol": "tobi",
+        "id": "tobi",
+        "name": "tobi",
+        "solana_contract_address": "HPueqQjSgaSatMBKrvBvAnRmc6jnr51cPM1EjUJVpump"
+    },
+    {
+        "symbol": "sperg",
+        "id": "bloomsperg-terminal",
+        "name": "Bloomsperg Terminal",
+        "solana_contract_address": "4vKEwZ2ZHmHFuQEE69emXV2Zq1EKeJYVCESsMqydpump"
+    },
+    {
+        "symbol": "honk",
+        "id": "honk",
+        "name": "Honk",
+        "solana_contract_address": "3ag1Mj9AKz9FAkCQ6gAEhpLSX8B2pUbPdkb9iBsDLZNB"
+    },
+    {
+        "symbol": "melon",
+        "id": "melon-dog",
+        "name": "Melon Dog",
+        "solana_contract_address": "7DGJnYfJrYiP5CKBx6wpbu8F5Ya1swdFoesuCrAKCzZc"
+    },
+    {
+        "symbol": "feces",
+        "id": "feces",
+        "name": "FECES",
+        "solana_contract_address": "5j2shkkzascw33QpW6RRqfRkacLkn7QwwV1e7jX36nyn"
+    },
+    {
+        "symbol": "bogus",
+        "id": "bogus",
+        "name": "BOGUS",
+        "solana_contract_address": "41upazdWAgLjfCkLGQwGDgj2knovnpPyr4q2ZVNjifLz"
+    },
+    {
+        "symbol": "alpha",
+        "id": "alpha-3",
+        "name": "Alpha",
+        "solana_contract_address": "2zrH2jE542mzB4HABgBjdWMQPtNC5H12pwo1iLpfpump"
+    },
+    {
+        "symbol": "iq50",
+        "id": "iq50",
+        "name": "IQ50",
+        "solana_contract_address": "21rweMLGYeMNonHW7H3xa5py17X6ZFRcHirCp9inRBQA"
+    },
+    {
+        "symbol": "wgc",
+        "id": "wild-goat-coin-2",
+        "name": "Wild Goat Coin",
+        "solana_contract_address": "4Eb7ReeT936hX25KMBfYtyP1RWDdd9iixEwGJroACeLC"
+    },
+    {
+        "symbol": "dogecast",
+        "id": "dogecast-2",
+        "name": "dogecast",
+        "solana_contract_address": "ChHAfQsUznqUpvFSNQsu42KsRr1t3ct56fBigVSHpump"
+    },
+    {
+        "symbol": "solcat",
+        "id": "solcat",
+        "name": "SOLCAT",
+        "solana_contract_address": "A2TjztayKEavSCR7deVs6zkKGLP155pQv3j8ByVJ2WLW"
+    },
+    {
+        "symbol": "catdog",
+        "id": "cat-dog",
+        "name": "Cat-Dog",
+        "solana_contract_address": "CATTzAwLyADd2ekzVjTjX8tVUBYfrozdkJBkutJggdB7"
+    },
+    {
+        "symbol": "rat",
+        "id": "rat-escape",
+        "name": "RAT Escape",
+        "solana_contract_address": "3vJenGaGsuKG5shPhi7rjnuy3MV6xjmBTGjYqYzXpump"
+    },
+    {
+        "symbol": "milkbag",
+        "id": "milkbag",
+        "name": "MILKBAG",
+        "solana_contract_address": "2ubuHGFS4VJVxSEpvV3kDwz6JiuXdaAoGMwrwYC87tp8"
+    },
+    {
+        "symbol": "boden",
+        "id": "jeo-boden",
+        "name": "Jeo Boden",
+        "solana_contract_address": "3psH1Mj1f7yUfaD5gh6Zj7epE8hhrMkMETgv5TshQA4o"
+    },
+    {
+        "symbol": "wynn",
+        "id": "anita-max-wynn",
+        "name": "Anita Max Wynn",
+        "solana_contract_address": "4vqYQTjmKjxrWGtbL2tVkbAU1EVAz9JwcYtd2VE3PbVU"
+    },
+    {
+        "symbol": "elgato",
+        "id": "el-gato",
+        "name": "el gato",
+        "solana_contract_address": "F47vvwFYuLioQsqEVAjqdY6Yihc8wVRiUcfHGcBR9XUs"
+    },
+    {
+        "symbol": "aicrynode",
+        "id": "ai-crystal-node",
+        "name": "AI Crystal Node",
+        "solana_contract_address": "PD11M8MB8qQUAiWzyEK4JwfS8rt7Set6av6a5JYpump"
+    },
+    {
+        "symbol": "retire",
+        "id": "the-last-play",
+        "name": "The Last Play",
+        "solana_contract_address": "zGh48JtNHVBb5evgoZLXwgPD2Qu4MhkWdJLGDAupump"
+    },
+    {
+        "symbol": "joi",
+        "id": "joi",
+        "name": "Joi",
+        "solana_contract_address": "2GU2KM9mx4aXuMcD596KN5LPQpyTLsmswutjis7upump"
+    },
+    {
+        "symbol": "torsy",
+        "id": "torsy",
+        "name": "TORSY",
+        "solana_contract_address": "5YqckGEkWHJmp9LW5aUF2uJrdUbMJaHcYnGjA8M7Ebw8"
+    },
+    {
+        "symbol": "gort",
+        "id": "his-name-gort",
+        "name": "His name gort",
+        "solana_contract_address": "5tZHKgJpnF1hsjSnQ5N9NA2c3S4QzaFw3uq2ARGspump"
+    },
+    {
+        "symbol": "luci",
+        "id": "luci",
+        "name": "LUCI",
+        "solana_contract_address": "5Ke381D44MEQg3BQarWhAwhj1xbdNvXe2KHkTiZzw7r5"
+    },
+    {
+        "symbol": "$mama",
+        "id": "screaming-hyrax",
+        "name": "Screaming Hyrax",
+        "solana_contract_address": "7qBKePC5SqZKDRNsbNhqD6Y6S8JW2CM3KoRv3ztDpump"
+    },
+    {
+        "symbol": "duckai",
+        "id": "duck-ai",
+        "name": "Duck AI",
+        "solana_contract_address": "HFw81sUUPBkNF5tKDanV8VCYTfVY4XbrEEPiwzyypump"
+    },
+    {
+        "symbol": "simon",
+        "id": "simon-for-nyc-dog-mayor",
+        "name": "Simon for NYC  dog Mayor",
+        "solana_contract_address": "5NmDofUfjrAydmLGRyXrbiYRDZ2LhvdEG3jLWHUTpump"
+    },
+    {
+        "symbol": "fuku",
+        "id": "fuku-2",
+        "name": "Fuku",
+        "solana_contract_address": "2KchKijPuwnwC92LPWVjFjRwB3WxKtzx9bbXZ7kRpump"
+    },
+    {
+        "symbol": "aletheia",
+        "id": "aletheia",
+        "name": "Aletheia",
+        "solana_contract_address": "6Xx8p2WmY1Uk2GD35uxhEyuniNrVEeSu3CUThb8Upump"
+    },
+    {
+        "symbol": "neiro",
+        "id": "neiro-2",
+        "name": "Neiro",
+        "solana_contract_address": "CTg3ZgYx79zrE1MteDVkmkcGniiFrK1hJ6yiabropump"
+    },
+    {
+        "symbol": "water",
+        "id": "water-coin",
+        "name": "WATER Coin",
+        "solana_contract_address": "B6h248NJkAcBAkaCnji889a26tCiGXGN8cxhEJ4dX391"
+    },
+    {
+        "symbol": "oiiaoiia",
+        "id": "spinning-cat",
+        "name": "Spinning Cat",
+        "solana_contract_address": "VaxZxmFXV8tmsd72hUn22ex6GFzZ5uq9DVJ5wA5pump"
+    },
+    {
+        "symbol": "sage",
+        "id": "sage-universe",
+        "name": "Sage Universe",
+        "solana_contract_address": "CMe1QWsoDWFUi95GMkk7mCTnnjxBxtnJ3jbrEhQTVWL5"
+    },
+    {
+        "symbol": "skid",
+        "id": "success-kid",
+        "name": "Success Kid",
+        "solana_contract_address": "9X2RHtKrBzw3SLYe9E88cBd1kz5RfU1f4JTSn4aRH43d"
+    },
+    {
+        "symbol": "eth",
+        "id": "the-ticker-is-eth",
+        "name": "The Ticker Is ETH",
+        "solana_contract_address": "2kaRSuDcz1V1kqq1sDmP23Wy98jutHQQgr5fGDWRpump"
+    },
+    {
+        "symbol": "vault",
+        "id": "vault-terminal",
+        "name": "Vault Terminal",
+        "solana_contract_address": "3YHnXHivm9DiiUtbHNr49mkBctBFy4ksX3PAa3AApump"
+    },
+    {
+        "symbol": "noooo",
+        "id": "noooomeme",
+        "name": "Noooomeme",
+        "solana_contract_address": "4E3CrfKrPWmnE2kFrdeRKyiovpUWpUXHtqXpXzZZsxZ2"
+    },
+    {
+        "symbol": "btcat",
+        "id": "bitcat-2",
+        "name": "BitCat",
+        "solana_contract_address": "3XFiHA2gexzBjqtM5Z7FjJhP6f28D2m79UihBCfkpump"
+    },
+    {
+        "symbol": "$clap",
+        "id": "clapcat",
+        "name": "CLAPCAT",
+        "solana_contract_address": "9b8jL2wcVjBFpieC5TUR76BDJ6sW8Eghd3fyq5VJmzir"
+    },
+    {
+        "symbol": "tate",
+        "id": "tate-terminal",
+        "name": "Tate Terminal",
+        "solana_contract_address": "LX2mJPsutHkUc6iXNFgumSC6LVKyc66xpy2zDTZpump"
+    },
+    {
+        "symbol": "$rich",
+        "id": "meme-coin-millionaire",
+        "name": "Meme Coin Millionaire",
+        "solana_contract_address": "GRFK7sv4KhkMzJ7BXDUBy4PLyZVBeXuW1FeaT6Mnpump"
+    },
+    {
+        "symbol": "cheese",
+        "id": "cheese-2",
+        "name": "Cheese",
+        "solana_contract_address": "AbrMJWfDVRZ2EWCQ1xSCpoVeVgZNpq1U2AoYG98oRXfn"
+    },
+    {
+        "symbol": "slop",
+        "id": "slop",
+        "name": "Slop",
+        "solana_contract_address": "FqvtZ2UFR9we82Ni4LeacC1zyTiQ77usDo31DUokpump"
+    },
+    {
+        "symbol": "ava",
+        "id": "ava-the-golden-tiger",
+        "name": "Ava The Golden Tiger",
+        "solana_contract_address": "3aJsBAoLt9to9ncXRp67QtGkueBYo8ozHv9p7ehMeZJy"
+    },
+    {
+        "symbol": "send",
+        "id": "send-2",
+        "name": "Send",
+        "solana_contract_address": "SENDdRQtYMWaQrBroBrJ2Q53fgVuq95CV9UPGEvpCxa"
+    },
+    {
+        "symbol": "aimaga",
+        "id": "president-exe",
+        "name": "President.exe",
+        "solana_contract_address": "Ds4tykSf8vESCZPDLznadsfPXNgPzU5mVwc3oXXFwX5t"
+    },
+    {
+        "symbol": "ladyf",
+        "id": "milady-wif-hat",
+        "name": "Milady Wif Hat",
+        "solana_contract_address": "3X8GcLiH2HttjyqePg7MazpMbwbgq5URUMTyDz5tkmdE"
+    },
+    {
+        "symbol": "gmika",
+        "id": "gmika",
+        "name": "GMika",
+        "solana_contract_address": "HtCqD3o5aF1RXcyGi6AW11PoB3bZmFdA8kvVyhJrpump"
+    },
+    {
+        "symbol": "lolcat",
+        "id": "lolcat-2",
+        "name": "Lolcat",
+        "solana_contract_address": "Dt6vESocrRixuFz2taZunygpKcNQwxAjUMgYUxvNpump"
+    },
+    {
+        "symbol": "@doge",
+        "id": "doge",
+        "name": "@DOGE",
+        "solana_contract_address": "SsKFgDPEqyzAM8nWPiiX7MGY7iNDTEX6DxRdxmkpump"
+    },
+    {
+        "symbol": "fls",
+        "id": "floos",
+        "name": "Floos",
+        "solana_contract_address": "75DvRjTDpaEbrdUHVomdjfsiXbBi5FwNyctyUgfLooS"
+    },
+    {
+        "symbol": "pepe",
+        "id": "pepesol",
+        "name": "PepeSol",
+        "solana_contract_address": "F9CpWoyeBJfoRB8f2pBe2ZNPbPsEE76mWZWme3StsvHK"
+    },
+    {
+        "symbol": "sharki",
+        "id": "sharki",
+        "name": "Sharki",
+        "solana_contract_address": "6U48jtR53ZK3E1MozLrpwJDTrtj74uuFhMGNzGY18YPu"
+    },
+    {
+        "symbol": "boop",
+        "id": "boop-3",
+        "name": "BOOP",
+        "solana_contract_address": "Gx2yQqgguqpKwGCrrgx4dr8toTYevczEtGd6B1pKpump"
+    },
+    {
+        "symbol": "cheems",
+        "id": "cheems",
+        "name": "Cheems",
+        "solana_contract_address": "3FoUAsGDbvTD6YZ4wVKJgTB76onJUKz7GPEBNiR5b8wc"
+    },
+    {
+        "symbol": "\ud83d\udc15",
+        "id": "dog-emoji-on-solana",
+        "name": "Dog Emoji On Solana",
+        "solana_contract_address": "DLScRnWofxiYGqnvZWGy9Gt98MPqKdznaK4TRukxpump"
+    },
+    {
+        "symbol": "woof",
+        "id": "woof-token",
+        "name": "WOOF",
+        "solana_contract_address": "9nEqaUcb16sQ3Tn1psbkWqyhPdLmfHWjKGymREjsAgTE"
+    },
+    {
+        "symbol": "wawa",
+        "id": "wawa-cat",
+        "name": "WAWA CAT",
+        "solana_contract_address": "8Sk2EJ9oo25b7Mmf4qd5gJw6z3738AXvAbkuSSpQpump"
+    },
+    {
+        "symbol": "urs",
+        "id": "uranus-3",
+        "name": "Uranus",
+        "solana_contract_address": "32jSCpTYmLze3jj9ruqtLmPPBRtag9ud5YbsJwcfRcVM"
+    },
+    {
+        "symbol": "haggis",
+        "id": "new-born-haggis-pygmy-hippo",
+        "name": "New Born Haggis Pygmy Hippo",
+        "solana_contract_address": "U237C8hKyZYL42TEtTv6JGtdwDr3pZaQeeWMCVVpump"
+    },
+    {
+        "symbol": "looby",
+        "id": "looby-by-stephen-bliss",
+        "name": "Looby by Stephen Bliss",
+        "solana_contract_address": "CyRbC97yrkUB31sv9PLw5Hw8276zXH4sRoTE1KcDpump"
+    },
+    {
+        "symbol": "real",
+        "id": "real-2",
+        "name": "real.",
+        "solana_contract_address": "Cy4DSbZW4CE6cG6HDqQFhXxpHTdm41SY9hBB1JG6pump"
+    },
+    {
+        "symbol": "bork",
+        "id": "bork-2",
+        "name": "Bork",
+        "solana_contract_address": "4jZXkSNgTQKCDb36ECZ6a2aNzcUniGcDeXgTdtM2HxAX"
+    },
+    {
+        "symbol": "btw",
+        "id": "banana-tape-wall",
+        "name": "Banana Tape Wall",
+        "solana_contract_address": "4ytpZgVoNB66bFs6NRCUaAVsLdtYk2fHq4U92Jnjpump"
+    },
+    {
+        "symbol": "first",
+        "id": "the-first-meme",
+        "name": "The First Meme",
+        "solana_contract_address": "Bg4M3QWtpi416fb1njZrXBmusBNav1XsDRc6izxXpump"
+    },
+    {
+        "symbol": "gm",
+        "id": "good-morning-3",
+        "name": "Good Morning!",
+        "solana_contract_address": "4aL5GLRuzsnJjJWNdXK7TPTVpGhP6PyV4ZhyQiyxpump"
+    },
+    {
+        "symbol": "peanie",
+        "id": "peanie",
+        "name": "peanie",
+        "solana_contract_address": "dekNoN3D8mXa4JHLwTbVXz8aPAyJUkk443UjcSpJKi4"
+    },
+    {
+        "symbol": "jiff",
+        "id": "jiffpom",
+        "name": "Jiffpom",
+        "solana_contract_address": "GT5qW4HA3hzfdioeTRhSQpdhcpZWZcDP3Xj5nXraTiAQ"
+    },
+    {
+        "symbol": "rot",
+        "id": "brainrot",
+        "name": "brainrot",
+        "solana_contract_address": "APoM2sXUzdRHTkUjXSsdUheX1wPPdP4HFLotmtRNMU8P"
+    },
+    {
+        "symbol": "print",
+        "id": "print-protocol",
+        "name": "Print Protocol",
+        "solana_contract_address": "8stssUiCFbcB2LqCS62EuU2x1K2NWbJJo1YPgskpftWK"
+    },
+    {
+        "symbol": "ent",
+        "id": "elon-trump-2",
+        "name": "Elon&Trump",
+        "solana_contract_address": "5Cm4PigAUdbBxKwHaUYHgoDsn6EKjAMktTVF62H4pump"
+    },
+    {
+        "symbol": "wait",
+        "id": "theydontloveyoulikeiloveyou",
+        "name": "theydontloveyoulikeiloveyou",
+        "solana_contract_address": "CbUPTbC4K7zdAEWxfa1nad4468xpX3LpWPhZVnzybhfN"
+    },
+    {
+        "symbol": "saint",
+        "id": "carlo-acutis",
+        "name": "Carlo Acutis",
+        "solana_contract_address": "EQs4DEeaSyrhRPM6JPsf2ptLf4EHkcGXB7ybeufxpump"
+    },
+    {
+        "symbol": "pump",
+        "id": "pump-2",
+        "name": "PUMP",
+        "solana_contract_address": "5oWc1d4Z6sbrH75J4jSgCCwpgpmJwkpLQbNxiP15qGAA"
+    },
+    {
+        "symbol": "govai",
+        "id": "pigeon-tech",
+        "name": "Pigeon Tech",
+        "solana_contract_address": "4kHu4VktgzpZW9i8LEsHZrNLJcTV98nGhyZE5JSEpump"
+    },
+    {
+        "symbol": "cbc",
+        "id": "cryptoboomcoin-official",
+        "name": "CryptoBoomCoin Official",
+        "solana_contract_address": "BNeaFbk7DRjMr1UhGuchRGMKvk2Z5bU9W8sNpn7Wvr9Y"
+    },
+    {
+        "symbol": "quant",
+        "id": "gen-z-quant",
+        "name": "Gen Z Quant",
+        "solana_contract_address": "3an8rhdepsLCya22af7qDBKPbdomw8K4iCHXaA2Gpump"
+    },
+    {
+        "symbol": "dip",
+        "id": "doginthpool",
+        "name": "doginthpool",
+        "solana_contract_address": "3XxvmED354933DwSPJuzB7SE9uiWpD1ErydDuhmbFRMk"
+    },
+    {
+        "symbol": "never",
+        "id": "neversol",
+        "name": "neversol",
+        "solana_contract_address": "CxrhHSqyW8YTDWc4csJMMgo7uBUJSXzNzrWhtw9ULdru"
+    },
+    {
+        "symbol": "dogin",
+        "id": "doginhood",
+        "name": "Department of Government Inefficiency",
+        "solana_contract_address": "DoGinuF39MGaxJDeJ3QDk4qd2vXwkYf5TDYpkdpYjip"
+    },
+    {
+        "symbol": "alaska",
+        "id": "alaska",
+        "name": "Alaska",
+        "solana_contract_address": "s3ghbbWBTtMizNJKGmeMBd1URpisoQJxuDLrheEX61g"
+    },
+    {
+        "symbol": "girls",
+        "id": "girls",
+        "name": "GIRLS",
+        "solana_contract_address": "Aw99gHZbUUYH5QnRZb9z4wdVmXioCgVD1VSd9eYMpump"
+    },
+    {
+        "symbol": "sl",
+        "id": "the-society-library",
+        "name": "The Society Library",
+        "solana_contract_address": "7wUwkXo8Qjt3cYM8BaHHHeyfDY7ZSn7qvod92pNupump"
+    },
+    {
+        "symbol": "santahat",
+        "id": "santa-hat",
+        "name": "SANTA HAT",
+        "solana_contract_address": "7S37Wv8v9BLQ7bCBTSmCgpCHEb7ae9ZVV7YGwDSepump"
+    },
+    {
+        "symbol": "sonny",
+        "id": "staring-robot",
+        "name": "staring robot",
+        "solana_contract_address": "FAJW358HjJ2mHXSHbHyxghfVGzX5SBoupdjRr2y9pump"
+    },
+    {
+        "symbol": "md",
+        "id": "market-dominance",
+        "name": "Market Dominance",
+        "solana_contract_address": "C4j7kPx9PqDnfvxe2uycJQRTAeyGwmU4DyGf21Xgpump"
+    },
+    {
+        "symbol": "zack",
+        "id": "zack-morris",
+        "name": "Zack Morris",
+        "solana_contract_address": "8vCAUbxejdtaxn6jnX5uaQTyTZLmXALg9u1bvFCAjtx7"
+    },
+    {
+        "symbol": "sobull",
+        "id": "sobull",
+        "name": "SoBULL [OLD]",
+        "solana_contract_address": "27pGA2TokxUaDT3F784TNHEoE93dUmbc2bSewzUZGExw"
+    },
+    {
+        "symbol": "$venko",
+        "id": "venko",
+        "name": "VENKO",
+        "solana_contract_address": "3xhezws6Lk7cMqoVEfZFXu3ry9GKymFz1vbWyQ4f99uX"
+    },
+    {
+        "symbol": "$shrub",
+        "id": "shrub-2",
+        "name": "Shrub",
+        "solana_contract_address": "GN78Djb7J2xc2ZLZaJLoGoF8FU6x7DnK3kUJFsnDpump"
+    },
+    {
+        "symbol": "cnc",
+        "id": "cats-n-cars",
+        "name": "Cats N Cars",
+        "solana_contract_address": "cncjfnwyLnUdPAiB8cPULZ6kFNRWu4kzRt2dfLMdx8X"
+    },
+    {
+        "symbol": "hodl",
+        "id": "half-orange-drinking-lemonade",
+        "name": "Half Orange Drinking Lemonade",
+        "solana_contract_address": "J9SXKctbZVws65vjBHL91mqStzq5an1xZxdi6a4h853o"
+    },
+    {
+        "symbol": "aeon",
+        "id": "project-aeon",
+        "name": "Project Aeon",
+        "solana_contract_address": "72XUGRRzuSoLRch3QPpSPHkuZ8F58rvtCNF4QSosLb4H"
+    },
+    {
+        "symbol": "morud",
+        "id": "morud",
+        "name": "Morud",
+        "solana_contract_address": "FskzSqy7Pi1f3nWorr4WhhQboxzyv8fv6Q2e8xyDpump"
+    },
+    {
+        "symbol": "doug",
+        "id": "duck-the-doug",
+        "name": "Doug the Duck",
+        "solana_contract_address": "BavuJ8bntC79A8aHTxQi1EUhcCnqvEU8KSBE4sVCAaHc"
+    },
+    {
+        "symbol": "usdcat",
+        "id": "upsidedowncat-2",
+        "name": "upsidedowncat",
+        "solana_contract_address": "F23fFqpRNsmWjuUrFpfM1pvoVvMSpLuN6hY978Y1JXLt"
+    },
+    {
+        "symbol": "ptrump",
+        "id": "pepe-trump",
+        "name": "Pepe Trump",
+        "solana_contract_address": "Gk2kRrwNMBU4Dn9JhC1Dks8G5X9nqi4ZE5jMvK6bdgEd"
+    },
+    {
+        "symbol": "tab",
+        "id": "tabman",
+        "name": "TabMan",
+        "solana_contract_address": "CqMLnuQ8bVSiak5crmhA3PCrwwtKi7R5VzcxJDKArfYN"
+    },
+    {
+        "symbol": "dmoon",
+        "id": "dollarmoon-2",
+        "name": "DollarMoon",
+        "solana_contract_address": "9fWeqjzb7xG93T9FPaWggTecvyZZDTXc7VgzNWkisqm4"
+    },
+    {
+        "symbol": "lab",
+        "id": "the-professor",
+        "name": "The Professor",
+        "solana_contract_address": "2Pp6ebUvEL9YRTauUTmGTwYZKRfyQXGM9jE4S8WPDtEy"
+    },
+    {
+        "symbol": "aika",
+        "id": "reflections-of-dissonance-ai",
+        "name": "Reflections of Dissonance AI",
+        "solana_contract_address": "BsAEhPN1DKfpjMoSZ5UnDTL4impSYvT9ZpFjnBD2pump"
+    },
+    {
+        "symbol": "inu",
+        "id": "inusol",
+        "name": "INU",
+        "solana_contract_address": "DbaSVQ87gQumixFumMHCrMKFpq5dSYNtKiVNDw3Vpump"
+    },
+    {
+        "symbol": "shroom",
+        "id": "shroom",
+        "name": "Shroom",
+        "solana_contract_address": "xyzR4s6H724bUq6q7MTqWxUnhi8LM5fiKKUq38h8M1P"
+    },
+    {
+        "symbol": "kapi",
+        "id": "kapi-plara",
+        "name": "Kapi Plara",
+        "solana_contract_address": "aeAFefDk8CZeyjvP3nZ5yRutB6oAfQnhvoh9jZMpump"
+    },
+    {
+        "symbol": "sdoge",
+        "id": "doge-on-solana",
+        "name": "DOGE on Solana",
+        "solana_contract_address": "BvSyXBvy76mUgzLSbvvT4NQw5rSM4P5zAsdnvqUJpump"
+    },
+    {
+        "symbol": "adasol",
+        "id": "ada-the-dog",
+        "name": "ADA",
+        "solana_contract_address": "E4Q5pLaEiejwEQHcM9GeYSQfMyGy8DJ4bPWgeYthn24v"
+    },
+    {
+        "symbol": "zoa",
+        "id": "zoa-ai",
+        "name": "ZOA AI",
+        "solana_contract_address": "AwcCFuJgUYNYHXm6tHhr7DsXDY6FKvXUt2DFjmgHpump"
+    },
+    {
+        "symbol": "cb",
+        "id": "cheeseball",
+        "name": "Cheeseball",
+        "solana_contract_address": "3BeJ9zCgQhaqKMu2HgKJ79yQBChD1Pf3hPwRX44fpump"
+    },
+    {
+        "symbol": "walter",
+        "id": "walter-dog-solana",
+        "name": "Walter",
+        "solana_contract_address": "FV56CmR7fhEyPkymKfmviKV48uPo51ti9kAxssQqTDLu"
+    },
+    {
+        "symbol": "fatgf",
+        "id": "fatgf",
+        "name": "FATGF",
+        "solana_contract_address": "4y9E3tJpGNzRr1592oWTPECgyp2VDSc1Bf3DqAm5FZsK"
+    },
+    {
+        "symbol": "agi",
+        "id": "american-general-intelligence",
+        "name": "American General Intelligence",
+        "solana_contract_address": "4TYh7zSaRuWcWLztkGUFHzBjqdyEEWA34zUogbAUpump"
+    },
+    {
+        "symbol": "virgin",
+        "id": "lambosforvirgins",
+        "name": "LambosForVirgins",
+        "solana_contract_address": "7kB8ZkSBJr2uiBWfveqkVBN7EpZMFom5PqeWUB62DCRD"
+    },
+    {
+        "symbol": "harold",
+        "id": "harold",
+        "name": "Harold",
+        "solana_contract_address": "EjmDTt8G3T725eFSV7oWmGD8J848guo3LZ1EB3RfwGSw"
+    },
+    {
+        "symbol": "catgpt",
+        "id": "catgpt",
+        "name": "CatGPT",
+        "solana_contract_address": "FGf1Us3kqu9AXu2x1yWKfiKE8uSx42ACvRiUrbuAodzq"
+    },
+    {
+        "symbol": "kittenwif",
+        "id": "kittenwifhat",
+        "name": "KittenWifHat",
+        "solana_contract_address": "9a8AmDfQxFJ44RrVhKdiXnkwCWT99igWp5QrRuC73Pin"
+    },
+    {
+        "symbol": "winter",
+        "id": "winter-arc",
+        "name": "Winter Arc",
+        "solana_contract_address": "4j2gUEmfbSAacvSSd6yXo8yEzXCAUVeoXrqLVV3apump"
+    },
+    {
+        "symbol": "flavia",
+        "id": "flavia-is-online",
+        "name": "Flavia Is Online",
+        "solana_contract_address": "3HYx6a9whu5a4dnzE62WNXg46MrEmu9LFxutR2YBpump"
+    },
+    {
+        "symbol": "jorkin",
+        "id": "jorkin",
+        "name": "Jorkin",
+        "solana_contract_address": "7ty3ruNJebb8RYmzfpUommJnZnCwaoB8RNfqpjLMpump"
+    },
+    {
+        "symbol": "didid",
+        "id": "didi-duck",
+        "name": "Didi Duck",
+        "solana_contract_address": "8E5pw1g1nQpmgVyeS1vZx8LokAZvuZgL6G1Uhr4iVbAB"
+    },
+    {
+        "symbol": "sbr",
+        "id": "sbrsol",
+        "name": "Strategic Bitcoin Reserve",
+        "solana_contract_address": "2HHgCLfKA5Rd1Fn9xAxfYzS3XoR5NnuxKDYz2EmWpump"
+    },
+    {
+        "symbol": "soy",
+        "id": "soyjak-2",
+        "name": "Soyjak",
+        "solana_contract_address": "4G3kNxwaA2UQHDpaQtJWQm1SReXcUD7LkT14v2oEs7rV"
+    },
+    {
+        "symbol": "bgg1",
+        "id": "blinks-gg",
+        "name": "Blinks.gg",
+        "solana_contract_address": "62CsquahdQ3J286G9UTqV6whxryfihdV4yg7kSJnpump"
+    },
+    {
+        "symbol": "gowoke",
+        "id": "woke-chain",
+        "name": "Woke Chain",
+        "solana_contract_address": "GmWwuuEagMztKthkdmFmAHBmQps4oGTVyhJEEtTmQyTs"
+    },
+    {
+        "symbol": "gooby",
+        "id": "gooby",
+        "name": "Gooby",
+        "solana_contract_address": "G9b9Lt78x5JXhFLeDY4ZAfMkWWugnbsfKBR2qipJWXaT"
+    },
+    {
+        "symbol": "egg",
+        "id": "eggdog",
+        "name": "Eggdog",
+        "solana_contract_address": "EXA537HSBVpsFijENbt6Muuy9AADUN8dUmYKD4oKbjJE"
+    },
+    {
+        "symbol": "sin",
+        "id": "sin",
+        "name": "sinDAO",
+        "solana_contract_address": "sin1uRe1cMCWR7VPLdZrGrvKs8UvKMsGzhvpJLg4Ld9"
+    },
+    {
+        "symbol": "$broke",
+        "id": "broke-again",
+        "name": "$BROKE again",
+        "solana_contract_address": "Fgx5MamDtg4x9vC76N1wYep3xUo71vMB5PrvVCjK7629"
+    },
+    {
+        "symbol": "jam",
+        "id": "jam-cat",
+        "name": "jam cat",
+        "solana_contract_address": "51zudBR4NmATG35goida4dLQH5YPn9k8hVkLcizNpump"
+    },
+    {
+        "symbol": "mog",
+        "id": "mog",
+        "name": "MOG",
+        "solana_contract_address": "BR4qrJbhGMoGSaF7QtUMvSZRtWhzvMUk5dkgkRrnrn8A"
+    },
+    {
+        "symbol": "thumb",
+        "id": "thumb",
+        "name": "Thumb",
+        "solana_contract_address": "BdNKUUo8vnvdhwi1Ejn4PXNfeeQF2374hCK3m91ppump"
+    },
+    {
+        "symbol": "tds",
+        "id": "trump-derangement-syndrome",
+        "name": "Trump Derangement Syndrome",
+        "solana_contract_address": "7KuFdcfzbc3LLoRHNRWfW1dhbPNzuCv41hyYbfSUpump"
+    },
+    {
+        "symbol": "baba",
+        "id": "baba",
+        "name": "BABA",
+        "solana_contract_address": "6dEJEuFvaD8jMyotbvbMx7ixpP2frXnZCSgDexwqkE6B"
+    },
+    {
+        "symbol": "prick",
+        "id": "prick",
+        "name": "Prick",
+        "solana_contract_address": "6zoshtkmyX4kRFg3p152yV2bPssxeYdNvW3c6EVCE4UP"
+    },
+    {
+        "symbol": "john",
+        "id": "john-the-coin",
+        "name": "John the Coin",
+        "solana_contract_address": "BuxH23osRyFFLbWG3czrTsfBQYbxzVZ8f7QV4cjTHN5x"
+    },
+    {
+        "symbol": "$beffai",
+        "id": "beffai",
+        "name": "BeffAI",
+        "solana_contract_address": "2Tr3i2qjSPUb7e7BSFWTq7gsRzJEnYBKc7wRAYu3pump"
+    },
+    {
+        "symbol": "sphynx",
+        "id": "egypt-cat",
+        "name": "Egypt Cat",
+        "solana_contract_address": "5t4EVfkb5QU8NZXmTzcSK2bQsNWUr2HL64rRb8i6wpat"
+    },
+    {
+        "symbol": "jason",
+        "id": "jason-derulo",
+        "name": "Jason Derulo",
+        "solana_contract_address": "6SUryVEuDz5hqAxab6QrGfbzWvjN8dC7m29ezSvDpump"
+    },
+    {
+        "symbol": "eagle",
+        "id": "free-shayne-coplan",
+        "name": "FREE Shayne Coplan",
+        "solana_contract_address": "AyxrBmqbzf169oe14XcSDMbgpUV1ntP6thcScYpYpump"
+    },
+    {
+        "symbol": "chillgirl",
+        "id": "chill-girl",
+        "name": "Chill Girl",
+        "solana_contract_address": "AH9oMYaNWwwh93rthazxXcJB7kyFsLgZMxDJxbwpump"
+    },
+    {
+        "symbol": "rodai",
+        "id": "rod-ai",
+        "name": "ROD.AI",
+        "solana_contract_address": "GdbyLsNKHKLXTZVEo8QrGKVmrexEeZUYvhpSfuZ9TdkC"
+    },
+    {
+        "symbol": "hanbao",
+        "id": "hanbao",
+        "name": "Hanbao",
+        "solana_contract_address": "GTFWEVQy5BwQsZJWS4Y6KaZ3or6Yhysh2EEUp8bgpump"
+    },
+    {
+        "symbol": "$updog",
+        "id": "what-s-updog",
+        "name": "What\u2019s Updog?",
+        "solana_contract_address": "HJ39rRZ6ys22KdB3USxDgNsL7RKiQmsC3yL8AS3Suuku"
+    },
+    {
+        "symbol": "shimmy",
+        "id": "trump-official-dance-move",
+        "name": "Trump Official Dance Move",
+        "solana_contract_address": "QcNnhASrCxLpkqndMvLJmBu8HAkdViZzdipBAoypump"
+    },
+    {
+        "symbol": "stog",
+        "id": "stooges",
+        "name": "Stooges",
+        "solana_contract_address": "AHnZ7VyyQ5jHXbitQL8tuN7ciGG66EvCnU7eKoKX99fz"
+    },
+    {
+        "symbol": "miharu",
+        "id": "smiling-dolphin",
+        "name": "Smiling Dolphin",
+        "solana_contract_address": "6tVZVjcppH2BZ9Xj5yFU1Zt34m2rYcyDqqpSeMDZpump"
+    },
+    {
+        "symbol": "badger",
+        "id": "badger-badger-badger",
+        "name": "badger badger badger",
+        "solana_contract_address": "8kp7gVCTWVbNP257A7MHgsYheshqYGnqWbApS6f3pump"
+    },
+    {
+        "symbol": "pingu",
+        "id": "pingu-land",
+        "name": "Pingu.Land",
+        "solana_contract_address": "2idBzH45gfXFEhivcQVTXVgQGUDhX8scXoZwAiTQUT6L"
+    },
+    {
+        "symbol": "gecko",
+        "id": "gecko-meme",
+        "name": "Gecko (Meme)",
+        "solana_contract_address": "6CNHDCzD5RkvBWxxyokQQNQPjFWgoHF94D7BmC73X6ZK"
+    },
+    {
+        "symbol": "hypr\u221e",
+        "id": "hyperboreal-infinity",
+        "name": "HYPERBOREAL INFINITY",
+        "solana_contract_address": "FEiphCSAqjAxvtyMxj8boFTABrZBFyngfyrZueqeMw3q"
+    },
+    {
+        "symbol": "zoomer",
+        "id": "zoomer-sol",
+        "name": "Zoomer",
+        "solana_contract_address": "9MBzpyMRkj2r5nTQZMMnxnCm5j1MAAFSYUtbSKjAF3WU"
+    },
+    {
+        "symbol": "lqc",
+        "id": "low-quality-cat",
+        "name": "Low Quality Cat",
+        "solana_contract_address": "HKv9jA7VREs68BA3PZMREiwuQKzfLUjr9azgrzbNpump"
+    },
+    {
+        "symbol": "$fatcat",
+        "id": "fatcat-2",
+        "name": "FATCAT",
+        "solana_contract_address": "AHdVQs56QpEEkRx6m8yiYYEiqM2sKjQxVd6mGH12pump"
+    },
+    {
+        "symbol": "ato",
+        "id": "avocato",
+        "name": "Avocato",
+        "solana_contract_address": "HJXh1XULVe2Mdp6mTKd5K7of1uFqBTbmcWzvBv6cpump"
+    },
+    {
+        "symbol": "dogai",
+        "id": "dogai-wtf",
+        "name": "DOGAI",
+        "solana_contract_address": "Dogg6xWSgkF8KbsHkTWD3Et4J9a8VBLZjrASURXGiLe1"
+    },
+    {
+        "symbol": "psyop",
+        "id": "psyop-2",
+        "name": "PSYOP",
+        "solana_contract_address": "DAFdakKAEvB6GtJgnDk1LC1QK4gQrtTK3eKUZtAJpump"
+    },
+    {
+        "symbol": "fuji",
+        "id": "fujimoto",
+        "name": "Fujimoto",
+        "solana_contract_address": "4M79Qjv2Jfjmcq19M41V8QFYohBv2KrgEn9dJhVtpump"
+    },
+    {
+        "symbol": "ib",
+        "id": "infinite-backrooms",
+        "name": "infinite backrooms",
+        "solana_contract_address": "4J5HoZWoKcbo2JQxEEVCKRBfUQtEroY1QdRrKtZFpump"
+    },
+    {
+        "symbol": "keycat",
+        "id": "keyboard-cat",
+        "name": "Keyboard Cat",
+        "solana_contract_address": "9pPE1q9EW1bMQWbHmffrzUCfRr7S82UoxNUFfA6mAZC6"
+    },
+    {
+        "symbol": "solcat",
+        "id": "catsolhat",
+        "name": "CatSolHat",
+        "solana_contract_address": "E99fN4tCRb1tQphXK1DU7prXji6hMzxETyPNJro19Fwz"
+    },
+    {
+        "symbol": "cato",
+        "id": "cato",
+        "name": "CATO",
+        "solana_contract_address": "5p2zjqCd1WJzAVgcEnjhb9zWDU7b9XVhFhx4usiyN7jB"
+    },
+    {
+        "symbol": "mimany",
+        "id": "mimany",
+        "name": "MIMANY",
+        "solana_contract_address": "3Rcc6tMyS7ZEa29dxV4g3J5StorS9J1dn98gd42pZTk1"
+    },
+    {
+        "symbol": "okane",
+        "id": "okane",
+        "name": "OKANE",
+        "solana_contract_address": "H7N54K1TjCgRtRLanZaPaDczdKFBTAiA4grvcVuArQzr"
+    },
+    {
+        "symbol": "dogefather",
+        "id": "dogefather-2",
+        "name": "Dogefather",
+        "solana_contract_address": "EcYK2XNG4wWr2vDg2M2Hrts6SrU2QB4NzXLBf888pump"
+    },
+    {
+        "symbol": "kpop",
+        "id": "kpop",
+        "name": "KPOP",
+        "solana_contract_address": "FfCht1iLfyWC8hcQDG4oZ8wp9uKshRJkzjWxn2kKocnH"
+    },
+    {
+        "symbol": "moon",
+        "id": "moonscape-2",
+        "name": "MoonScape",
+        "solana_contract_address": "72pzypYmWeAbDXvmep8tBVeXpvcbrcvv6QKtS4T1btkF"
+    },
+    {
+        "symbol": "chitan",
+        "id": "chitan",
+        "name": "Chitan",
+        "solana_contract_address": "J95PxHUEytzTGbf9DpLpyPHXnUTWN4FbRk2Jnc5nYKa3"
+    },
+    {
+        "symbol": "source",
+        "id": "i-made-it-up",
+        "name": "I MADE IT UP",
+        "solana_contract_address": "aPig1huDbdDTR9HmJBSHK5jiHrG3o2ZThdG4xPDpump"
+    },
+    {
+        "symbol": "crodie",
+        "id": "crodie",
+        "name": "Crodie",
+        "solana_contract_address": "GvcNXdSehfNSNyhDVDj27kc459LzFqWozt9CSJywMy6r"
+    },
+    {
+        "symbol": "upg",
+        "id": "upgrates",
+        "name": "Upgrates",
+        "solana_contract_address": "Dd917ev4Zzde2BkPm31FTLseHNHamJPPUwQgGAybpump"
+    },
+    {
+        "symbol": "magnet",
+        "id": "magnet-2",
+        "name": "Magnet",
+        "solana_contract_address": "8iWsK2WH3AGviQwAnt43zvc8yLy6QMUSuv8PK2A7pump"
+    },
+    {
+        "symbol": "pcorn",
+        "id": "popcorn-meme",
+        "name": "Popcorn",
+        "solana_contract_address": "Ee4n93iv9vtY8cYcUEqFCpBtmCq1ZMKR3pLzPQsmDMY5"
+    },
+    {
+        "symbol": "retardia",
+        "id": "retardia",
+        "name": "RETARDIA",
+        "solana_contract_address": "7RrLheV7dSecVka3MfjYb4Wa6Z6uegNyzhpFeERsfFZP"
+    },
+    {
+        "symbol": "doe",
+        "id": "dogs-of-elon",
+        "name": "Dogs of Elon",
+        "solana_contract_address": "2FKMWYwr17j7AHexcgcQbn5gwZTsYR86qBPrU1BHpump"
+    },
+    {
+        "symbol": "todd",
+        "id": "todd",
+        "name": "todd",
+        "solana_contract_address": "CK7UwtyYTo4CmBohCF9RhF6mCNDxnLMcZsCqouP9pump"
+    },
+    {
+        "symbol": "btcwiz",
+        "id": "bitcoin-wizard-mascot",
+        "name": "Bitcoin Wizard Mascot",
+        "solana_contract_address": "GiSC3EA7C2kZwESb53cJybcmeRRExM4gqzV5UTz9pump"
+    },
+    {
+        "symbol": "mind",
+        "id": "mindcoin-2",
+        "name": "MindCoin",
+        "solana_contract_address": "AXyd5cZqJDYRoN16xcv8s6k41M2kJMfKJnQiXeMd1rCg"
+    },
+    {
+        "symbol": "hawktuah",
+        "id": "hawk-tuah",
+        "name": "Hawk Tuah",
+        "solana_contract_address": "4GFe6MBDorSy5bLbiUMrgETr6pZcjyfxMDm5ehSgpump"
+    },
+    {
+        "symbol": "main",
+        "id": "main-character",
+        "name": "Main Character",
+        "solana_contract_address": "HoCunqcWb8b3PtuX8aPvvF3R2nCmfjmTj32zSgSvpump"
+    },
+    {
+        "symbol": "helia",
+        "id": "starecat",
+        "name": "StareCat",
+        "solana_contract_address": "FZnSMd1hPu5MVgttmtfDZUPN5gcuexvrh3CB67UuQshb"
+    },
+    {
+        "symbol": "achi",
+        "id": "achi",
+        "name": "achi",
+        "solana_contract_address": "4rUfhWTRpjD1ECGjw1UReVhA8G63CrATuoFLRVRkkqhs"
+    },
+    {
+        "symbol": "bill",
+        "id": "bill-the-bear",
+        "name": "Bill the Bear",
+        "solana_contract_address": "5o817YNoR97F1h5suzBghwc8dP53oureRuFbgJiaCFuZ"
+    },
+    {
+        "symbol": "$dream",
+        "id": "dream-machine",
+        "name": "Dream machine",
+        "solana_contract_address": "5iuHLrJ6cx1UHGhbiEomsqUxDNoQ5ytdbU8aC6tZvAB8"
+    },
+    {
+        "symbol": "baby",
+        "id": "baby",
+        "name": "Baby",
+        "solana_contract_address": "5hmf8Jt9puwoqiFQTb3vr22732ZTKYRLRw9Vo7tN3rcz"
+    },
+    {
+        "symbol": "moosk",
+        "id": "elawn-moosk",
+        "name": "Elawn Moosk",
+        "solana_contract_address": "3KroURETdWLyFReapbdh6nTWQgS7Y6rorLY8jb1pJXoM"
+    },
+    {
+        "symbol": "bio/acc",
+        "id": "bio-acceleration",
+        "name": "Bio Acceleration",
+        "solana_contract_address": "7dxQE4YXrWqtwUVb8W8HjfPT3t4H4dWZfsDWRWKupump"
+    },
+    {
+        "symbol": "dyor",
+        "id": "book-of-dyor",
+        "name": "Book of DYOR",
+        "solana_contract_address": "DidjvEEFLk31yEjTkxf6CfNi6RcsUjPS6qHNTVzhApNU"
+    },
+    {
+        "symbol": "mars",
+        "id": "mars-3",
+        "name": "Mars",
+        "solana_contract_address": "EqMuraVKeuEUFsDfRJuqNbyibcDNkYCaBMrzZJJNKAQU"
+    },
+    {
+        "symbol": "duk",
+        "id": "duk-on-sol",
+        "name": "duk",
+        "solana_contract_address": "A2khRbhRJNrAEHj95htivC4cR4VbJwfssDH5FPPbP4m9"
+    },
+    {
+        "symbol": "wally",
+        "id": "wally",
+        "name": "Wally",
+        "solana_contract_address": "AFy7FjjKWhQjyebp1dWoJwKUxiPwop9Y7LDFBcPYpump"
+    },
+    {
+        "symbol": "fiji",
+        "id": "fiji-exe",
+        "name": "FIJI.EXE",
+        "solana_contract_address": "A9e6JzPQstmz94pMnzxgyV14QUqoULSXuf5FPsq8UiRa"
+    },
+    {
+        "symbol": "hobbes",
+        "id": "ansem-s-cat",
+        "name": "Ansem's Cat",
+        "solana_contract_address": "6n7Janary9fqzxKaJVrhL9TG2F61VbAtwUMu1YZscaQS"
+    },
+    {
+        "symbol": "chipi",
+        "id": "chipi",
+        "name": "CHIPI",
+        "solana_contract_address": "chiPiQTvkQ7oPtAD7YLQaEeHmPqXCa2wcRQdwFNneTe"
+    },
+    {
+        "symbol": "dp",
+        "id": "divinely-protected",
+        "name": "Divinely Protected",
+        "solana_contract_address": "GcWVDkoaBWZYW7bBgqCHDiqAmfnwwPxvbusA3s77pump"
+    },
+    {
+        "symbol": "aicat",
+        "id": "aicat",
+        "name": "AICAT",
+        "solana_contract_address": "6W34k5VBA68DXFZPfLz4o8yJgJoiiR4YoQfbtAAZpump"
+    },
+    {
+        "symbol": "ct",
+        "id": "crypto-twitter-2",
+        "name": "Crypto Twitter",
+        "solana_contract_address": "6fUwECXzRQeh2wYuTg3xeQHGt4wSbiUbsdd1PYw3pump"
+    },
+    {
+        "symbol": "maxx",
+        "id": "maxx-2",
+        "name": "Maxx",
+        "solana_contract_address": "F5hXpxtsK7UeFC2gsbiTbyhVrUNXN5JG7xkDqpQfpump"
+    },
+    {
+        "symbol": "time",
+        "id": "time",
+        "name": "TIME",
+        "solana_contract_address": "ED5wbeyAYtLM4WRGnohPxJEwniaikEFioVmJyZH6K31m"
+    },
+    {
+        "symbol": "kirby",
+        "id": "new-baby-elephant-houston-zoo",
+        "name": "New Baby Elephant Houston Zoo",
+        "solana_contract_address": "AXTCLqqupJN3YWikgDtAZxRKWizsbePDyV9XtkDtpump"
+    },
+    {
+        "symbol": "\ud83d\udc08",
+        "id": "cat-emoji-on-solana",
+        "name": "Cat Emoji",
+        "solana_contract_address": "DFwxYdmfLJsPTyrNJCapGadF58Y74e2TFpVAyhbgpump"
+    },
+    {
+        "symbol": "sobull",
+        "id": "sobull-2",
+        "name": "SoBULL",
+        "solana_contract_address": "DBNCHKkwHLkP7TSnaqarXqC3tPhxU6ss7G5kBW6yt1zW"
+    },
+    {
+        "symbol": "whale",
+        "id": "blue-whale-2",
+        "name": "Blue Whale",
+        "solana_contract_address": "kub2QX17qMx6jLuyG5gR4kSmmbiRtvUHt4gxqNd4wZB"
+    },
+    {
+        "symbol": "a16g",
+        "id": "a16gems",
+        "name": "a16gems",
+        "solana_contract_address": "2QQVZpiCicFZM7wKHRvBtnvTxVBLxMtD1SJWbKSLpump"
+    },
+    {
+        "symbol": "dchefsol",
+        "id": "dchef",
+        "name": "DChef",
+        "solana_contract_address": "Eoo3LNvzyMm5K1jfwY7PkSdxBSBgXYJJ7DERTdFBpump"
+    },
+    {
+        "symbol": "army",
+        "id": "army",
+        "name": "ARMY",
+        "solana_contract_address": "ARMYZt71GXq4vw4mtDs5LnEp4ZgwWKEE2CdMU3WNnFEC"
+    },
+    {
+        "symbol": "vs",
+        "id": "vampaire-squid",
+        "name": "vampAIre squid",
+        "solana_contract_address": "GDP2w1MMV2ChbTCDpGTvTC6rdJP8qwZGAKPk8TKpump"
+    },
+    {
+        "symbol": "wizard",
+        "id": "finance-wizard",
+        "name": "Finance Wizard",
+        "solana_contract_address": "AU1rxhY276GepM4bm7VaYrgVPJW7tg4z2MtR2jfPpump"
+    },
+    {
+        "symbol": "monkey",
+        "id": "monkey-2",
+        "name": "Monkey",
+        "solana_contract_address": "921MoB1U7VprQfWw5D37a38LCBgB3nareT7rNffk66BG"
+    },
+    {
+        "symbol": "chonk",
+        "id": "chonk-2",
+        "name": "CHONK",
+        "solana_contract_address": "AT7RRrFhBU1Dw1WghdgAqeNKNXKomDFXm77owQgppump"
+    },
+    {
+        "symbol": "remilia",
+        "id": "remilia",
+        "name": "Remilia",
+        "solana_contract_address": "8wZvGcGePvWEa8tKQUYctMXFSkqS39scozVU9xBVrUjY"
+    },
+    {
+        "symbol": "goo",
+        "id": "silly-goose",
+        "name": "Silly Goose",
+        "solana_contract_address": "GRFKaABC518SqXMvBpAVYUZtVT3Nj4mYk7E7xU4gA5Rg"
+    },
+    {
+        "symbol": "wain",
+        "id": "wain",
+        "name": "wain",
+        "solana_contract_address": "GZT8cXcv2uCvFZFi8gGiryXrTXvLZ9RYkPjRuREypump"
+    },
+    {
+        "symbol": "rugga",
+        "id": "the-rugcoon",
+        "name": "The RugCoon",
+        "solana_contract_address": "2e4hookwoJmyAReeSRcTP5dE4myMnwfVvPSztDrjpump"
+    },
+    {
+        "symbol": "figs",
+        "id": "10-figs",
+        "name": "10 figs",
+        "solana_contract_address": "DpeJ6CkihBJzSNvgMcB9e56NT6Qiu2HL3nAGwYWUJESt"
+    },
+    {
+        "symbol": "$boob",
+        "id": "bookofbullrun",
+        "name": "BookOfBullrun",
+        "solana_contract_address": "BGehTcKraAndWS3B6cq7UVUXQy4uDY49tANEprsTrUo7"
+    },
+    {
+        "symbol": "los",
+        "id": "lord-of-sol",
+        "name": "Lord Of SOL",
+        "solana_contract_address": "44bzge9EZJGPJRYNmsA64mdKZ1eeLdDcDiczRmoyAtez"
+    },
+    {
+        "symbol": "raccoondog",
+        "id": "racoondog",
+        "name": "Raccoon Dog",
+        "solana_contract_address": "GLkCbVHbzbDZ6MzGq3DyKiiEdAVN2U4JXeWp5rspump"
+    },
+    {
+        "symbol": "npc",
+        "id": "npc",
+        "name": "NPC",
+        "solana_contract_address": "Eq39Q9bwTx1YHY5pkHLVeahVA6JYZmmMJ71rPjQek3Hb"
+    },
+    {
+        "symbol": "kiri",
+        "id": "kiri",
+        "name": "KIRI",
+        "solana_contract_address": "3Ei8SaoL4JWZv1XsWePqiAjVtb7QtpJbV2TSuURmpump"
+    },
+    {
+        "symbol": "inbred",
+        "id": "inbred-cat",
+        "name": "Inbred Cat",
+        "solana_contract_address": "EjzzyCSiLqjFDprpZj8e1zjXmcTG5HPGFRSEoWcJWHh9"
+    },
+    {
+        "symbol": "sok",
+        "id": "shoki-2",
+        "name": "shoki",
+        "solana_contract_address": "55KDFPScqeshiKrRENKvncD238n3k1SZqLd7ne1Upump"
+    },
+    {
+        "symbol": "boppy",
+        "id": "boppy",
+        "name": "BOPPY",
+        "solana_contract_address": "2kATD4v94ahnHyB8rHywAdLUwWAWAiDq9heMqmVEpump"
+    },
+    {
+        "symbol": "vcat",
+        "id": "vibing-cat",
+        "name": "Vibing Cat",
+        "solana_contract_address": "VP9UaBXLM4KYRvyjisu65rz8BU5xNAbewU7LVmyU2x4"
+    },
+    {
+        "symbol": "sbae",
+        "id": "salt-bae-for-the-people",
+        "name": "Salt Bae For The People",
+        "solana_contract_address": "BWWWurbodjGbovFetc3FC6oSbqkdoE62E1XqZ7X4pump"
+    },
+    {
+        "symbol": "cctv",
+        "id": "cctv",
+        "name": "CCTV",
+        "solana_contract_address": "G3Kzy6mbETc4AnhL32pLzyR2Tu2U7fRCUdDeBqXJpump"
+    },
+    {
+        "symbol": "uglydog",
+        "id": "ugly-dog",
+        "name": "Ugly Dog",
+        "solana_contract_address": "74Rq6Bmckiq8qvARhdqxPfQtkQsxsqVKCbDQL5PKpump"
+    },
+    {
+        "symbol": "topg",
+        "id": "top-g",
+        "name": "Top G",
+        "solana_contract_address": "8NH3AfwkizHmbVd83SSxc2YbsFmFL4m2BeepvL6upump"
+    },
+    {
+        "symbol": "bwed",
+        "id": "bwed",
+        "name": "BWED",
+        "solana_contract_address": "9H6t1ao2XP2ZeNKRo2gQ3ckrxcUTXgjDmSY1ZB6fpump"
+    },
+    {
+        "symbol": "shr00m",
+        "id": "shr00m",
+        "name": "Shr00m",
+        "solana_contract_address": "Dctsus1FAf1GUJ2mM1TeBL7k1Za7Xk9T34T5vRzvpump"
+    },
+    {
+        "symbol": "pyrate",
+        "id": "pyrate",
+        "name": "PYRATE",
+        "solana_contract_address": "5odbSFH3kKHFNcy6Kai7ykm7Da9B55Kk9wgy4Fh8GSfh"
+    },
+    {
+        "symbol": "chulo",
+        "id": "papichulo",
+        "name": "Papichulo",
+        "solana_contract_address": "GDH5e33UuoJYkCcsyMBJ1VLtezPZ1hZXq6iVW4ADGGKf"
+    },
+    {
+        "symbol": "spunk",
+        "id": "punk-3",
+        "name": "PUNK",
+        "solana_contract_address": "F7MqYKZ5ZqAkUu8L6B5vMuzWLkaKCDNSexGMmCmM5o3W"
+    },
+    {
+        "symbol": "dollar",
+        "id": "dollar-2",
+        "name": "Dollar",
+        "solana_contract_address": "5AnPDx9GposBi9jSW2dFfE5QQD3FmXbudoquMNDxpump"
+    },
+    {
+        "symbol": "ponk",
+        "id": "ponk-2",
+        "name": "PONK",
+        "solana_contract_address": "2GMEDWxPhdBicySMjUky49UHgXutxQ8SJjWyrcKPpump"
+    },
+    {
+        "symbol": "babypurpe",
+        "id": "baby-purple-pepe",
+        "name": "Baby Purple Pepe",
+        "solana_contract_address": "Ej9jJDCD85mZysgorrY582Vpv7HLgDyi7Fa2jRCjgscZ"
+    },
+    {
+        "symbol": "egg",
+        "id": "justanegg-2",
+        "name": "JustAnEgg",
+        "solana_contract_address": "wo1zgt8rfrYpvdVi4nidoj1SYfcR4pQx69bmNv2JLhQ"
+    },
+    {
+        "symbol": "$frank",
+        "id": "frankfrankfrank",
+        "name": "Frankfrankfrank",
+        "solana_contract_address": "AYhFJk9ZyKN5aCRwrG78iTvuxnrrLp5q4fGfyBM7pump"
+    },
+    {
+        "symbol": "toga",
+        "id": "toga",
+        "name": "TOGA",
+        "solana_contract_address": "4T54PGF4gAU75NL9j2GHvrVbR6u5zjyJE4zGuJbkpump"
+    },
+    {
+        "symbol": "sydney",
+        "id": "sydney",
+        "name": "Sydney",
+        "solana_contract_address": "CUzSRjBvqFFq45mg6j9oyQrDxyUTHEKM2xqKzDkZpump"
+    },
+    {
+        "symbol": "fely",
+        "id": "fely",
+        "name": "Fely",
+        "solana_contract_address": "6NKqYaVGC7H5cyKekgPMeHrb1REEXGEeBcpxqWc2g8nc"
+    },
+    {
+        "symbol": "pussy",
+        "id": "we-love-pussy",
+        "name": "We Love Pussy",
+        "solana_contract_address": "9W8ZfTMtQS7iXxiMhMyLN4oqciv92py6td2mTixLpump"
+    },
+    {
+        "symbol": "catwif",
+        "id": "catwifhat-3",
+        "name": "CatWifHat",
+        "solana_contract_address": "Avb1PBRudW7uUV9MqTUqfZ3EZTDvNkKS63W3wyPseudf"
+    },
+    {
+        "symbol": "smr",
+        "id": "strategic-meme-reserve",
+        "name": "Strategic Meme Reserve",
+        "solana_contract_address": "3Z2YCECRR2U3GEDc6yVDG2cpgqG2X7Hqefc7sACApump"
+    },
+    {
+        "symbol": "twurtle",
+        "id": "twurtle-the-turtle",
+        "name": "Twurtle the turtle",
+        "solana_contract_address": "EWx3xDR76YfxF3VHwTLgwU9WYrwANw3yxX5vvk8Kpump"
+    },
+    {
+        "symbol": "work",
+        "id": "work",
+        "name": "WORK",
+        "solana_contract_address": "F7Hwf8ib5DVCoiuyGr618Y3gon429Rnd1r5F9R5upump"
+    },
+    {
+        "symbol": "myra",
+        "id": "myra",
+        "name": "Myra",
+        "solana_contract_address": "H1aN3vcvB68eaFPbMkoAss3vnfi4AhP5C2dpnrZzdBc7"
+    },
+    {
+        "symbol": "chinau",
+        "id": "chinau",
+        "name": "Chinau",
+        "solana_contract_address": "CkAtD6EBUjryNJfX9Y9MxC4VKoXUrZG5Xep7juDPj3aY"
+    },
+    {
+        "symbol": "bitcat",
+        "id": "bitcat",
+        "name": "Bitcat",
+        "solana_contract_address": "BSkz8QHwk1DaT3Dcf1L5vWsCRzgrfrLR3qYmwSt1rtUM"
+    },
+    {
+        "symbol": "long",
+        "id": "nobiko-coin",
+        "name": "Nobiko Coin",
+        "solana_contract_address": "AYABiqKuTh9Va5Aqc6AujFevHwDGmECGQiFmKW5g3K4Z"
+    },
+    {
+        "symbol": "benji",
+        "id": "taylor-swift-s-cat",
+        "name": "Taylor Swift's Cat Benji",
+        "solana_contract_address": "CPjDhhBpwEsLygNuczKcNwBPgMeni1xLomD48x51MyYU"
+    },
+    {
+        "symbol": "marie",
+        "id": "marie-rose-ai",
+        "name": "Marie Rose AI",
+        "solana_contract_address": "7u9kr8ZCHnkeS2n46jVuyq6tUegAtaCUM52AQ1iARKP3"
+    },
+    {
+        "symbol": "early",
+        "id": "imnotwrongimearly",
+        "name": "imnotwrongimearly",
+        "solana_contract_address": "5a5iV4jTaxyPP4mMeeRfZStz6tYQ65p2CKTNygdRpump"
+    },
+    {
+        "symbol": "waa",
+        "id": "waa",
+        "name": "WAA",
+        "solana_contract_address": "C4jMVM797K2FqzbwxJn4TdPyuVhso7kCUu7UXRfjpump"
+    },
+    {
+        "symbol": "crying",
+        "id": "crying-cat",
+        "name": "Crying Cat",
+        "solana_contract_address": "Ep5tnKTSkLDeQ12ctS3RhQNcbcApkcyJcGPgHh4dpump"
+    },
+    {
+        "symbol": "enki",
+        "id": "enki",
+        "name": "ENKI",
+        "solana_contract_address": "7w262p5X3tz63h563aovD8ZvbtTV1ckEHFfKrgrypump"
+    },
+    {
+        "symbol": "rocky",
+        "id": "rocky-the-dog",
+        "name": "Rocky the dog",
+        "solana_contract_address": "4icEZCrEYNop2ZaMMCkRHaNzkt6xG9BpijMCQV7mpw6Z"
+    },
+    {
+        "symbol": "beta",
+        "id": "beta-trader",
+        "name": "Beta Trader",
+        "solana_contract_address": "A6jBzMFsrxGEi2s8SDejWHojGu2j2RF7LvwTD2NTpump"
+    },
+    {
+        "symbol": "frug",
+        "id": "frug",
+        "name": "FRUG",
+        "solana_contract_address": "GmTH6V13rHVXeNdmDfh7VQeS2Lj9YWRKT5XjDEA2pump"
+    },
+    {
+        "symbol": "alpaca",
+        "id": "alpaca-2",
+        "name": "Alpaca",
+        "solana_contract_address": "FfgtU4bMte3JRZGX7kcNVywxiGoSqUTga8eZxTSFpump"
+    },
+    {
+        "symbol": "curly",
+        "id": "curly",
+        "name": "Curly",
+        "solana_contract_address": "4gWDfyqELKDoVv1xv3NczHEpMgWDg5kDXZMHmvsypump"
+    },
+    {
+        "symbol": "$blood",
+        "id": "blood-2",
+        "name": "BLOOD",
+        "solana_contract_address": "FmmEZCz8JEQP2RsueVV2XNGdTHt8RQMQH6mjjFWAJyAP"
+    },
+    {
+        "symbol": "wealth",
+        "id": "generational-wealth-3",
+        "name": "Generational Wealth",
+        "solana_contract_address": "GFRxeCdpomjJaYQEuwPDAPghyBD3H9zqnWY2HJPjpump"
+    },
+    {
+        "symbol": "seal",
+        "id": "seal-sol",
+        "name": "Seal",
+        "solana_contract_address": "3B3Zfs7eb46Re9GHWv6ccYRSBGy5EvQF2i2VXMD6tge6"
+    },
+    {
+        "symbol": "$acat",
+        "id": "apple-cat",
+        "name": "Apple Cat",
+        "solana_contract_address": "acatzTjUeHDT3SoufN6NMxGUmBFtoqFHnFwusdw8kYX"
+    },
+    {
+        "symbol": "pfire",
+        "id": "pepe-on-fire",
+        "name": "Pepe On Fire",
+        "solana_contract_address": "PFireKhT5WG7axMSLBmMRpvYH7cgHx9CRWHU8F8HNbr"
+    },
+    {
+        "symbol": "jungle",
+        "id": "jungledoge",
+        "name": "JungleDoge",
+        "solana_contract_address": "9P32yqucXfZnDoXmmJNzBpqXQgfou4tA4sB1RaQh9cYw"
+    },
+    {
+        "symbol": "knu",
+        "id": "keanu",
+        "name": "Keanu",
+        "solana_contract_address": "A88EaDaxmui6kGAy9MqEhLSpx1Ds4bHcPeK3kNVXpump"
+    },
+    {
+        "symbol": "bossie",
+        "id": "bossie",
+        "name": "Bossie",
+        "solana_contract_address": "CXqF4X3dBWrrtv3vUN8f2W9tmC4A7PFTryNFKrdHNDox"
+    },
+    {
+        "symbol": "ikigai",
+        "id": "ikigai",
+        "name": "Ikigai",
+        "solana_contract_address": "2ggn9cSrL3HyUudaNbB8PzjPkK5WEidK2MyapbnMBgA5"
+    },
+    {
+        "symbol": "pixi",
+        "id": "pixi",
+        "name": "Pixi",
+        "solana_contract_address": "FtHCi9cxJSSizrzMzsPjAfTfJi32V1CGRDM5Skqn4QBF"
+    },
+    {
+        "symbol": "x",
+        "id": "legacy-media-killer",
+        "name": "Legacy Media Killer",
+        "solana_contract_address": "3KAeVfDbU6tZxSD2kqz3Pz6B6f42CW3FdA89GUZ8fw23"
+    },
+    {
+        "symbol": "greg",
+        "id": "greg16676935420",
+        "name": "greg16676935420",
+        "solana_contract_address": "zZRRHGndBuUsbn4VM47RuagdYt57hBbskQ2Ba6K5775"
+    },
+    {
+        "symbol": "me",
+        "id": "literally-me",
+        "name": "Literally Me",
+        "solana_contract_address": "4Y47LEufvcSSSbTFojcvW4Y6x2KZXrqG2urNBSvHpump"
+    },
+    {
+        "symbol": "skill",
+        "id": "skill-issue",
+        "name": "Skill Issue",
+        "solana_contract_address": "7crBW2CjnJGm56UVS2VRQydPSUyAcKkhRbM1F9kDpump"
+    },
+    {
+        "symbol": "$1",
+        "id": "1-dollar-sol-coin",
+        "name": "$1",
+        "solana_contract_address": "4UTEFQjNMvfQF5NT8mVfXdMAKoL7hS7i9U4mMVAzpump"
+    },
+    {
+        "symbol": "aqua",
+        "id": "aquathecoin",
+        "name": "Aquathecoin",
+        "solana_contract_address": "5mXAnC2LWxvNF6und1Mokrv4WnPDP9uxzRsyWATYpump"
+    },
+    {
+        "symbol": "jinx",
+        "id": "jinx",
+        "name": "JINX",
+        "solana_contract_address": "B4eppPm1Dj5Nd7KsN1cdJfQgWSSqqSfi9BsNZYkUkXm2"
+    },
+    {
+        "symbol": "daw",
+        "id": "dawkoin",
+        "name": "Dawkoins",
+        "solana_contract_address": "7cb67ev3jvBKaAH1tnVM8FL8WfQ96sa2TYByEXajqx8N"
+    },
+    {
+        "symbol": "si",
+        "id": "sealwifhat",
+        "name": "sealwifhat",
+        "solana_contract_address": "Fxgdfsy1Z5Mvh53o69s2Ev6TGxtAJ1RQ5RJ5moCpKmQZ"
+    },
+    {
+        "symbol": "vivek",
+        "id": "head-of-d-o-g-e-2",
+        "name": "Head of D.O.G.E",
+        "solana_contract_address": "5t3hBZDnxksnWiUu1jw42rq4b7h3VCSXUSTEojHDpump"
+    },
+    {
+        "symbol": "liqq",
+        "id": "liquidated",
+        "name": "LIQUIDATED",
+        "solana_contract_address": "BoisYJqhMhgpD5291J6HRC3u1jeDkF8uSLyFy3fKb5o5"
+    },
+    {
+        "symbol": "cyborgism",
+        "id": "cyborgism",
+        "name": "Cyborgism",
+        "solana_contract_address": "8X7emJy8CV5pK7UjyBKCywdfc4MTKShpUddqrqyepump"
+    },
+    {
+        "symbol": "babysol",
+        "id": "baby-solana",
+        "name": "Baby Solana",
+        "solana_contract_address": "54meDtup2K7pqyhUK24AymoLzMPtrkhNTbEzQ6gSpump"
+    },
+    {
+        "symbol": "bbc",
+        "id": "blue-butt-cheese",
+        "name": "Blue Butt Cheese",
+        "solana_contract_address": "CmAtKbUSM2HErtaQmonrxiV7qXo3mDganWw9KEimbutt"
+    },
+    {
+        "symbol": "maya",
+        "id": "maya",
+        "name": "Maya",
+        "solana_contract_address": "25x9Av7ddPJQFVJy512VzzQ96A2Tqza22LtfHTKCpump"
+    },
+    {
+        "symbol": "punk3493",
+        "id": "punk3493",
+        "name": "PUNK3493",
+        "solana_contract_address": "EG1Y8goUGa7y4iRYRgLgwBmSHc4Lxc91qL35cdDNBiRc"
+    },
+    {
+        "symbol": "power",
+        "id": "power-the-baby-white-rhino",
+        "name": "Power The Baby White Rhino",
+        "solana_contract_address": "JC1WWYCZEppkGt74p9rkYhQc8Tt1BJLcpssWYUEQpump"
+    },
+    {
+        "symbol": "poowel",
+        "id": "joram-poowel",
+        "name": "JORAM POOWEL",
+        "solana_contract_address": "BHcPVARUJEV3rCAmbLgRm7QPmZotsCcHcKWwzvCSAHJi"
+    },
+    {
+        "symbol": "tuki",
+        "id": "tuki",
+        "name": "tuki",
+        "solana_contract_address": "9fEXUmPnDJYAXpoZ9nWi1gQZPwzVKdf8g9fYXW6Epump"
+    },
+    {
+        "symbol": "jownes",
+        "id": "alux-jownes",
+        "name": "Alux Jownes",
+        "solana_contract_address": "8m9fjYycXAFva1kScttQgsESVZT7yELhjZASqfHBuMa5"
+    },
+    {
+        "symbol": "bobe",
+        "id": "book-of-billionaires",
+        "name": "BOOK OF BILLIONAIRES",
+        "solana_contract_address": "VvgeRQNHRHdYubKC9K2GN567LXTzSVcB7mpu7b1VF4r"
+    },
+    {
+        "symbol": "ballz",
+        "id": "wolfwifballz",
+        "name": "WolfWifBallz",
+        "solana_contract_address": "9ZMEz6nmr4RWs92ASFKxFGfKpWw8cbUp2ZP3EhdqwWPr"
+    },
+    {
+        "symbol": "frog",
+        "id": "frog-4",
+        "name": "Frog",
+        "solana_contract_address": "sm6LoSiRQLM28rMgcd8GtR5XBkZFMEYXgEUgwCxpump"
+    },
+    {
+        "symbol": "borpa",
+        "id": "borpa",
+        "name": "Borpa",
+        "solana_contract_address": "Bv2ajiWdngTyRFabXCKiwGDJh5SEfJwoRPkkTQ2uf6EE"
+    },
+    {
+        "symbol": "$jim",
+        "id": "naked-jim",
+        "name": "Naked Jim",
+        "solana_contract_address": "jimBqijNp9yZwgMmxFaLECr5rFypPGZQNEqL9YU4UjT"
+    },
+    {
+        "symbol": "killa",
+        "id": "the-bitcoin-killa",
+        "name": "The Bitcoin Killa",
+        "solana_contract_address": "BPUDuDxG2xyeKyDQ3bqDyPvTmCjXado5ETcGKV1wKhhC"
+    },
+    {
+        "symbol": "bob",
+        "id": "bob-the-snek",
+        "name": "Bob the Snek",
+        "solana_contract_address": "2CzW1Z6zGqvVHTfF9yeKFsgR5Swq6D2ySETXHTiWpump"
+    },
+    {
+        "symbol": "bitcorn",
+        "id": "bitcorn-2",
+        "name": "Bitcorn",
+        "solana_contract_address": "F76Go1TqbZwnG17BhbQMovEJQHnmXuBBHAjGd3v1pump"
+    },
+    {
+        "symbol": "fur",
+        "id": "fur-nancial-advisor",
+        "name": "Fur-nancial advisor",
+        "solana_contract_address": "DQc6FTgu2HiB1PMUkHj8SATCtxsCeeMz5hiaqwk1pump"
+    },
+    {
+        "symbol": "bwull",
+        "id": "bwull",
+        "name": "Bwull",
+        "solana_contract_address": "ke7MBNmmhXDegLgAbaVboquYiPYb1SagGpSazDapump"
+    },
+    {
+        "symbol": "cmonk",
+        "id": "crazy-monkey",
+        "name": "Crazy Monkey",
+        "solana_contract_address": "66nX8FmWEENXLUMx5oq3rCiktMHVsEdaVbVEL6FBW5dh"
+    },
+    {
+        "symbol": "babypnut",
+        "id": "baby-pnut",
+        "name": "Baby Pnut",
+        "solana_contract_address": "z9ysNwXCYrh4xXRyQG9ujWqxNrdcChoicoJA9ebd7iF"
+    },
+    {
+        "symbol": "1%",
+        "id": "1-percent",
+        "name": "1%",
+        "solana_contract_address": "3dwu2tw7kBFZvWEdJMbPCGm7MBwgziABChLV1kGspump"
+    },
+    {
+        "symbol": "schizo",
+        "id": "schizo",
+        "name": "SCHIZO",
+        "solana_contract_address": "8sWKTMrh9bWUrvykK4H3jzEzGbEqvJNpS2f7joYKpump"
+    },
+    {
+        "symbol": "stacy",
+        "id": "giga-stacy",
+        "name": "Giga Stacy",
+        "solana_contract_address": "6q387cQFB2bobtdJGAMVVW5NoVL94KKmHXmEPgwUpump"
+    },
+    {
+        "symbol": "comfy",
+        "id": "socomfy",
+        "name": "SOCOMFY",
+        "solana_contract_address": "FbJpd8yhrGGkWVL1Ujf7qFvTw4uD4675k8CYk82LEKvZ"
+    },
+    {
+        "symbol": "stoic",
+        "id": "stoicism",
+        "name": "stoicism",
+        "solana_contract_address": "8TzfHZa6ZnvvGsQfnFC5wGrCiqbN9nD2KMjyabfrpump"
+    },
+    {
+        "symbol": "charlie",
+        "id": "charlie-2",
+        "name": "Charlie",
+        "solana_contract_address": "22smSdhoAo5KhmXx9Y6WoSSgKtguzaJ3EFJSMW2Tk7Pj"
+    },
+    {
+        "symbol": "mona",
+        "id": "mona-cat",
+        "name": "Mona",
+        "solana_contract_address": "Bt9tUAuuoJTihrLvgK1kWErBJduaGEeQbF2VhAPHtYm4"
+    },
+    {
+        "symbol": "discipline",
+        "id": "discipline",
+        "name": "DISCIPLINE",
+        "solana_contract_address": "BkuhUp224bBip4BS5mLMLG781dxDzFJGc3QPQfDDpump"
+    },
+    {
+        "symbol": "solo",
+        "id": "solordi",
+        "name": "Solordi",
+        "solana_contract_address": "J8cKU4pD2NTSovvV5XghWHQiJy5TTEzgSyozorxz6ax8"
+    },
+    {
+        "symbol": "tilly",
+        "id": "a16z-ai-dog",
+        "name": "a16z AI Dog",
+        "solana_contract_address": "HuiVprCHCucHUb5bX6EXFJd7wuwvdASFzzge4ahXpump"
+    },
+    {
+        "symbol": "malakai",
+        "id": "malakai",
+        "name": "Malakai",
+        "solana_contract_address": "BAmHS42JqR51sZ6oqPhj4pcqi6dFFYDka77P4Q22pump"
+    },
+    {
+        "symbol": "$sniff",
+        "id": "sniff",
+        "name": "SNIFF",
+        "solana_contract_address": "4oaV94McVveRosSgdZTn3jkMpr1ge7SQZjwBZ7xG6oA7"
+    },
+    {
+        "symbol": "apes",
+        "id": "apes-2",
+        "name": "APES",
+        "solana_contract_address": "984GBL7PhceChtN64NWLdBb49rSQXX7ozpdkEbR1pump"
+    },
+    {
+        "symbol": "fred",
+        "id": "first-convicted-raccoon",
+        "name": "First Convicted Raccoon",
+        "solana_contract_address": "APMrwq6jxn3yvHJ7BWsitpMjZV14MCzgno8pEHzgpump"
+    },
+    {
+        "symbol": "nml",
+        "id": "no-mans-land",
+        "name": "No Mans Land",
+        "solana_contract_address": "AmcVWyNPMHF3dxmGSQun8wgWdRwKD7t6VcjBQDHwpump"
+    },
+    {
+        "symbol": "chikun",
+        "id": "chikun-litecoin-mascot",
+        "name": "Chikun Litecoin Mascot",
+        "solana_contract_address": "J252vEBJq8iABpPqAz9M7AYn6y6F3FoEssjXwF81pump"
+    },
+    {
+        "symbol": "bonk2.0",
+        "id": "bonk-2-0-sol",
+        "name": "Bonk 2.0 (Sol)",
+        "solana_contract_address": "6yiDKPDbqWLGAEBkDvVg6UNrKsLsPVkLbA1TJo4KCdzP"
+    },
+    {
+        "symbol": "birb",
+        "id": "birb-3",
+        "name": "birb",
+        "solana_contract_address": "2EBjqPYGLUExdWwJJRLqtGPawzb2aMjE1wTpUYKhy2UQ"
+    },
+    {
+        "symbol": "gato",
+        "id": "el-gato-3",
+        "name": "EL GATO",
+        "solana_contract_address": "G7BJzg55Afx6Tn6J9CJfA444jMf6QJbVjgQAevNTpump"
+    },
+    {
+        "symbol": "nugget",
+        "id": "gegagedigedagedago",
+        "name": "Gegagedigedagedago",
+        "solana_contract_address": "NUGuzrXB5JwxBAhTP8QHa8aiNBN8suoWiN7wiRppRty"
+    },
+    {
+        "symbol": "kama",
+        "id": "kamala-horris",
+        "name": "Kamala Horris",
+        "solana_contract_address": "HnKkzR1YtFbUUxM6g3iVRS2RY68KHhGV7bNdfF1GCsJB"
+    },
+    {
+        "symbol": "$yumi",
+        "id": "yumi",
+        "name": "Yumi",
+        "solana_contract_address": "9VBhKuR9DxDP1wQCi9MPFY5q8fkYb62CPUYpx4Gppump"
+    },
+    {
+        "symbol": "ufo",
+        "id": "ufopepe",
+        "name": "UFOPEPE",
+        "solana_contract_address": "99myne1mVnsSv2kAkzZDfNnwf5Xb4SASJnaCRXdbpump"
+    },
+    {
+        "symbol": "xmusk",
+        "id": "merry-christmusk",
+        "name": "Merry Christmusk",
+        "solana_contract_address": "6PfemVoW14xgFywcnhc9zrAW9hV8gGZKCTSe3Ns3pump"
+    },
+    {
+        "symbol": "nose",
+        "id": "let-me-do-it-for-you",
+        "name": "Let me do it for you",
+        "solana_contract_address": "7JKRJxWihe6Pt22L9vudAGaomD9ViXiZgXdk4v4kpump"
+    },
+    {
+        "symbol": "$louie",
+        "id": "louie-the-raccoon",
+        "name": "Louie the Raccoon",
+        "solana_contract_address": "BprPz3BbG5dDqLoY1qYqnSadTEas54E5bi5MbyLAZr1x"
+    },
+    {
+        "symbol": "coco",
+        "id": "surfing-coco",
+        "name": "Surfing Coco",
+        "solana_contract_address": "Cocouo2otHPBSov5KCjqGmqQC4MvxY7iZ9qWnu23y88o"
+    },
+    {
+        "symbol": "meme",
+        "id": "mpx6900",
+        "name": "MPX6900",
+        "solana_contract_address": "39Mzpdw7NDGiXmZZGWiCdR6Nzoc7muWuYkPsVDV4pump"
+    },
+    {
+        "symbol": "koi",
+        "id": "koi",
+        "name": "KOI",
+        "solana_contract_address": "6fdCC8xfrXNy6PmNaVcxdEY5XNCTAha2V54zYYnmBCey"
+    },
+    {
+        "symbol": "heheh",
+        "id": "heheh",
+        "name": "heheh",
+        "solana_contract_address": "8Q9VDdrd1rNczTEL3ivPhwsYrYXVuSAdHuY7gFJGpump"
+    },
+    {
+        "symbol": "rogen",
+        "id": "jeo-rogen",
+        "name": "jeo rogen",
+        "solana_contract_address": "DtgDZb83TqywcuBuWE89jx4k5Y7b6nQ4GYJq3Wd61JQQ"
+    },
+    {
+        "symbol": "freecz",
+        "id": "freecz",
+        "name": "FreeCZ",
+        "solana_contract_address": "7YbHBageaxpyR8jBFtzCqofTetZkZjouQPhgVPKJ8Fwx"
+    },
+    {
+        "symbol": "zazu",
+        "id": "zazu",
+        "name": "ZAZU",
+        "solana_contract_address": "n7EksMkvk3WT5FjQ3HBMLm9XYU3EnoXUSJ7PoWpxsoG"
+    },
+    {
+        "symbol": "crunch",
+        "id": "crunchcat",
+        "name": "Crunchcat",
+        "solana_contract_address": "9iVJR1tjDgNHw88xtXXGaU2We2fR8qEm75ZSgztqDkag"
+    },
+    {
+        "symbol": "doky",
+        "id": "donkey-king",
+        "name": "Donkey King",
+        "solana_contract_address": "5Rs53fY3q4t4mLk9zBQ45cVNgF1RH7NqRNXiP6Pa5rYH"
+    },
+    {
+        "symbol": "beluga",
+        "id": "beluga-cat",
+        "name": "Beluga Cat",
+        "solana_contract_address": "E63CDwLy9Dwr3EptAzopV9RuWoQnn5ZVYEjLWnJX8dCw"
+    },
+    {
+        "symbol": "gm",
+        "id": "good-martian",
+        "name": "Good Martian",
+        "solana_contract_address": "HLZogHeVWkcwqioc1Srgdi3xuDDARcXWYcqo12DCpump"
+    },
+    {
+        "symbol": "king",
+        "id": "king-2",
+        "name": "KING Coin",
+        "solana_contract_address": "9noXzpXnkyEcKF3AeXqUHTdR59V5uvrRBUZ9bwfQwxeq"
+    },
+    {
+        "symbol": "kotaro",
+        "id": "kotaro",
+        "name": "Kotaro",
+        "solana_contract_address": "8MmHXuCSKVGVn5KeioqJyotHSfF31EZDpUQGVhGCpump"
+    },
+    {
+        "symbol": "punch",
+        "id": "punching-cat",
+        "name": "Punching Cat",
+        "solana_contract_address": "Aaku3Vy5m3eBXXcogGQzvhKNJzWEGMcfosQUVyiN82LF"
+    },
+    {
+        "symbol": "graf",
+        "id": "smoking-giraffe",
+        "name": "Smoking Giraffe",
+        "solana_contract_address": "9EL3CHVQS3nwUFhyVT7AGbttRsbJ5UE8Qjnw5ZAtkUhr"
+    },
+    {
+        "symbol": "wap",
+        "id": "wap",
+        "name": "WAP",
+        "solana_contract_address": "Bz7vVzQhm2KMW1XgcrDruYega1MiwrAs1DQysrx4tFkp"
+    },
+    {
+        "symbol": "cedar",
+        "id": "cedar-the-goat",
+        "name": "Cedar the Goat",
+        "solana_contract_address": "BD3zHHcK6aqz1RVBawMyhp5DfXFaDYaBXzwBH8cEpump"
+    },
+    {
+        "symbol": "kwif",
+        "id": "kitten-wif-hat",
+        "name": "Kitten Wif Hat",
+        "solana_contract_address": "6Rwcmkz9yiYVM5EzyMcr4JsQPGEAWhcUvLvfBperYnUt"
+    },
+    {
+        "symbol": "fight",
+        "id": "fight",
+        "name": "FIGHT",
+        "solana_contract_address": "KMnDBXcPXoz6oMJW5XG4tXdwSWpmWEP2RQM1Uujpump"
+    },
+    {
+        "symbol": "motion",
+        "id": "motion-coin",
+        "name": "Motion Coin",
+        "solana_contract_address": "Uiupt55owCqBJdunYQxyYf48KRMU4F53xQAyf31dpzx"
+    },
+    {
+        "symbol": "tonic",
+        "id": "tonic",
+        "name": "Tonic",
+        "solana_contract_address": "2XsexjLapEenZobsrqXWZsDga4nNU7XmoW48NgWoGzht"
+    },
+    {
+        "symbol": "catvax",
+        "id": "catvax",
+        "name": "Catvax",
+        "solana_contract_address": "EVDoPXkWNRMc7fQirg7emNdc17KNqsCyzVi4mWPmDvni"
+    },
+    {
+        "symbol": "mongy",
+        "id": "mongy",
+        "name": "Mongy",
+        "solana_contract_address": "FsBPYiGZ4bhUxVSPP7XPJYfTPm5PsLJc2WGZaFaDpump"
+    },
+    {
+        "symbol": "wizzie",
+        "id": "wizzie",
+        "name": "WIZZIE",
+        "solana_contract_address": "ENzKWXSXdn7Z1sMk1cL7TZmtmnbt7Lney5tK2QSWpump"
+    },
+    {
+        "symbol": "jewels",
+        "id": "jewels-da-goat",
+        "name": "Jewels Da Goat",
+        "solana_contract_address": "EFY8GToe4HrmpYrRpfRUgNEPmfVnUbZrsUhd2mJQpump"
+    },
+    {
+        "symbol": "scrat",
+        "id": "scrat",
+        "name": "Scrat",
+        "solana_contract_address": "3GEznP41VaAGv9yRdBiuYdA8zkffNc8b7DzNJgFbH4Kh"
+    },
+    {
+        "symbol": "croc",
+        "id": "croc-cat",
+        "name": "croc cat",
+        "solana_contract_address": "5V9qpFo8NMFyhYHbrqY2c1TJrvzZSnRJAdj4ryPVB18n"
+    },
+    {
+        "symbol": "daboo",
+        "id": "daboo",
+        "name": "Daboo",
+        "solana_contract_address": "9DNYFn5fMTkFq9Tr92ByvF9vEC49X2cB4Z1PabDnfEYi"
+    },
+    {
+        "symbol": "spoody",
+        "id": "spodermen",
+        "name": "Spodermen",
+        "solana_contract_address": "8Nd3TZJfxt9yYKiPiPmYp6S5DhLftG3bwSqdW3KJwArb"
+    },
+    {
+        "symbol": "if",
+        "id": "wat-if",
+        "name": "wat if",
+        "solana_contract_address": "B2oEUCmCGktPXPkQEzFTPYjnWpUPCotqzaT2eoPopump"
+    },
+    {
+        "symbol": "spike",
+        "id": "spike",
+        "name": "Spike",
+        "solana_contract_address": "BX9yEgW8WkoWV8SvqTMMCynkQWreRTJ9ZS81dRXYnnR9"
+    },
+    {
+        "symbol": "king",
+        "id": "king-3",
+        "name": "KING",
+        "solana_contract_address": "HV2tLSVHRk3Yx76GsR6dGRTsebbkJJyY4ujhLAyf9T7E"
+    },
+    {
+        "symbol": "jin",
+        "id": "jinpeng",
+        "name": "JinPeng",
+        "solana_contract_address": "GgzJWhQWTpv2VHqvJnx5uEWQzNkfQSncDEWUdgQk4fvh"
+    },
+    {
+        "symbol": "wbs",
+        "id": "white-boy-summer",
+        "name": "White Boy Summer",
+        "solana_contract_address": "GJgHsc1HU4ibmzW6oWQr8L2RRT95ATc1BoNuLkp94AwU"
+    },
+    {
+        "symbol": "shuffle",
+        "id": "trump-shuffle",
+        "name": "Trump Shuffle",
+        "solana_contract_address": "DueNdyyx5a1ZMeaZr5kSSK3BjM5ADnDmhnD8ya4R8pGE"
+    },
+    {
+        "symbol": "bif",
+        "id": "bonkwifhat",
+        "name": "bonkwifhat",
+        "solana_contract_address": "BgQ2Tj4y4YQume4guQrkK8RWB8oRQtHYtAta1tXubL1G"
+    },
+    {
+        "symbol": "bul",
+        "id": "bul",
+        "name": "bul",
+        "solana_contract_address": "8RGy4BZUEkW9dc2UEZ3QHYYdas66X63vazdZJezGJw5e"
+    },
+    {
+        "symbol": "$landlord",
+        "id": "landlord-roland",
+        "name": "Landlord Ronald",
+        "solana_contract_address": "43uhykFm8Y9gLvHrWs7r7w1HCKu6vikDi7j394FaSfNz"
+    },
+    {
+        "symbol": "dotz",
+        "id": "dotz",
+        "name": "DOTZ",
+        "solana_contract_address": "6m19zvNWYbXS9Y1LhFc1LFXqecE2eErRrR5uNrgbV6Y1"
+    },
+    {
+        "symbol": "socks",
+        "id": "socks",
+        "name": "SOCKS",
+        "solana_contract_address": "3DFU4Z2N2Uyh5KxU9xgKM2u5LsPYU7m2DVKDoPYuFvEL"
+    },
+    {
+        "symbol": "munch",
+        "id": "munch",
+        "name": "Munch",
+        "solana_contract_address": "Ctaoh8SvvHMRkHSjFRLEv1iZnbYuWXcGyXx1s4Emoshh"
+    },
+    {
+        "symbol": "younes",
+        "id": "younes",
+        "name": "YOUNES",
+        "solana_contract_address": "ANAuiz2JjRvNtyW8cd7UsQ4LRWB1PTGhyrgMWPxtpump"
+    },
+    {
+        "symbol": "boosey",
+        "id": "boosey",
+        "name": "BOOSEY",
+        "solana_contract_address": "9W2f1XcQrMqcDpfzXL9kjBtjNwCkpFq27X7eqtBynieS"
+    },
+    {
+        "symbol": "huhcat",
+        "id": "huh-cat",
+        "name": "Huh cat",
+        "solana_contract_address": "6Ra49aqZTbEurJB1UQgAj1TjvbqajGP5um7gsTym8tWm"
+    },
+    {
+        "symbol": "kundalini",
+        "id": "kundalini-is-a-real-girl",
+        "name": "Kundalini is a real girl",
+        "solana_contract_address": "A8h78muegtuonUxqAhpmWcM8pJskYsTW4Xp5C33ipump"
+    },
+    {
+        "symbol": "babygoat",
+        "id": "baby-goatseus-maximus",
+        "name": "Baby Goatseus Maximus",
+        "solana_contract_address": "F4aLcMxQy6CPcXAuER3J5QgB89n4fqBMs2bcrqQBpump"
+    },
+    {
+        "symbol": "first",
+        "id": "first",
+        "name": "FIRST",
+        "solana_contract_address": "GeEbYNsDv6Yen2uXCs4j3vkb6hGnQR94hpRjpEo6a5CE"
+    },
+    {
+        "symbol": "dopamine",
+        "id": "4-2-aminoethyl-benzene-1-2-diol",
+        "name": "4-(2-Aminoethyl)benzene-1,2-diol",
+        "solana_contract_address": "5X742twtV5sf8ZnSWSZ3WhxHgR9wmVeQmvzpnK7Gpump"
+    },
+    {
+        "symbol": "loaf",
+        "id": "loaf-cat",
+        "name": "LOAF CAT",
+        "solana_contract_address": "3de2yRhtD4VbJBb8EQAQffYMPLU4EnSHT1eveBwiL3tn"
+    },
+    {
+        "symbol": "fine",
+        "id": "this-is-fine-2",
+        "name": "This is fine",
+        "solana_contract_address": "BgpZ9cXE2dRMTUPhroffbMQm3q8QTLpRorpHYeJspump"
+    },
+    {
+        "symbol": "sasha",
+        "id": "bitcoin-cat-sol",
+        "name": "Bitcoin Cat",
+        "solana_contract_address": "6WNva7iLjTvxSfXPSmbjceW5Yc41LUH4SJNqKom5pump"
+    },
+    {
+        "symbol": "ks",
+        "id": "kittyspin",
+        "name": "kittyspin",
+        "solana_contract_address": "72LTryHMb1m9j4NEcn673sXkFMXMmHvmB8grYcVspump"
+    },
+    {
+        "symbol": "edse",
+        "id": "eddie-seal",
+        "name": "Eddie Seal",
+        "solana_contract_address": "2Zvo6bnwJtyXhsPgbcfajTrEtB7NwrJhK8mMmtEXvHHc"
+    },
+    {
+        "symbol": "chinu",
+        "id": "chinu-2",
+        "name": "Chinu",
+        "solana_contract_address": "FLrgwxXaX8q8ECF18weDf3PLAYorXST5orpY34d8jfbm"
+    },
+    {
+        "symbol": "yoto",
+        "id": "yotoshi",
+        "name": "Yotoshi",
+        "solana_contract_address": "7SdFACfxmg2eetZEhEYZhsNMVAu84USVtfJ64jFDCg9Y"
+    },
+    {
+        "symbol": "pnut",
+        "id": "pnut",
+        "name": "Pnut",
+        "solana_contract_address": "7jYfnjn3jHWmUhhgfkZ9uUEKroH3Zz1BvF8RmVQHm86D"
+    },
+    {
+        "symbol": "chexbacca",
+        "id": "chexbacca",
+        "name": "CHEXBACCA",
+        "solana_contract_address": "8J5e2FPmBJ1subEUeVkELpeBZv9aYUrMmfHys7sREeXr"
+    },
+    {
+        "symbol": "kfucat",
+        "id": "kung-fucat",
+        "name": "Kung-Fucat",
+        "solana_contract_address": "7DJ8Ufmcm7Mh1HCK7C2ZA4WiCnhocecYeJvAGv8PLdQC"
+    },
+    {
+        "symbol": "mondo",
+        "id": "mondo",
+        "name": "mondo",
+        "solana_contract_address": "3Wp5z1GtPqKwyiaicXa7nyXhBVJJ5JgAwzWXuPXqpump"
+    },
+    {
+        "symbol": "mspc",
+        "id": "meowspace",
+        "name": "MeowSpace",
+        "solana_contract_address": "CRQdQmb9TDmG9FFTPEL9gqDvfyF6HxGaHwiq5eybpump"
+    },
+    {
+        "symbol": "pou",
+        "id": "pou",
+        "name": "Pou",
+        "solana_contract_address": "PouWaap6bHZv1oT7T7rzRgQHTBD4nsWQRHGbB5hfDA6"
+    },
+    {
+        "symbol": "maxwell",
+        "id": "maxwell",
+        "name": "Maxwell",
+        "solana_contract_address": "H84qihes12nVQarr8rzmw87hDXUbHtFKRm5joBcbpump"
+    },
+    {
+        "symbol": "butt",
+        "id": "buttercat",
+        "name": "Buttercat",
+        "solana_contract_address": "3dCCbYca3jSgRdDiMEeV5e3YKNzsZAp3ZVfzUsbb4be4"
+    },
+    {
+        "symbol": "shitcoin",
+        "id": "live-on-toilet-until-50m",
+        "name": "Live On Toilet Until 50M",
+        "solana_contract_address": "5eycqvLdZGfPUFcwsk6pzWJDkq9yAGYXxDP5jJTWpump"
+    },
+    {
+        "symbol": "rollie",
+        "id": "rollie",
+        "name": "ROLLIE",
+        "solana_contract_address": "En63FWtQu8t5gREbFAQtj5z18TQnhmDn1AcFVbmMN3rh"
+    },
+    {
+        "symbol": "prerich",
+        "id": "prerich",
+        "name": "prerich",
+        "solana_contract_address": "32hUYG6DVZ92N9N839D2Hc5bUWGQTSVdYUPNBHNLpump"
+    },
+    {
+        "symbol": "kabosu",
+        "id": "kabosu-on-sol",
+        "name": "Kabosu on SOL",
+        "solana_contract_address": "FJup6BbEBoCeFJZtqW4qcaqABLco5SkV8683do38P9tu"
+    },
+    {
+        "symbol": "doogle",
+        "id": "doogle",
+        "name": "Doogle",
+        "solana_contract_address": "F6TsRcjtLBzkdtZYqjTPVq9WtnwHMMc1WcQguEgCpump"
+    },
+    {
+        "symbol": "bluff",
+        "id": "bluffcat",
+        "name": "BluffCat",
+        "solana_contract_address": "ERuVbcuTrs3UCQ64391JfrpVdv4JLkqABCiZNujxpump"
+    },
+    {
+        "symbol": "phteve",
+        "id": "phteven",
+        "name": "Phteven",
+        "solana_contract_address": "DhRQWsiP53gVXnG8KQwq63Uo1FvouRpVNL8536tsVD5H"
+    },
+    {
+        "symbol": "knight",
+        "id": "fallen-knight",
+        "name": "Fallen Knight",
+        "solana_contract_address": "LVCQ1YmeK6DECKqcwmscyDRxUYJpiGth9ppGKtopump"
+    },
+    {
+        "symbol": "gmeow",
+        "id": "gmeow-cat",
+        "name": "gmeow cat",
+        "solana_contract_address": "A5LCTQ1vJECCQWSXJYs3rfCoexctbUgTCAEKDuNye8bZ"
+    },
+    {
+        "symbol": "santapepe",
+        "id": "santa-pepe",
+        "name": "Santa Pepe",
+        "solana_contract_address": "F9mWjEo9y7KqreRTb1pUL7UZHQXLfoUJpy431jx9imR3"
+    },
+    {
+        "symbol": "cozy",
+        "id": "cozy-pepe",
+        "name": "Cozy Pepe",
+        "solana_contract_address": "cozyLxNaoJvQ3KB5dCJdu7MoZiBpwBWGdvc4dkMXnqA"
+    },
+    {
+        "symbol": "hulvin",
+        "id": "hulvin",
+        "name": "HULVIN",
+        "solana_contract_address": "BTWvZsjwgnGT7qSM3AAXxjZohCLsMHpdAhaiQMJbBvcF"
+    },
+    {
+        "symbol": "poodl",
+        "id": "poodlana",
+        "name": "Poodlana",
+        "solana_contract_address": "7f7dgNNeL1RwbEd6Eao5BE8KNurTnLZnRZeVjkCGJgQD"
+    },
+    {
+        "symbol": "omni",
+        "id": "omni-2",
+        "name": "Omni",
+        "solana_contract_address": "A8vJzs6ygbZQyYLf9FKund8j3pDfUzxBeje8rJiypump"
+    },
+    {
+        "symbol": "pepez",
+        "id": "pepe-undead",
+        "name": "Pepe Undead",
+        "solana_contract_address": "HgackCATyfKcosD652W3y42p5smLrydGMjGF2wSJLkDe"
+    },
+    {
+        "symbol": "gonesler",
+        "id": "gary-gonesler",
+        "name": "Gary Gonesler",
+        "solana_contract_address": "CUb1Jek3hTuQ38dTTDzQhR78PF4w3naMyG4UgemPpump"
+    },
+    {
+        "symbol": "swan",
+        "id": "black-swan",
+        "name": "Black Swan",
+        "solana_contract_address": "3jyiXJ9zi4B8j6EXvdH6pCKTJsYHWvzN5nY8Mecbpump"
+    },
+    {
+        "symbol": "anime",
+        "id": "a-new-internet-money-era",
+        "name": "A New Internet Money Era",
+        "solana_contract_address": "GRkAQsphKwc5PPMmi2bLT2aG9opmnHqJPN7spmjLpump"
+    },
+    {
+        "symbol": "tucker",
+        "id": "pnut-s-dog",
+        "name": "Pnut's Dog",
+        "solana_contract_address": "BDbhJUMgQBQ1bJTKhSS9NsxZdfaiBG6Hgp8qNKpc3YSX"
+    },
+    {
+        "symbol": "bambit",
+        "id": "bambit",
+        "name": "BAMBIT",
+        "solana_contract_address": "xN9Qd63mUYg7npanmdksmcqp3NQjTcGFQPTyq2F1TQC"
+    },
+    {
+        "symbol": "pamp",
+        "id": "pamp",
+        "name": "PAMP",
+        "solana_contract_address": "59vhj5aC37sA6xadhdkFk6P4WaYPKckKQVwCB9qMpump"
+    },
+    {
+        "symbol": "solpac",
+        "id": "solpaca",
+        "name": "Solpaca",
+        "solana_contract_address": "29xJEmh5sMo2DqapmcK7UardZP4B88qJZCZ2BGwa3mJ7"
+    },
+    {
+        "symbol": "tired",
+        "id": "tired-of-it-all",
+        "name": "tired of it all",
+        "solana_contract_address": "4WzLp3sV5uReVvxatfYmxoJWH7fY65QZBbcSAF76pump"
+    },
+    {
+        "symbol": "parry",
+        "id": "party-parrot",
+        "name": "Party Parrot",
+        "solana_contract_address": "CqheMEfCHHfwLuyMoPM9F4zT9myVZeJQD8dox8uNdnRd"
+    },
+    {
+        "symbol": "pepe",
+        "id": "pepecoin-on-sol",
+        "name": "PEPECOIN on SOL",
+        "solana_contract_address": "3tS6fbLh2P8tzxXuqCiHZpZhsxJpmrR3Xb9psmypnp69"
+    },
+    {
+        "symbol": "toshi",
+        "id": "first-dog-to-buy-crypto",
+        "name": "First Dog to Buy Crypto",
+        "solana_contract_address": "BE9WCtE9p36RX4kmsN5VDd8MSc5QwJQcARbSL3R8pump"
+    },
+    {
+        "symbol": "egg",
+        "id": "egg",
+        "name": "EGG",
+        "solana_contract_address": "4ynyx6BzY2XGFgjjun9Cruj1bSRo8FLsAqNnPsW6jDsu"
+    },
+    {
+        "symbol": "solala",
+        "id": "solala",
+        "name": "Solala",
+        "solana_contract_address": "HTPHknF5rBNCuZ1qK3muJA6Yo1HEhZj722oSESJnPBiw"
+    },
+    {
+        "symbol": "oof",
+        "id": "oof-oof-cto",
+        "name": "oof oof CTO",
+        "solana_contract_address": "48UE1jHd1YRR2EpTnRXi6dA15eboq92jm1YusW2epump"
+    },
+    {
+        "symbol": "boy",
+        "id": "good-boy",
+        "name": "Good Boy",
+        "solana_contract_address": "GmEXg8FwpULzVb15r41CNB5qFnRcXCrEyZSmD3X7sv2e"
+    },
+    {
+        "symbol": "eyare",
+        "id": "eyare",
+        "name": "Eyare",
+        "solana_contract_address": "G5V5hN3rvXYEJsMdroG1CMCzZM3BmtH3BueNFTgDpump"
+    },
+    {
+        "symbol": "onigchi",
+        "id": "onigchi",
+        "name": "Onigchi",
+        "solana_contract_address": "8KDsEUE3NdafcCVPqKrMrPfqh3oT4FzcxsYjwbMqpump"
+    },
+    {
+        "symbol": "dmg",
+        "id": "dark-magician-girl",
+        "name": "Dark Magician Girl",
+        "solana_contract_address": "GjjDzSuRzbzf8bQbcZR1RgEpPmmHKyTMqksQJhx5pump"
+    },
+    {
+        "symbol": "crow",
+        "id": "crow-2",
+        "name": "CROW",
+        "solana_contract_address": "D5i9Tm8hUQPwBL7g5gzeqXeGdCSbBRgwVbWvK7f3pump"
+    },
+    {
+        "symbol": "croak",
+        "id": "croak-the-bullfrog",
+        "name": "Croak the Bullfrog",
+        "solana_contract_address": "Ai7oi4hxXi7AB8otp5BATnd5xpUz3VAFk2pH1MztkQhS"
+    },
+    {
+        "symbol": "$smack",
+        "id": "smack",
+        "name": "SMACK",
+        "solana_contract_address": "AtVzTp2yyhrb6aS3a2rJkD1a7oKKcp851PJYJkuhpump"
+    },
+    {
+        "symbol": "et",
+        "id": "elon-trump",
+        "name": "Elon Trump",
+        "solana_contract_address": "2ghhQ55BxewS2eGBDcYsMPLpgmMXXFGapPa1qxYDod2A"
+    },
+    {
+        "symbol": "luis",
+        "id": "tongue-cat",
+        "name": "Tongue Cat",
+        "solana_contract_address": "5wU4tUcAbds7d5cmnGK2otHa9gbayYsD2mhz1reR6c91"
+    },
+    {
+        "symbol": "whoren",
+        "id": "elizabath-whoren",
+        "name": "elizabath whoren",
+        "solana_contract_address": "EF23Avq2cTPnMVTfHacZ3SG5Z8misHmFA2gbt2rKqiYH"
+    },
+    {
+        "symbol": "mcaifee",
+        "id": "john-mcaifee",
+        "name": "John McAIfee",
+        "solana_contract_address": "86QASyebqezuPdbbkWyYMK5jmTAL1td1SuqobeKEpump"
+    },
+    {
+        "symbol": "shawk",
+        "id": "shawk",
+        "name": "SHAWK",
+        "solana_contract_address": "HEE6uKwN6maVYu7MpJfmJcTM2PxRjBz52STpuyYwWcMB"
+    },
+    {
+        "symbol": "snapcat",
+        "id": "snapcat",
+        "name": "Snapcat",
+        "solana_contract_address": "ELnAjNJJRBaG9MnnZqUXLsbBjkVA19szcduNeD5RCqdo"
+    },
+    {
+        "symbol": "holi",
+        "id": "holi",
+        "name": "Holi",
+        "solana_contract_address": "HxyAjioHtx3xL3ytxAMJg3AgWWXghXx2zgZFk59pump"
+    },
+    {
+        "symbol": "pitty",
+        "id": "pitty-the-pitbull",
+        "name": "Pitty the Pitbull",
+        "solana_contract_address": "61tQHzDU1j5aiSKAWpMbEMd7dm7mdY5LNTfvtamxpump"
+    },
+    {
+        "symbol": "baos",
+        "id": "baobaosol",
+        "name": "BaoBaoSol",
+        "solana_contract_address": "UHaVCzi4ZsGrzHhAFbokkXfaugfYbkdVME8XYaR7eKu"
+    },
+    {
+        "symbol": "drako",
+        "id": "drako",
+        "name": "Drako",
+        "solana_contract_address": "drakduQWnTS89CdTUdgHmZzEkN6reBLYqrk8rzVhU53"
+    },
+    {
+        "symbol": "nut",
+        "id": "nutflex",
+        "name": "Nutflex",
+        "solana_contract_address": "4pb6mymm9hYQN6og9uF24eyZ2qwXCWCwGvcR1DkCgeEr"
+    },
+    {
+        "symbol": "dhands",
+        "id": "diamond-hands-2",
+        "name": "Diamond Hands",
+        "solana_contract_address": "2kBzHjLgm9rwrbZikLk1dkx1Bt56Spc4cjdYH8Hh89Em"
+    },
+    {
+        "symbol": "ju",
+        "id": "ju-rugan",
+        "name": "ju rugan",
+        "solana_contract_address": "AbBEjBdz31yCb9gTFfWgEi7uprCzjTEKL58xqHVbbjhu"
+    },
+    {
+        "symbol": "pe",
+        "id": "half-of-pepe",
+        "name": "Half of Pepe",
+        "solana_contract_address": "YcUzxsUL4wTETS1qWe5HsgCHNaQz9wddcoL2L62xn7k"
+    },
+    {
+        "symbol": "chango",
+        "id": "el-changuito",
+        "name": "EL CHANGUITO",
+        "solana_contract_address": "keE9SBRapLV2oUMzwy9htNZoZqRVNAJvYgioKVHpump"
+    },
+    {
+        "symbol": "btc",
+        "id": "batcat",
+        "name": "batcat",
+        "solana_contract_address": "EtBc6gkCvsB9c6f5wSbwG8wPjRqXMB5euptK6bqG1R4X"
+    },
+    {
+        "symbol": "raptor",
+        "id": "philosoraptor-2",
+        "name": "Philosoraptor",
+        "solana_contract_address": "Fss7oX43YpNNWVnRZugZ1NcngR1j8Ar33Z2dLqYfpump"
+    },
+    {
+        "symbol": "arg",
+        "id": "argentinacoin",
+        "name": "ArgentinaCoin",
+        "solana_contract_address": "9XRpjZjhJPeWtUymiEWn3FW7uAnMeQca14ucTWWWyP2g"
+    },
+    {
+        "symbol": "popgoat",
+        "id": "goatseus-poppimus",
+        "name": "Goatseus Poppimus",
+        "solana_contract_address": "DtWz93pDUZe5cYqBFmZjXq1wzZqZPygCeox5d3ajpump"
+    },
+    {
+        "symbol": "w",
+        "id": "victorious",
+        "name": "Victorious",
+        "solana_contract_address": "2xyoTZzNVvbWABQmaDwYb1mhuvutQkGuCPTSMqicpump"
+    },
+    {
+        "symbol": "xp",
+        "id": "xp-3",
+        "name": "XP",
+        "solana_contract_address": "677jK6xujhRFtBcD7Szn32tt2MSv4k6qZ4v3nGMgpump"
+    },
+    {
+        "symbol": "leper",
+        "id": "leper",
+        "name": "LEPER",
+        "solana_contract_address": "GsEbfbyjjnYZGMSkXhoxrqTyrzdYC5AFcCisS51JEGEE"
+    },
+    {
+        "symbol": "pepe",
+        "id": "pepe-solana",
+        "name": "Pepe (Solana)",
+        "solana_contract_address": "FDqp7ioPenKRzQqseFv84kxDMUT83CX1qZxgDTQDkwT2"
+    },
+    {
+        "symbol": "meng",
+        "id": "meng-chong",
+        "name": "Meng Chong",
+        "solana_contract_address": "8Rqc8foPzUZkxRQGuyCTAZS7QKAwncJVvgKXz1AKpump"
+    },
+    {
+        "symbol": "catfish",
+        "id": "catfish",
+        "name": "Catfish",
+        "solana_contract_address": "AcY6RWuWKM5NU7BeSE4c4zQxBZpyU7pTLNF3g5DTWUC2"
+    },
+    {
+        "symbol": "twocat",
+        "id": "twotalkingcats",
+        "name": "TwoTalkingCats",
+        "solana_contract_address": "AB1e1rTGF8xSoYzXEwNWohuMHLCMrBoaSxT6AARmQksd"
+    },
+    {
+        "symbol": "goon",
+        "id": "goon",
+        "name": "GOON",
+        "solana_contract_address": "8cyS5xMeWSCAKSe5QpQ5XMfvxRCcSj3mbHtbtyrqk7RA"
+    },
+    {
+        "symbol": "mochicat",
+        "id": "mochicat",
+        "name": "MOCHICAT",
+        "solana_contract_address": "EVDQN4P1YTTD1Y3eLBDBoALWnR4aMBC9y2xUYCrbGbuy"
+    },
+    {
+        "symbol": "up",
+        "id": "looking-up",
+        "name": "Looking Up",
+        "solana_contract_address": "8aZuUoqr9rBLjikz7kvpajm1JRqhoWiLMnrNtnRNpump"
+    },
+    {
+        "symbol": "cig",
+        "id": "cig",
+        "name": "cig",
+        "solana_contract_address": "exRqAuXs967fDkymNXo4eqZEQihEubstBCXPXxwpump"
+    },
+    {
+        "symbol": "achi",
+        "id": "achi-inu",
+        "name": "ACHI INU",
+        "solana_contract_address": "HvQKzBzp1YhXdqDUrUB8fqrfbJ6rU9CytzscMyG7EFAe"
+    },
+    {
+        "symbol": "conviction",
+        "id": "conviction",
+        "name": "conviction",
+        "solana_contract_address": "4AKYKa4JLKQau7m8B7hmFdN8ur1SvqUDqJt6D44Npump"
+    },
+    {
+        "symbol": "tyke",
+        "id": "tyke-the-elephant",
+        "name": "Tyke The Elephant",
+        "solana_contract_address": "9dJ7YzCCzAti2pRMkAzJCdK1uteScvcep7ANuGzDNeG6"
+    },
+    {
+        "symbol": "jose",
+        "id": "jose",
+        "name": "Jose",
+        "solana_contract_address": "Ff6CHymwNXFqES9mmf6PmSns3wAW4ykWgSgZJRMfH6dk"
+    },
+    {
+        "symbol": "coded",
+        "id": "coded",
+        "name": "Coded",
+        "solana_contract_address": "2Se6tpGxjBPvuvk93LphyvUKVk7M8J5LMQkKEf4Gpump"
+    },
+    {
+        "symbol": "lol",
+        "id": "lol-2",
+        "name": "LOL",
+        "solana_contract_address": "674fYBELAKFVbFGcjq7XVzyg8Lfbz43mSQbSye5woKux"
+    },
+    {
+        "symbol": "actp",
+        "id": "act-ii-the-peanut-prophecy",
+        "name": "Act II: The Peanut Prophecy",
+        "solana_contract_address": "6ofzqLnHhobh7cJ4C63rAf5qnKU8AoMxVBi7Kkm6n9wq"
+    },
+    {
+        "symbol": "pawpaw",
+        "id": "pawpaw",
+        "name": "PawPaw",
+        "solana_contract_address": "KkqCJwRvyoGmMQ93p8U4Kr6t9NTXWr1PehFYFzPpump"
+    },
+    {
+        "symbol": "hmmm",
+        "id": "hmmm",
+        "name": "hmmm",
+        "solana_contract_address": "7xywcaBrF6vQVyHJ1eM9LdT5Z45EAbLbDgGuh8i5pump"
+    },
+    {
+        "symbol": "angryguy",
+        "id": "angryguy",
+        "name": "ANGRYGUY",
+        "solana_contract_address": "B5cteji7DaRFWfY16BZeGhWMTaeX7RX1CokhbhCzpump"
+    },
+    {
+        "symbol": "floof",
+        "id": "floofnoodles",
+        "name": "Floofnoodles",
+        "solana_contract_address": "X3rigWZSJhEE5DCQVWhnEChpWkJyHfidwXUSQPBpump"
+    },
+    {
+        "symbol": "ansom",
+        "id": "ansom",
+        "name": "Ansom",
+        "solana_contract_address": "BfHkvKMEYjwPXnL36uiM8RnAoMFy8aqNyTJXYU3ZnZtz"
+    },
+    {
+        "symbol": "if",
+        "id": "bro-if-i-held",
+        "name": "Bro if I held",
+        "solana_contract_address": "CXXed5DrpgNVPfyMzjTMeBarcCe2c9VTBpU99cbJpump"
+    },
+    {
+        "symbol": "long",
+        "id": "longcat",
+        "name": "Longcat",
+        "solana_contract_address": "CBW9tWMs2yF7oXLCZpRfGUjyqui5ppEKQ3NrQvjEpump"
+    },
+    {
+        "symbol": "pepe",
+        "id": "pepe-cto",
+        "name": "Pepe CTO",
+        "solana_contract_address": "DHsPzhYsz9219sQDj6vYtQMBBHeuyXAM1RA4mjv2V9AT"
+    },
+    {
+        "symbol": "yukie",
+        "id": "yukie",
+        "name": "Yukie",
+        "solana_contract_address": "EjTePVtuosSxn1bPbdk97WRZL7uVx6NYKDma6iMvpump"
+    },
+    {
+        "symbol": "chrystal",
+        "id": "chrystal",
+        "name": "Chrystal",
+        "solana_contract_address": "BgHqzJCeSREccnbHwfH5GvgxPTDaabYpvBhfeZRzpump"
+    },
+    {
+        "symbol": "notwork",
+        "id": "the-notwork",
+        "name": "The Notwork",
+        "solana_contract_address": "GcdLTfPGhdsX6zVjmcLchwwECzYqATHgk64sKZuadHKF"
+    },
+    {
+        "symbol": "moon",
+        "id": "freemoon-2",
+        "name": "FreeMoon",
+        "solana_contract_address": "moonskJwNmZiwkqH79S7b1UezGTaWQGEUbFkVqH3Vwq"
+    },
+    {
+        "symbol": "ginger",
+        "id": "pedro-raccoon",
+        "name": "Pedro Raccoon",
+        "solana_contract_address": "AxUx31tmanQ2r8xG3nBvW1L9miHHZNqMfALzc1ygpump"
+    },
+    {
+        "symbol": "spike",
+        "id": "spike-2",
+        "name": "Spike",
+        "solana_contract_address": "sPiKEYAqoaGYYBAnPxro8NLSYLu93sr56n352jJRLN5"
+    },
+    {
+        "symbol": "ca",
+        "id": "contract-address-meme",
+        "name": "contract address (Meme)",
+        "solana_contract_address": "AfkUkcoJ5Yt7eU9BwnF1RjRqt4fQG5zYV1eS1ytDk7FE"
+    },
+    {
+        "symbol": "$jacky",
+        "id": "jacky",
+        "name": "jacky",
+        "solana_contract_address": "DKnXmFGBcpYEnPsoHLrdj5cbZdEq9DV9z6bVfYrrDEBE"
+    },
+    {
+        "symbol": "$traimp",
+        "id": "trump-ai",
+        "name": "Trump AI",
+        "solana_contract_address": "TrUPjEqGpUph6sMJX8C3yYja9u4RcVUGTCkGG4xLrjG"
+    },
+    {
+        "symbol": "why",
+        "id": "wenwifhat",
+        "name": "WenWifHat",
+        "solana_contract_address": "WHYoaBumcmxCqw38y2mjs4cVkCBgwiDizbMVvcejmGT"
+    },
+    {
+        "symbol": "faptax",
+        "id": "faptax",
+        "name": "Faptax",
+        "solana_contract_address": "BDciduUgepb9DehoJ1CDK1gqNkUUKusQP7PwHr9cTwX2"
+    },
+    {
+        "symbol": "chair",
+        "id": "chair",
+        "name": "chair",
+        "solana_contract_address": "GfLkhUs8cGAkCdZ1smJgj7cfejkm6ApnzgDHu6uipnXg"
+    },
+    {
+        "symbol": "wcc",
+        "id": "white-coffee-cat",
+        "name": "White Coffee Cat",
+        "solana_contract_address": "BykkD9369RvXuEDbR7pTRz49b7cfLRTzHgSVoqK8gc15"
+    },
+    {
+        "symbol": "sbtc",
+        "id": "secondbtc",
+        "name": "SecondBTC",
+        "solana_contract_address": "5MVAy3tHAi44mY2tz4ghqs9T6XRZhDwTMjhdNtjtpump"
+    },
+    {
+        "symbol": "cool",
+        "id": "coolcoin",
+        "name": "CoolCoin",
+        "solana_contract_address": "BMwhQ1HXuzA7ucY8NYHyVq2uwuG47GHj1dNP6xJdoPzD"
+    },
+    {
+        "symbol": "$kolt",
+        "id": "kolt",
+        "name": "KOLT",
+        "solana_contract_address": "3M2vepByfZTG6xUSmFidvSCFzHWFoVw7cPvyRDnUpump"
+    },
+    {
+        "symbol": "gay",
+        "id": "gay",
+        "name": "GAY",
+        "solana_contract_address": "9mQEkFVqmRJLMPUJT25qriKXi2sH8RiuMBrzLeLupump"
+    },
+    {
+        "symbol": "hmu",
+        "id": "hit-meeee-upp",
+        "name": "hit meeee upp",
+        "solana_contract_address": "6fnYdoJhYkifvt52pfNtUDr31ZYXmof7JiL9SFrMpump"
+    },
+    {
+        "symbol": "burrrd",
+        "id": "burrrd",
+        "name": "BURRRD",
+        "solana_contract_address": "F8qtcT3qnwQ24CHksuRrSELtm5k9ob8j64xAzj3JjsMs"
+    },
+    {
+        "symbol": "soly",
+        "id": "solamander",
+        "name": "Solamander",
+        "solana_contract_address": "CUwif1FiX5b3bwwb2n5Bm35AixvnR8LJjGUVmEwNZNgR"
+    },
+    {
+        "symbol": "chowie",
+        "id": "chowie",
+        "name": "CHOWIE",
+        "solana_contract_address": "GpUWarJkuzyUeBrERzEFs4GyF6XkijkKPAUqzo9jpump"
+    },
+    {
+        "symbol": "slurp",
+        "id": "slurp-2",
+        "name": "slurp",
+        "solana_contract_address": "EPpeesRbnZSpe6nJaWSQNyhqrwyjGJPh4GPrzBvkpump"
+    },
+    {
+        "symbol": "ducky",
+        "id": "duckyduck",
+        "name": "DuckyDuck",
+        "solana_contract_address": "DE8NNksD5m3Kd4ohJAzTwJHLss9zbXdNUegEoL4QxD4C"
+    },
+    {
+        "symbol": "wawa",
+        "id": "wawacat",
+        "name": "wawacat",
+        "solana_contract_address": "AmKdcXReYTwmxtekQ5SiPTbnLtnwkzJpFbZ5XucBJPzK"
+    },
+    {
+        "symbol": "cuck",
+        "id": "cat-duck",
+        "name": "Cat Duck",
+        "solana_contract_address": "7fUHwmUCGmrFwJLuoVxe699gfABD8Uy9CZAbamcvG4q6"
+    },
+    {
+        "symbol": "sibert",
+        "id": "sibert",
+        "name": "Sibert",
+        "solana_contract_address": "EjWe2SsM67WzK65xQA6WNwmxZjAnHKLzHFzG6boLpump"
+    },
+    {
+        "symbol": "dogy",
+        "id": "dogy",
+        "name": "Dogy",
+        "solana_contract_address": "GWGaL7XrSCcVjKU2FwYoBgqPnEmUkxsmNBoVmDC6BhkA"
+    },
+    {
+        "symbol": "bol",
+        "id": "book-of-lies",
+        "name": "Book of Lies",
+        "solana_contract_address": "DM42BEpYGbTtcYyajmg2wVFiH3V9uAahHpS4nqWoBSHt"
+    },
+    {
+        "symbol": "sonic",
+        "id": "sonic-solana",
+        "name": "Sonic Solana",
+        "solana_contract_address": "72h2cpj8YU7aUJW3NFMjxfqGTh6hXnUrovMC4gKqyFPM"
+    },
+    {
+        "symbol": "nofap",
+        "id": "nofap",
+        "name": "nofap",
+        "solana_contract_address": "6c1dUwKi49kbEQLubirFgrPLfcRbF3a6tQmESsXbpump"
+    },
+    {
+        "symbol": "retard",
+        "id": "retard-ai",
+        "name": "RETARD AI",
+        "solana_contract_address": "He2EL8hzZKZEQPZw3TvHCRoBeuh4rQzCBxvv3uCCpump"
+    },
+    {
+        "symbol": "degen",
+        "id": "degen-the-otter",
+        "name": "degen the otter",
+        "solana_contract_address": "8AGrudQDbjNjnHzBsrndfVDBHgg6KBJ7RN6j3hbfq3Qh"
+    },
+    {
+        "symbol": "sbabe",
+        "id": "snoopybabe",
+        "name": "SNOOPYBABE",
+        "solana_contract_address": "D9mFkgnZHnQGRtZKvnJ44yvoLtJmfBZRahXiUKcAzRE4"
+    },
+    {
+        "symbol": "griddy",
+        "id": "griddy",
+        "name": "Griddy",
+        "solana_contract_address": "A21r5h19iHhQt6b7vzkgHNgMaSAR9YSazGeJedJepump"
+    },
+    {
+        "symbol": "bub",
+        "id": "lil-bub-on-sol",
+        "name": "LIL BUB",
+        "solana_contract_address": "3meWn4683ng7FgLVJJB2bYPaNSoqhWdritNdkd4Aw1aj"
+    },
+    {
+        "symbol": "tim",
+        "id": "floating-tim",
+        "name": "Tim",
+        "solana_contract_address": "DWjVPqEX4fPFQ47Xb7EegpGhgWzRviYfPoEWPnxz2CRd"
+    },
+    {
+        "symbol": "conor",
+        "id": "hasbulla-s-chicken",
+        "name": "Hasbulla's Chicken",
+        "solana_contract_address": "78Lw55CHo3UKxznxuWotAkWrviEDhcFaMga9QxRtpump"
+    },
+    {
+        "symbol": "hoot",
+        "id": "hoot-solana",
+        "name": "HOOT Solana",
+        "solana_contract_address": "HootvhN1jGXQk8APL2fD1StHqu9eWZJbMmfdutf9hnLV"
+    },
+    {
+        "symbol": "almc",
+        "id": "awkward-look-monkey-club",
+        "name": "Awkward Look Monkey Club",
+        "solana_contract_address": "7f94zk1EgfoeG57Vj5FtDDjMmPNHM4DYs7KRiyd2T4bA"
+    },
+    {
+        "symbol": "kooky",
+        "id": "kooky",
+        "name": "KOOKY",
+        "solana_contract_address": "3H4srZRfFDkp1MxsVcRreMYVmKizFz6B8YcXWv5ppump"
+    },
+    {
+        "symbol": "buddy",
+        "id": "buddy-2",
+        "name": "BUDDY",
+        "solana_contract_address": "3iY5ZSkRnevSMu4h8nZyywyeY46osdmC1LAosmv3pump"
+    },
+    {
+        "symbol": "ponzi",
+        "id": "ponzi",
+        "name": "Ponzi",
+        "solana_contract_address": "9ZoH3ssTQBJNVidsLo49q3buDidreiZc9g3NeETP3F2s"
+    },
+    {
+        "symbol": "kolana",
+        "id": "kolana",
+        "name": "KOLANA",
+        "solana_contract_address": "CUkkzEhy5weX8FwNhMPLBxZGacsSsHJVzoZeYvrfbzwQ"
+    },
+    {
+        "symbol": "test",
+        "id": "test-token-please-ignore",
+        "name": "test token please ignore",
+        "solana_contract_address": "A5nvoNHLmJ4ydL5KroxphCX4umFwcn8VWb4kXm7L6sXn"
+    },
+    {
+        "symbol": "hat",
+        "id": "hat-solana",
+        "name": "HAT Solana",
+        "solana_contract_address": "HrqgFZipMFHXvN5nKvTUaCwuA3Tp2UGqcQzArRGAyQ22"
+    },
+    {
+        "symbol": "quil",
+        "id": "quilson",
+        "name": "Quilson",
+        "solana_contract_address": "BzW7Gnm32KTn82a1yCiYFooBLzi37MvEXFF8soQVpump"
+    },
+    {
+        "symbol": "glaze",
+        "id": "glaze",
+        "name": "Glaze",
+        "solana_contract_address": "HJxLv6PnZJmLko7b5wqgCMyUT5fgz9NdBwe8htdMpump"
+    },
+    {
+        "symbol": "dc",
+        "id": "donaldcat",
+        "name": "DONALDCAT",
+        "solana_contract_address": "FaUKsgcuqAd9sCaFz3if7ia1DasaxVoNPTXWFs2GScWN"
+    },
+    {
+        "symbol": "press",
+        "id": "pressdog",
+        "name": "PressDog",
+        "solana_contract_address": "FaZwrtepqwBf2TMHVaxRWt4U3Zjv4LxmcisQXYy1pump"
+    },
+    {
+        "symbol": "alan",
+        "id": "alan-the-alien",
+        "name": "Alan the Alien",
+        "solana_contract_address": "3swKY5FN4ENQYYJTYqQzGbT7iEv8yD5UngCWfk3fEVA7"
+    },
+    {
+        "symbol": "trumpie",
+        "id": "trumpie",
+        "name": "trumpie",
+        "solana_contract_address": "HC2KyVkPK9Mc9NEFPUi43okhTYPa5fStk6a3Ci3cDbQS"
+    },
+    {
+        "symbol": "azizi",
+        "id": "azizi",
+        "name": "Azizi",
+        "solana_contract_address": "4LDT8u5BcVf2acdWJsqz45yaFsXBCsjY79ERLXX6pump"
+    },
+    {
+        "symbol": "fug",
+        "id": "fug-2",
+        "name": "fug",
+        "solana_contract_address": "76Jkgbh2v5pdqBvSKStyxL7Q135dDcuh4eatCFvpump"
+    },
+    {
+        "symbol": "ponkei",
+        "id": "ponkei-the-chinese-ponke",
+        "name": "Ponkei - The Chinese Ponke",
+        "solana_contract_address": "56sDqbDNaRwP6HK1o9wpYtzE5PAkNePsQe52oPx1pump"
+    },
+    {
+        "symbol": "stressguy",
+        "id": "stressed-guy",
+        "name": "Stressed Guy",
+        "solana_contract_address": "2gMX6GfyhHFguNLRWsLWPCRA5TBjtVkcD7d91oPS1gG6"
+    },
+    {
+        "symbol": "magadoge",
+        "id": "maga-doge",
+        "name": "MAGA DOGE",
+        "solana_contract_address": "8igRQGU3C1dAMrgc5qJWbZr8Bo7zxkucQvq2eFkgZMMW"
+    },
+    {
+        "symbol": "bro",
+        "id": "brodogcoin",
+        "name": "brodogcoin",
+        "solana_contract_address": "6h5QZc6MoMyZL471g2K5WCyQVpBaeh8AhUXGK6fTpump"
+    },
+    {
+        "symbol": "$husky",
+        "id": "husky-2",
+        "name": "Husky",
+        "solana_contract_address": "HrTofxQLFCF86icrLQ81KRLsYM2iWVZEsKtunwVz7qNe"
+    },
+    {
+        "symbol": "sillycat",
+        "id": "sillycat",
+        "name": "Sillycat",
+        "solana_contract_address": "AXMmTn2bGH6RWdos2fUmXsFLhN4LkPjGv9V4BdJdAync"
+    },
+    {
+        "symbol": "bitdog",
+        "id": "bitdog",
+        "name": "bitdog",
+        "solana_contract_address": "2ZmE6PFEwz3Z148JeMtrqmF9NJi6CwvHkQF66dbCpump"
+    },
+    {
+        "symbol": "bee",
+        "id": "bee",
+        "name": "Bee",
+        "solana_contract_address": "B2BsVuodH2eBGRnFckRYYW6yjur7Tn8cCxaSE2Xrnj5V"
+    },
+    {
+        "symbol": "gcat",
+        "id": "gigacat-2",
+        "name": "Gigacat",
+        "solana_contract_address": "FufcdjDPpyir98GQ5vjg9gwb4Zb8tiPdmxzYX3STyyp7"
+    },
+    {
+        "symbol": "cope",
+        "id": "cope-2",
+        "name": "Cope",
+        "solana_contract_address": "3y9GXR25M78R7TCKYoEWQjeqRneXVP3TA2vcGtZXpump"
+    },
+    {
+        "symbol": "bullish",
+        "id": "bullish",
+        "name": "bullish",
+        "solana_contract_address": "DNyxufTEwqNCgGruJ4W2ue6u1RTFcH61H4sa42LGpump"
+    },
+    {
+        "symbol": "$waifu",
+        "id": "waifu-sol",
+        "name": "Waifu",
+        "solana_contract_address": "3gqBzYggchmzxCBq5v4BGT4TfmZcm8agsaRqv8bkpump"
+    },
+    {
+        "symbol": "bob",
+        "id": "bob-2",
+        "name": "BOB",
+        "solana_contract_address": "7qpKH1bkvoZPDGbtmjHa9opCGnzfeycD34iuDrJBpump"
+    },
+    {
+        "symbol": "frog",
+        "id": "frog-3",
+        "name": "Frog",
+        "solana_contract_address": "D4Yc5xRjRYcjxtnYG4Ay3mKLYMMF91RBnbuoKk7cpump"
+    },
+    {
+        "symbol": "bibi",
+        "id": "bibi-2",
+        "name": "Bibi",
+        "solana_contract_address": "7UiTAJhzDcqc5CvVAUWS6sUyeXcQWUXuh7zsbUrNzb8K"
+    },
+    {
+        "symbol": "goatse",
+        "id": "goatse",
+        "name": "GOATSE",
+        "solana_contract_address": "FKZWwdAxhAhf6kiKM5Jwk1vDjJqxxM3jdanexwS66LxM"
+    },
+    {
+        "symbol": "bull",
+        "id": "trump-s-golden-bull",
+        "name": "Trump's Golden Bull",
+        "solana_contract_address": "3nGc7DR6jE41W2iLfvPC3ctPEPzhqAMWuvZRKXNLpump"
+    },
+    {
+        "symbol": "num",
+        "id": "numcat",
+        "name": "NUMCAT",
+        "solana_contract_address": "HTRXR4VykG8yw5ANJzm686RRLBvnWuC8R1k9etcUpump"
+    },
+    {
+        "symbol": "$bun",
+        "id": "bunnie",
+        "name": "Bunnie",
+        "solana_contract_address": "8gXEASR1BRyiFssxqCnuZvB2o6KQptSDLQvAtcV6pump"
+    },
+    {
+        "symbol": "jetcat",
+        "id": "jetcat",
+        "name": "Jetcat",
+        "solana_contract_address": "FotrwPuTNxP2Rx7DEWVcM3wVNaG1Fs3JV6nW5aYQ9AFF"
+    },
+    {
+        "symbol": "kamabla",
+        "id": "kamabla",
+        "name": "Kamabla",
+        "solana_contract_address": "6BuKbBATFnUF34g97Vtni5Xq8qNyzYD412SaEBoStPKU"
+    },
+    {
+        "symbol": "gringo",
+        "id": "gringo",
+        "name": "gringo",
+        "solana_contract_address": "EbZh3FDVcgnLNbh1ooatcDL1RCRhBgTKirFKNoGPpump"
+    },
+    {
+        "symbol": "grift",
+        "id": "the-big-grift",
+        "name": "The Big Grift",
+        "solana_contract_address": "EUNxz7kwt6EwLLDbrCk75kkHno9Rv9he6NHfJUi2JUhC"
+    },
+    {
+        "symbol": "wiz",
+        "id": "wiz",
+        "name": "Wiz",
+        "solana_contract_address": "2TobzM4NNpEvyVAEpFC8AkxJGBHz8fFgMksK1gBy5dub"
+    },
+    {
+        "symbol": "gboy",
+        "id": "gameboy",
+        "name": "GameBoy",
+        "solana_contract_address": "GKZbA2gDzw3MoxbfRsnrJTNi5uBDrnrz9bq1pNnx6kv"
+    },
+    {
+        "symbol": "pump",
+        "id": "respect-the-pump",
+        "name": "Respect The Pump",
+        "solana_contract_address": "GJMrR56gETPmaUy5of81Psic7grj6TzXmfyZyffqpump"
+    },
+    {
+        "symbol": "popwif",
+        "id": "popcatwifhat",
+        "name": "popcatwifhat",
+        "solana_contract_address": "JYPzbZpgYgit2mtfU5cmcuhWJaB7KTdtfBvfJrepump"
+    },
+    {
+        "symbol": "popdog",
+        "id": "popdog-2",
+        "name": "POPDOG",
+        "solana_contract_address": "C5gnRtcm1a2aCBbtfAPqnDjpQ2YdD9PcfBk8VM2iguXS"
+    },
+    {
+        "symbol": "gpuinu",
+        "id": "gpu-inu",
+        "name": "GPU Inu",
+        "solana_contract_address": "6AjB9gafah5aBBsogmxmLyeQkrRDejKzxETxJzRRKF1H"
+    },
+    {
+        "symbol": "starri",
+        "id": "starri",
+        "name": "Starri",
+        "solana_contract_address": "2GZcmRHmKFWPqkJ9Wm1XAf5kLwFxcYG5cTiTGkH4VZht"
+    },
+    {
+        "symbol": "$bane",
+        "id": "bane",
+        "name": "bane",
+        "solana_contract_address": "BMocPvavt5CLXvJpQohTRbg17WhPMfkFxibHEQpSpump"
+    },
+    {
+        "symbol": "polar",
+        "id": "polar-inu",
+        "name": "Polar Inu",
+        "solana_contract_address": "GMBA3jpN1pzkQfFh8RSQ1rCT9qCaDLYMF51mtbWMpump"
+    },
+    {
+        "symbol": "$pooku",
+        "id": "pooku",
+        "name": "Pooku",
+        "solana_contract_address": "AmXoXkTmLvwoQSVqgRnEXA5mLg7f5D7gpJ4wJVGCpump"
+    },
+    {
+        "symbol": "crocdog",
+        "id": "crocdog",
+        "name": "Crocdog",
+        "solana_contract_address": "GumHxsx6Kan7R1BNAEEtRMhZJVULeeZGwMGPcjT162Sp"
+    },
+    {
+        "symbol": "huntboden",
+        "id": "hunter-boden",
+        "name": "Hunter Boden",
+        "solana_contract_address": "22513u2QwiY6xaJn7nVFWGKy3aBdw6WfZsRPW2RRtCKj"
+    },
+    {
+        "symbol": "nole",
+        "id": "nole",
+        "name": "NOLE",
+        "solana_contract_address": "33yk8a6AGRtJHRCNbvUqSxxFq5j53daEHxBW4PV3MFwr"
+    },
+    {
+        "symbol": "cafe",
+        "id": "cafe",
+        "name": "CAFE",
+        "solana_contract_address": "CFyaDC9yjmE71wYw633HavRN3VQ3aq37sYujARR1pump"
+    },
+    {
+        "symbol": "crab",
+        "id": "crabbie",
+        "name": "Crabbie",
+        "solana_contract_address": "5PTQWrBzSbY1JCifp83wdJcmoy3mZP8VjX5UUAoA7R9r"
+    },
+    {
+        "symbol": "epep",
+        "id": "epep",
+        "name": "Epep",
+        "solana_contract_address": "EPepv2vbKu53YCkwx1kUAQ6fnyB4FR3kMBvX4aofQAkw"
+    },
+    {
+        "symbol": "chadai",
+        "id": "chadai",
+        "name": "CHADAI",
+        "solana_contract_address": "DZd5bxpRezxkeDz18QJ2BzrxhDk6w9go7qAXgMfaLtjV"
+    },
+    {
+        "symbol": "ear",
+        "id": "the-ear-stays-on",
+        "name": "THE EAR STAYS ON",
+        "solana_contract_address": "2BUZ19fT8TYvPzhuvtCCp9ceu9eNRCmY11S4vSATpump"
+    },
+    {
+        "symbol": "$dub",
+        "id": "dub-duck",
+        "name": "dub duck",
+        "solana_contract_address": "4xzJ33EtGM4UVNsmCeGLX8mEPxvsw5c6AjM3LFcDgtii"
+    },
+    {
+        "symbol": "milei",
+        "id": "milei-solana",
+        "name": "MILEI Solana",
+        "solana_contract_address": "43N5UGr3mnfhJFzpBPNM7ZdnobghiYBtHTaQfZQv65mh"
+    },
+    {
+        "symbol": "yuki",
+        "id": "samurai-cat",
+        "name": "Samurai Cat",
+        "solana_contract_address": "53yANribNp1WzRsciY6upAN2VPY85waZEtADTeJhtQGN"
+    },
+    {
+        "symbol": "jonah",
+        "id": "jonah",
+        "name": "Jonah",
+        "solana_contract_address": "H52CAqEJXY9dmPJChvi86cUR3vLEobUhu7B9wBMppump"
+    },
+    {
+        "symbol": "$trust",
+        "id": "in-memes-we-trust",
+        "name": "IN MEMES WE TRUST",
+        "solana_contract_address": "jNw3UW47CkLwmrF4gQzD6GrW7DhnJVBr6H3hZZBpump"
+    },
+    {
+        "symbol": "band",
+        "id": "bandly",
+        "name": "Bandly",
+        "solana_contract_address": "CQE5X4RNM49VrewHZgN9eSSZyeMuGuDquM4D6B62pump"
+    },
+    {
+        "symbol": "domo",
+        "id": "dony-montana",
+        "name": "Dony Montana",
+        "solana_contract_address": "piJgLh8axY1Q5bsgovRB3Nr4aVbHSHmpCbsTLahpump"
+    },
+    {
+        "symbol": "hentai",
+        "id": "truth-terminal-s-hentai",
+        "name": "Truth Terminal's Hentai",
+        "solana_contract_address": "CZZSiF7CpqZmBrLeV4YbcdwDFUnf4vUF17PTTKuipump"
+    },
+    {
+        "symbol": "$vibe",
+        "id": "vibe-2",
+        "name": "VIBE",
+        "solana_contract_address": "4TQzKV6v18aSVJqrCoxhSuQpFbH7wcQGMi1Wwg8dpump"
+    },
+    {
+        "symbol": "moocat",
+        "id": "moocat",
+        "name": "MooCat",
+        "solana_contract_address": "FuLH3f9TPxiLNojPBZxfaT5Rb5VFfia8hMzLo9e9c6CG"
+    },
+    {
+        "symbol": "lola",
+        "id": "lola",
+        "name": "LOLA",
+        "solana_contract_address": "6fvys6PkSCgZcrDCCkYp56BjLMKZ41ySZK6qtgzX49Hg"
+    },
+    {
+        "symbol": "felicette",
+        "id": "felicette-the-space-cat",
+        "name": "Felicette the Space Cat",
+        "solana_contract_address": "BychPBYgrmUeRE38qKqs6Tx4Zo5Rh96Mcp9Lu8PUXFVv"
+    },
+    {
+        "symbol": "guufy",
+        "id": "guufy",
+        "name": "Guufy",
+        "solana_contract_address": "inLbkByUvP9WGsLfMy1w9QX5pvaab5mkvLcz48DbkmF"
+    },
+    {
+        "symbol": "lola",
+        "id": "lola-2",
+        "name": "Lola",
+        "solana_contract_address": "2uvch6aviS6xE3yhWjVZnFrDw7skUtf6ubc7xYJEPpwj"
+    },
+    {
+        "symbol": "potato",
+        "id": "potato-3",
+        "name": "Potato",
+        "solana_contract_address": "9gr84rGyLvVasmqXvj65njjUgKyBemKWSJsvijTPmcQz"
+    },
+    {
+        "symbol": "migraine",
+        "id": "migraine",
+        "name": "Migraine",
+        "solana_contract_address": "7WdDyHa7GDuAvYZAGFGEbDoBUka1S8YvbPgTW2WPpump"
+    },
+    {
+        "symbol": "wsb",
+        "id": "wall-street-baby-on-solana",
+        "name": "Wall Street Baby On Solana",
+        "solana_contract_address": "7zBbQAPGgoKvqcK74Yua8qGwEkEjAZxUPb5m3kKvvHyF"
+    },
+    {
+        "symbol": "dwog",
+        "id": "dwog",
+        "name": "dwog",
+        "solana_contract_address": "3DWUvVBwGgLpG8FVNLn4gUMHBUpRkjNcc3txotfZpump"
+    },
+    {
+        "symbol": "dmtc",
+        "id": "diamond-the-cat-coin",
+        "name": "DIAMOND The Cat Coin",
+        "solana_contract_address": "BmKNgdoCFAhjEszjfhrPmt8Kdq3TdWbPtdQoSKUdogHz"
+    },
+    {
+        "symbol": "happydog",
+        "id": "happy-dog",
+        "name": "Happy Dog",
+        "solana_contract_address": "4TNLqKKQrMDqveiyKQjwX5QUuDrgJdzQC53tX68rpump"
+    },
+    {
+        "symbol": "chillwhale",
+        "id": "chillwhale",
+        "name": "chillwhale",
+        "solana_contract_address": "8T4yHTW5qxHMu3Sj4f3C4PPe3v3jw6seK2Cof4Bcpump"
+    },
+    {
+        "symbol": "donkee",
+        "id": "donkee",
+        "name": "Donkee",
+        "solana_contract_address": "Be63Mpktk95oaSnYaWN5siPBoZDohpNGxc4WNLGupump"
+    },
+    {
+        "symbol": "gerta",
+        "id": "gerta",
+        "name": "Gerta",
+        "solana_contract_address": "DLvWoNT1d5iSX2T1aUUBzRdGbSef2xW3MwJBKtewVW6h"
+    },
+    {
+        "symbol": "giga",
+        "id": "chadgpt",
+        "name": "ChadGPT",
+        "solana_contract_address": "N2jAJu9ymjNwvKuSWJ4EvmS94MsxkNGL64g2xPPpump"
+    },
+    {
+        "symbol": "puppet",
+        "id": "pump-fun-puppet",
+        "name": "Pump Fun Puppet",
+        "solana_contract_address": "H9G3pEdKuRdyAg7ytxexJ1o4nTnyem4JkC1w6AsSpump"
+    },
+    {
+        "symbol": "$jbm",
+        "id": "jbm",
+        "name": "JBM",
+        "solana_contract_address": "4iNowernM7VnmA79FyedcUGnM22GMm2keEtwbaJepump"
+    },
+    {
+        "symbol": "morph",
+        "id": "morph",
+        "name": "MORPH",
+        "solana_contract_address": "ACu1RKQWdXAyoXvKzfSDsFKCqGfyBxngXq8YnmBPGomj"
+    },
+    {
+        "symbol": "$scot",
+        "id": "scottish",
+        "name": "Scottish",
+        "solana_contract_address": "EoJEyppNNpycP1ZoPnWq6cxwA7mSYpr9T1WXPFyjEzEy"
+    },
+    {
+        "symbol": "bbydev",
+        "id": "the-dev-is-a-baby",
+        "name": "The Dev is a Baby",
+        "solana_contract_address": "8YYrkf1hvL5aCacfLXDvhVfjWZ7ce5NdVt4iLPxYsmdh"
+    },
+    {
+        "symbol": "men",
+        "id": "men",
+        "name": "MEN",
+        "solana_contract_address": "A7uv3n1By5UNEa8UJqeCjGyLqHkMnkS1NP6K67VZBqd3"
+    },
+    {
+        "symbol": "n64",
+        "id": "cat-poop-joystick",
+        "name": "Cat Poop Joystick",
+        "solana_contract_address": "6zgbwgsiQkNP6EXHx7gEXqgKGK4RPpFWvW2HFwi7pump"
+    },
+    {
+        "symbol": "monku",
+        "id": "monku",
+        "name": "Monku",
+        "solana_contract_address": "FJ1DHFFHvW4UFNELFu6VonuAvaMK3Ch58LUMqsNqLnwk"
+    },
+    {
+        "symbol": "odie",
+        "id": "odie-on-sol",
+        "name": "Odie",
+        "solana_contract_address": "DEhDXhtUFuz6Uodhde3rznGbVbdiECahp1kTHnFpsna3"
+    },
+    {
+        "symbol": "sweg69",
+        "id": "milleniumsweghunter69",
+        "name": "milleniumsweghunter69",
+        "solana_contract_address": "BQPg5peyfnu1qvu3vdoUwutCwMt2dMW9jLpcrPk3pump"
+    },
+    {
+        "symbol": "bot",
+        "id": "cryptopunks-bot",
+        "name": "cryptopunks bot",
+        "solana_contract_address": "zAgSwaSC2XjeM545v4YT4ifMpnxkuEE1f8Fq2Ygpump"
+    },
+    {
+        "symbol": "frogie",
+        "id": "frogie",
+        "name": "Frogie",
+        "solana_contract_address": "FWFEKXi3rj9UjiW4X32P3F4h5qipcCxqqHQCkgFLpump"
+    },
+    {
+        "symbol": "fum",
+        "id": "fum-coinn",
+        "name": "fUm cOiNn",
+        "solana_contract_address": "FJiR6nJvz9WiaKxrcKvAMSP4pxTT47UKRRQr6F2cpump"
+    },
+    {
+        "symbol": "japan",
+        "id": "japan-coin",
+        "name": "Japan Coin",
+        "solana_contract_address": "EHCwJQi8dSpZfKm4LJypzozEj5vAN7pESRXJGpESKMfJ"
+    },
+    {
+        "symbol": "ksg",
+        "id": "king-sugar-glider",
+        "name": "King Sugar Glider",
+        "solana_contract_address": "GoRnxWR5h4HMYAbCWhfPxsTF6N27jTRkBDFpAsvLpump"
+    },
+    {
+        "symbol": "banksy",
+        "id": "bansky",
+        "name": "BANKSY",
+        "solana_contract_address": "BXFD1Dd1AT87MADC6SYZ95QQQjrTKEnDRwvVhAiLpump"
+    },
+    {
+        "symbol": "jack",
+        "id": "jack",
+        "name": "JACK",
+        "solana_contract_address": "EUZ7aBJu8sQLXhW3AX3K93SGtTF4FCKU3pnZJj5opump"
+    },
+    {
+        "symbol": "$bull",
+        "id": "pitbull-2",
+        "name": "Pitbull",
+        "solana_contract_address": "Hc5oUkbMAmLHRmyxzxNkkVhsqSAn5A9LEjcCqZH7pump"
+    },
+    {
+        "symbol": "gvr",
+        "id": "green-vs-redd",
+        "name": "Green Vs Redd",
+        "solana_contract_address": "CHwSwwaw9fChZVb575rMsn9pftccAxKQ5RN4Zovznauf"
+    },
+    {
+        "symbol": "buio",
+        "id": "mascot-of-the-unholy-year",
+        "name": "Mascot of the Unholy Year",
+        "solana_contract_address": "CaPS8EpC78RsnDdjNfZGd7Wjdg9156ijvC1aFcA1pump"
+    },
+    {
+        "symbol": "newera",
+        "id": "newera-2",
+        "name": "NEWERA",
+        "solana_contract_address": "7DRmRvxK9G6a5uMyFdfa7UaQC6dRAZz1dgioy9Htpump"
+    },
+    {
+        "symbol": "pew",
+        "id": "pew-pew",
+        "name": "Pew Pew",
+        "solana_contract_address": "C4M9TtoiDJ5LqfTTMiE1ch6gSY2pb9KMUZiXACg4pump"
+    },
+    {
+        "symbol": "raff",
+        "id": "raff-the-giraffe",
+        "name": "RAFF the Giraffe",
+        "solana_contract_address": "CEv97t1Qp7FB6XX1PH5ohyrzUCeKAQbCpAjxegJq9HW7"
+    },
+    {
+        "symbol": "mlnr",
+        "id": "millionaire-2",
+        "name": "Millionaire",
+        "solana_contract_address": "2HCsmkJ7SufKxbvikKR4Y3wGYb39dz6MywPdazeS9TsD"
+    },
+    {
+        "symbol": "goofy",
+        "id": "goofy",
+        "name": "GOOFY",
+        "solana_contract_address": "4GniFbshqU6VtWCLJnKadswa8QCk2cFg8cgBZrhe9dam"
+    },
+    {
+        "symbol": "solpaka",
+        "id": "solpaka",
+        "name": "Solpaka",
+        "solana_contract_address": "BDHqX9YfJE3M6caox3obUX5YpWHz2cjnGFiZJtRghdCo"
+    },
+    {
+        "symbol": "fatcat",
+        "id": "tombili-the-fat-cat",
+        "name": "Tombili the Fat Cat",
+        "solana_contract_address": "55USDUivJLe4L1kY64XK1nDPAqbphG6nRpTjk2iZ5PwG"
+    },
+    {
+        "symbol": "tommy",
+        "id": "tommy",
+        "name": "TOMMY",
+        "solana_contract_address": "FiBSKnRpjNHChN1BANpr3dsVFQuuHhETMen4xUDgpump"
+    },
+    {
+        "symbol": "$cost",
+        "id": "culture-of-solana-token",
+        "name": "Culture of Solana Token",
+        "solana_contract_address": "B2aDbn9LuMHVNxcLnXsrP8SwE83W39w7UbkiMmVrpump"
+    },
+    {
+        "symbol": "chunk",
+        "id": "chunk",
+        "name": "Chunk",
+        "solana_contract_address": "AENEn38wra9vBZoKGLVdKuDAWUivGfvptEJNfAFupump"
+    },
+    {
+        "symbol": "aurora",
+        "id": "aurorasolchain",
+        "name": "AURORA",
+        "solana_contract_address": "9tF4vuYRQY3d5GPnE9pjUevukgo6vHiepe3E1w8Jpump"
+    },
+    {
+        "symbol": "skull",
+        "id": "pepe-skull",
+        "name": "Pepe SKULL",
+        "solana_contract_address": "3X36yhq35MJnt2JjwodeFDfv2MFPb99RC53yUyNrpump"
+    },
+    {
+        "symbol": "winston",
+        "id": "winston-spider-monkey",
+        "name": "winston spider monkey",
+        "solana_contract_address": "HSpwt7Z4Hb3139FWZR8W9q17yWpxffm47a3g63bQpump"
+    },
+    {
+        "symbol": "cerber",
+        "id": "cerberoge",
+        "name": "CERBEROGE",
+        "solana_contract_address": "CERBERR9kg7MQqL6kXJPhNRqD1VwunTau1DDvjSZ14HD"
+    },
+    {
+        "symbol": "cicada",
+        "id": "locust-pocus",
+        "name": "Locust Pocus",
+        "solana_contract_address": "HdnUzyXVD64afcdti3asmtWnsSP9TDrRs16UAqoJp9xS"
+    },
+    {
+        "symbol": "$lola",
+        "id": "lola-cat",
+        "name": "Lola Cat",
+        "solana_contract_address": "FjBSZAeo7NsgUdgXRA63VuGA3ySfVi5yu2bhCfuZgxJY"
+    },
+    {
+        "symbol": "luv",
+        "id": "luv",
+        "name": "LUV",
+        "solana_contract_address": "WPgmcrani3ZybubqiZmMRP4XWGyUkMu8DeBTq8Kpump"
+    },
+    {
+        "symbol": "uwu",
+        "id": "uwu",
+        "name": "uwu",
+        "solana_contract_address": "67EMa43TZVQzggmhUyKnShmcSU5hVWcQDjVvLJXrS2Li"
+    },
+    {
+        "symbol": "paul",
+        "id": "paul",
+        "name": "paul",
+        "solana_contract_address": "VxAn31j1599ityyEf6HRTMWEcJgWUbbcsKPyogHpump"
+    },
+    {
+        "symbol": "latte",
+        "id": "latte",
+        "name": "Latte",
+        "solana_contract_address": "6YjuogEuCbRPEoKdcqHjPzMHGBDSq5bsSv7X5WqDpump"
+    },
+    {
+        "symbol": "$couch",
+        "id": "a-gently-used-couch",
+        "name": "A Gently Used Couch",
+        "solana_contract_address": "XrJs9cMt48poHWupQAFUXNGuzy41qt2hVKuRktBpump"
+    },
+    {
+        "symbol": "trump",
+        "id": "moontrump",
+        "name": "MoonTrump",
+        "solana_contract_address": "BqhNdGtS1Nqtzi2MvZ7G8NN1vRuHZ12UpHGJKe71e1JT"
+    },
+    {
+        "symbol": "trump47",
+        "id": "super-president-trump-47",
+        "name": "Super President Trump 47",
+        "solana_contract_address": "HUmZBfWc5VqWPPiQ9tCjCLjMao2PDXCYQoY3vcB8pump"
+    },
+    {
+        "symbol": "nib",
+        "id": "nib",
+        "name": "chick",
+        "solana_contract_address": "EmN2aLqwLDops5Ezb32WV4uQos4B1JMUhrdx4E7cpump"
+    },
+    {
+        "symbol": "based",
+        "id": "make-america-based-again",
+        "name": "Make America Based Again",
+        "solana_contract_address": "APXEzWaC12YAejZr1v4sBhTcJMosGSA6oV5aTn9Jpump"
+    },
+    {
+        "symbol": "ag",
+        "id": "anti-goatse",
+        "name": "Anti-Goatse",
+        "solana_contract_address": "BdYqxVbfofR5SrwwDdMhf6P7oGWQnbydFjY3ySpppump"
+    },
+    {
+        "symbol": "$talahon",
+        "id": "talahon",
+        "name": "Talahon",
+        "solana_contract_address": "GV6zDJDmoAk2KKBKRfzLjptvV5hJtfYFCHoc6jPwpump"
+    },
+    {
+        "symbol": "popfrog",
+        "id": "pop-frog",
+        "name": "PopFrog",
+        "solana_contract_address": "CoseJDEHxsfjjQs5CaXWGd4PH2irHam2FxeuwN2jyAL9"
+    },
+    {
+        "symbol": "pepemaga",
+        "id": "pepe-maga",
+        "name": "PEPE MAGA",
+        "solana_contract_address": "F6EzAYsWQb53Zr2VEiU3EefCwydmhkJ5pn2RNxUJ6mGf"
+    },
+    {
+        "symbol": "kai",
+        "id": "kai",
+        "name": "KAI",
+        "solana_contract_address": "5smePgnkQ7bfyef9zvn9Nt2mtZE3d9sCyUvip2pBpump"
+    },
+    {
+        "symbol": "$lumi",
+        "id": "lumi-2",
+        "name": "LUMI",
+        "solana_contract_address": "ApYQgaJeDEStBoowPa1MVvZfmrM1RwZHF2PYU8bipump"
+    },
+    {
+        "symbol": "twood",
+        "id": "twood",
+        "name": "TWOOD",
+        "solana_contract_address": "3bqnPCJwaLJ167MsupS6ZAXjyLo36BbzqzZEYDAjpump"
+    },
+    {
+        "symbol": "4win",
+        "id": "4trump",
+        "name": "4TRUMP",
+        "solana_contract_address": "4TRUMPJwguiFjfY6PLpwT6SZ5BZmCuzfqWWeJAdR6xP3"
+    },
+    {
+        "symbol": "trollicto",
+        "id": "trolli-cto",
+        "name": "TROLLI CTO",
+        "solana_contract_address": "Cqy3AkBqP866vkw7p7ioK6h6VTfQT6tFUW1dzUezpump"
+    },
+    {
+        "symbol": "magashib",
+        "id": "maga-shiba",
+        "name": "MAGA SHIBA",
+        "solana_contract_address": "2ZRsj42U3Pt5dSfKbizp3HVygCEsLijwYBepKUMqvCxW"
+    },
+    {
+        "symbol": "otti",
+        "id": "otti",
+        "name": "otti",
+        "solana_contract_address": "84UfSNQ52oHvU2xuCtQ5sn6V46BKQiXjyatt33wGpump"
+    },
+    {
+        "symbol": "$saddy",
+        "id": "saddy",
+        "name": "$saddy",
+        "solana_contract_address": "EciSqdNEz7wResHFyjMYYp2EAZaqQeWrf5biHPFS7q7a"
+    },
+    {
+        "symbol": "pinky",
+        "id": "pinky-the-pineapple",
+        "name": "Pinky the Pineapple",
+        "solana_contract_address": "BkvnWerVaa6NYvPAdeX5kBsGhCRjDnUUutAa5KbUvJwJ"
+    },
+    {
+        "symbol": "catino",
+        "id": "catino",
+        "name": "Catino",
+        "solana_contract_address": "1A3CZ3b8f878LfqpT3stoiDC7C1EDMjda6A1xHakkMF"
+    },
+    {
+        "symbol": "$squish",
+        "id": "squish",
+        "name": "Squish",
+        "solana_contract_address": "nZuEp76CPtVFy7SsRh9DhTin2uCEPceEnKbLaWcpump"
+    },
+    {
+        "symbol": "ls",
+        "id": "laser-shark",
+        "name": "Laser Shark",
+        "solana_contract_address": "97ZBmZsnzo8yTenHDr7ykrxx4Vf4YRjGm6oNvMMLpump"
+    },
+    {
+        "symbol": "marshall",
+        "id": "peanut-s-best-friend",
+        "name": "Peanut's Best Friend",
+        "solana_contract_address": "9ii68bTyx88fBNFxceyhg1UozDqx1dUgsGfr3Tv3pump"
+    },
+    {
+        "symbol": "biao",
+        "id": "biaoqing-sol",
+        "name": "Biaoqing SOL",
+        "solana_contract_address": "J12BiPmojMSbigxf1YH1aEctEfcyAsonUFixDnyVpump"
+    },
+    {
+        "symbol": "phillip",
+        "id": "not-a-chill-guy",
+        "name": "NOT A CHILL GUY",
+        "solana_contract_address": "8h8qETW2koxxLjus7ycGTmPCGZSGCxfRdN139qgLpump"
+    },
+    {
+        "symbol": "wape",
+        "id": "whatever-ape",
+        "name": "Whatever Ape",
+        "solana_contract_address": "C4u9GYmTvtaGa1a7q6iijn5DK2GYe78fqEeoPwrpump"
+    },
+    {
+        "symbol": "irs",
+        "id": "iridescent-rabbit-shark",
+        "name": "iridescent rabbit shark",
+        "solana_contract_address": "4y5fknXiRc8pJSTiNAzLmCum7LmzctRjxZWc1qtmpump"
+    },
+    {
+        "symbol": "crochet",
+        "id": "crochet-world",
+        "name": "Crochet World",
+        "solana_contract_address": "Aqjju8gCv3Uc2XsmF5x92ZarDo3hCnP7EgUeDkv1i7jK"
+    },
+    {
+        "symbol": "dank",
+        "id": "dank-frog",
+        "name": "Dank Frog",
+        "solana_contract_address": "Fim7MFRXyk6xmCYFb4Z1vzmSrcw568pph94fEDBepump"
+    },
+    {
+        "symbol": "pipi",
+        "id": "pipi",
+        "name": "PIPI",
+        "solana_contract_address": "HmTZ1SFRhgp63kgoT64iAwKXZez9Wf3df8r3MFywN8mp"
+    },
+    {
+        "symbol": "dcc",
+        "id": "drunk-chicken-centipede",
+        "name": "Drunk Chicken Centipede",
+        "solana_contract_address": "457PbiajA8Tsh7FqS2Y68ncdXcGobkeLT7GP4mYQpump"
+    },
+    {
+        "symbol": "abcde",
+        "id": "abcde-coin",
+        "name": "abcde coin",
+        "solana_contract_address": "6LRHCKvqCX9JuQj8Fkx8yEM3c1PpyrV9NuPujc9Qpump"
+    },
+    {
+        "symbol": "caviar",
+        "id": "caviar-meme",
+        "name": "Caviar",
+        "solana_contract_address": "5BFkf1UHfuRHwfqQegLqFH4A8ZhmpF7DRfc2FfELREfm"
+    },
+    {
+        "symbol": "$bitb",
+        "id": "bitbean",
+        "name": "BitBean",
+        "solana_contract_address": "9jBg9QnpGLmPB58Fmp5L7fbwk1kJ7HYcaziRdPR7yRQJ"
+    },
+    {
+        "symbol": "beep",
+        "id": "beep-2",
+        "name": "Beep",
+        "solana_contract_address": "B7beofzmsqpnwjNcpx2KSxwkmpqfE7RMZoE7wgqGfCYh"
+    },
+    {
+        "symbol": "bark",
+        "id": "barking-dog",
+        "name": "Barking Dog",
+        "solana_contract_address": "HWcmFw19wHSuxJFXz4xSzLqVz9sAFykNYdBc4eGfpump"
+    },
+    {
+        "symbol": "triangle",
+        "id": "dancing-triangle",
+        "name": "dancing triangle",
+        "solana_contract_address": "8iPwRXodtvUQoJ2Nj2HoY5BEZ3ohE3AafHPr5Pi3coV1"
+    },
+    {
+        "symbol": "mozart",
+        "id": "mozart",
+        "name": "Mozart",
+        "solana_contract_address": "HPKLKDwcvRCjNAe54TGBxsM7yVaFXuQe3HGeJfeDpump"
+    },
+    {
+        "symbol": "poly",
+        "id": "polygon-mascot",
+        "name": "POLYGON MASCOT",
+        "solana_contract_address": "CWR9o6fei1J92MhSoKqDootrhBo5zDgjsqeQecSzpump"
+    },
+    {
+        "symbol": "sed",
+        "id": "smoking-eagle-dog",
+        "name": "Smoking Eagle Dog",
+        "solana_contract_address": "4TQ8Grmh3HUtBDpzoA9fS6xL8HQtAKpUZ5ByaUttpump"
+    },
+    {
+        "symbol": "puppet",
+        "id": "puppet-on-sol",
+        "name": "Puppet on Sol",
+        "solana_contract_address": "F4WUv643sJWAsGEsYtP5XErDFecHB7R2fguQSNiNB9Dg"
+    },
+    {
+        "symbol": "grump",
+        "id": "grumpie",
+        "name": "Grumpie",
+        "solana_contract_address": "CjbLGTG3bG48d1EfpgzYdngFJJxDBBPHVD3siCcTpump"
+    },
+    {
+        "symbol": "chady",
+        "id": "chady",
+        "name": "CHADY",
+        "solana_contract_address": "s346aePxq2ZGEZ6fHxJAeKWpEAqoC92Ey3CyqqTJYWG"
+    },
+    {
+        "symbol": "edm",
+        "id": "edm",
+        "name": "Electric Dog Modish",
+        "solana_contract_address": "3nES8WTRwf85kGtFyXZswLZHbx8xsiAi2qZoJBS5pump"
+    },
+    {
+        "symbol": "pkin",
+        "id": "pumpkin-3",
+        "name": "Pumpkin",
+        "solana_contract_address": "FX5Prq7R7rRUotKrHPbpwXNHNGSYyAgbjXFvLqQCpump"
+    },
+    {
+        "symbol": "baobao",
+        "id": "baobao",
+        "name": "Baobao",
+        "solana_contract_address": "3Xu3Qf2NRrbcDsQjV1B8mndGndS2ATVSMVtgX2Tkpump"
+    },
+    {
+        "symbol": "doggo",
+        "id": "doggo-2",
+        "name": "Doggo",
+        "solana_contract_address": "HVpsW3uvqf5vq1onTQZ4VMRmkY5sioHyPSEidyj4pump"
+    },
+    {
+        "symbol": "wifear",
+        "id": "trump-wif-ear",
+        "name": "TRUMP WIF EAR",
+        "solana_contract_address": "2LJPEopyxUsYSjvKVFCTJBNTgAnxT9X3S3DgB44Mpump"
+    },
+    {
+        "symbol": "gigacat",
+        "id": "gigacat",
+        "name": "GIGACAT",
+        "solana_contract_address": "6gQgR5qq32xFZ4LGu1d1Ez3sAW3L2d4UdKLPhZLVwUHf"
+    },
+    {
+        "symbol": "bnom",
+        "id": "bitnomad",
+        "name": "BitNomad",
+        "solana_contract_address": "3miog1JNhsfJ8UxTmyGKoR3BXDL5XKK8T5eEbLzjSKFH"
+    },
+    {
+        "symbol": "aped",
+        "id": "aped-4",
+        "name": "APED",
+        "solana_contract_address": "Ghp84ZTWgJhATi9UwnTSqzedihUsvup6Ejwiz4TaEA25"
+    },
+    {
+        "symbol": "kratom",
+        "id": "kratom",
+        "name": "KRATOM",
+        "solana_contract_address": "64y8JWsN2uatQuuW3TKhrZdn1HGUJmLkqNtfnBby8zkv"
+    },
+    {
+        "symbol": "rock",
+        "id": "rock-2",
+        "name": "Rock",
+        "solana_contract_address": "5KxnfDmsXVBNkVHYhW4kztV7ZCCCbrkYxBVrqLWF3G7J"
+    },
+    {
+        "symbol": "pwot",
+        "id": "pawwot",
+        "name": "PAWWOT",
+        "solana_contract_address": "HUhKCbvKe4D6x34PypW9AtE7z6S44WApeCFZ1JqWpump"
+    },
+    {
+        "symbol": "moon",
+        "id": "moon-the-cat",
+        "name": "Moon The Cat",
+        "solana_contract_address": "FHHeb1ji8Qm5Nq68S8zPV9HCPbE7YBdBmV7fgqYRpump"
+    },
+    {
+        "symbol": "dogb",
+        "id": "dogeboy-2",
+        "name": "DogeBoy",
+        "solana_contract_address": "CkSFj9MNEfWffXPuJxfcWRWdqHYUMAcvuUdJ7muSLCKJ"
+    },
+    {
+        "symbol": "frop",
+        "id": "frop",
+        "name": "FROP",
+        "solana_contract_address": "6rQ96DQA453SfH4ucomQPfWNEdC6pU5Aao6A789epump"
+    },
+    {
+        "symbol": "op",
+        "id": "one-play",
+        "name": "One Play",
+        "solana_contract_address": "HkzxcLMCFFCvsA1zfzfTWgpsCGAJW2n7eu6EVwPspump"
+    },
+    {
+        "symbol": "bitard",
+        "id": "bitard",
+        "name": "BITARD",
+        "solana_contract_address": "2ZZaE2gNQSPZLEFiNzBewgQhj3wGpx4oDzuAawh4DHBB"
+    },
+    {
+        "symbol": "seals",
+        "id": "bouncing-seals",
+        "name": "Bouncing Seals",
+        "solana_contract_address": "691grMwoYJK4uWV5ga4r6Q3fx8nyAdwWcr3JSsaqfYM"
+    },
+    {
+        "symbol": "sse",
+        "id": "selfiesteve",
+        "name": "SelfieSteve",
+        "solana_contract_address": "CAa3j9oD6nDn5AeRmwZ6fcR78TAVXv9kumoihWvSbXsB"
+    },
+    {
+        "symbol": "pepcat",
+        "id": "pepcat",
+        "name": "pepcat",
+        "solana_contract_address": "AbDm7PoYahHX12Huuq5jcg6ezpBF6nFKgLwgHTPTgeZs"
+    },
+    {
+        "symbol": "alman",
+        "id": "alman",
+        "name": "Alman",
+        "solana_contract_address": "2UXQvRGgZTZywU1TsnYtFy7hqoNwDEEW6XqADsqnpump"
+    },
+    {
+        "symbol": "czol",
+        "id": "czolana",
+        "name": "CZOL",
+        "solana_contract_address": "AUwugnCh1tFc5scRHLNqnHjfcRbHRsq7yrKFUe7Ysmgs"
+    },
+    {
+        "symbol": "pcat",
+        "id": "pineapple-cat",
+        "name": "Pineapple Cat",
+        "solana_contract_address": "2Dk3XsYZf4jedqSkFgFpVrQYdVMmRB4AgQRaMRPo4sPo"
+    },
+    {
+        "symbol": "yunki",
+        "id": "yunki",
+        "name": "Yunki",
+        "solana_contract_address": "yunki1EK5VWXRaMufpjwsbBBX6SRuMwxAncsv9iPZQi"
+    },
+    {
+        "symbol": "pj",
+        "id": "pojak",
+        "name": "Pojak",
+        "solana_contract_address": "BFUadco9hktp8wrLas34DL5jmVYE17qYmfxZykV7pump"
+    },
+    {
+        "symbol": "cgf",
+        "id": "cat-getting-fade",
+        "name": "Cat getting fade",
+        "solana_contract_address": "CkW5tFrQiGVoKcYxxpKNLLUvTXxnpY6qc43TwyUvxYoB"
+    },
+    {
+        "symbol": "slime",
+        "id": "slime",
+        "name": "SLIME",
+        "solana_contract_address": "9nKSYk9Fdq3FSHv9mR362qKfxe4WtJNf2P6vMgb2hhaR"
+    },
+    {
+        "symbol": "nod",
+        "id": "nod-cat",
+        "name": "nod cat",
+        "solana_contract_address": "2DXQZrpb4CtTkbvwgYYDXbuXVryBudyjMs94nVS2pump"
+    },
+    {
+        "symbol": "aped",
+        "id": "i-aped",
+        "name": "i aped",
+        "solana_contract_address": "6ZUQAjQsAr3JQRRmbf5wXVgpCxD8vuq6jZGfRpTspump"
+    },
+    {
+        "symbol": "wrinkle",
+        "id": "wrinkle-the-duck",
+        "name": "Wrinkle The Duck",
+        "solana_contract_address": "C46fj9922NZWFsjePXNiwAJFWTmhDRrAotVCyjtDxJCc"
+    },
+    {
+        "symbol": "4547",
+        "id": "4547-token",
+        "name": "4547",
+        "solana_contract_address": "Pj3sX83x2gsxwwfzhUuszdA8EWcJvkJ4g3k3LCfpump"
+    },
+    {
+        "symbol": "cool",
+        "id": "cool",
+        "name": "Cool",
+        "solana_contract_address": "3wpY2uJBGiAW6A6ZKzLui4RDBYkzqB9JfBy2yUvppump"
+    },
+    {
+        "symbol": "$max",
+        "id": "maxcat",
+        "name": "MaxCat",
+        "solana_contract_address": "5hh9G4yyHAkgRoBhAuypg3njckEULUmV197LWycugyJc"
+    },
+    {
+        "symbol": "tendie",
+        "id": "tendie",
+        "name": "Tendie",
+        "solana_contract_address": "3rMTKLHAzzNpQmpXNFgmSG9gMBeugDLrDEPUyM7qpump"
+    },
+    {
+        "symbol": "votedoge",
+        "id": "doge-for-president",
+        "name": "Doge for President",
+        "solana_contract_address": "98ZmjtNLjTr1yih6D7fdFm8ViU1jEYDcBU1wjc2k9imV"
+    },
+    {
+        "symbol": "gugu",
+        "id": "gugu",
+        "name": "gugu",
+        "solana_contract_address": "9wUK3fAG5uv3d2KYDuhACXj5KNiUqahB6gnTjTw9YeyZ"
+    },
+    {
+        "symbol": "wimpo",
+        "id": "wimpo",
+        "name": "Wimpo",
+        "solana_contract_address": "44vUT784AtRVzS7Yxp8en5LuHa1HibECKpTkrRespump"
+    },
+    {
+        "symbol": "work",
+        "id": "work-for-your-bags-2",
+        "name": "WORK FOR YOUR BAGS",
+        "solana_contract_address": "worKkeanQ64MasnD7h6w1iCM1h4QhLWNteMRWLuyRPm"
+    },
+    {
+        "symbol": "solympics",
+        "id": "solympics",
+        "name": "Solympics",
+        "solana_contract_address": "9g5UvB8iR7Fe9VekHXytWTAXTHgY9Gem9g2x3SBCvRs7"
+    },
+    {
+        "symbol": "kabal",
+        "id": "kabal",
+        "name": "KABAL",
+        "solana_contract_address": "EyVn9ZW86b7FMVThMPjswEjac3YqrLWkzeVZn3nRwt5c"
+    },
+    {
+        "symbol": "feg",
+        "id": "feg",
+        "name": "feg",
+        "solana_contract_address": "89SDvBNx6msHBKwGzfvSe5qDuBwfodQD4kQrg2M1pump"
+    },
+    {
+        "symbol": "micu",
+        "id": "micu",
+        "name": "Micu",
+        "solana_contract_address": "67752mysy8rCoTcZL9xCR9ZCHwuHWtsA7QprvfzHpump"
+    },
+    {
+        "symbol": "mcbroken",
+        "id": "mcbroken",
+        "name": "McBROKEN",
+        "solana_contract_address": "8R47CZYmHbwXMnsVLXzTCnyLyR8iofkN5WxFgmnE3NHT"
+    },
+    {
+        "symbol": "chump",
+        "id": "chump-change",
+        "name": "Chump Change",
+        "solana_contract_address": "HJ8WWpsheTMKwuoFkvEuhAzdqqUTgqdS7JVR37rxgnFS"
+    },
+    {
+        "symbol": "bong",
+        "id": "bonk-wif-glass",
+        "name": "Bonk wif glass",
+        "solana_contract_address": "5n1eL39rUnN2EKbUn1otwGQMPXeQsG7HgdHopYvQifJS"
+    },
+    {
+        "symbol": "hazel",
+        "id": "hazel",
+        "name": "Hazel",
+        "solana_contract_address": "7yQJ7wRga82XPS4SxtL1QhDaYPPcfL3B6EAyXogfpump"
+    },
+    {
+        "symbol": "$nukumutu",
+        "id": "satushi-nukumutu",
+        "name": "Satushi Nukumutu",
+        "solana_contract_address": "J8xQyfH2pG7jQod18a1KsAqXGmBWtn3VmGMEuGqCpump"
+    },
+    {
+        "symbol": "loaf",
+        "id": "loaf",
+        "name": "LOAF",
+        "solana_contract_address": "AkxfNWRo9vdhQ4LPXPXNMvybUyJVvrQAWnFQ6HXpump"
+    },
+    {
+        "symbol": "buddy",
+        "id": "buddy-3",
+        "name": "Buddy",
+        "solana_contract_address": "CpuZJ6hLc3V9BhAZ4tVt8WPgbyCYd9Q1wRHPVJbGbczg"
+    },
+    {
+        "symbol": "$sheesh",
+        "id": "sheesh-3",
+        "name": "Sheesh",
+        "solana_contract_address": "EMzSUfXSVKtFKXRiX8pu1DFhujPu9g4hDz9Lisqkpump"
+    },
+    {
+        "symbol": "$scanning",
+        "id": "looking-for-cooks",
+        "name": "looking for cooks",
+        "solana_contract_address": "47hFDZpdrzLwwnUiGVdCkwDRPmrPLCBFvYLkxwaSpump"
+    },
+    {
+        "symbol": "pepig",
+        "id": "pepig",
+        "name": "PEPIG",
+        "solana_contract_address": "97vo2os2e22ZgseapQpWRVtH9TZfisw4dNHViYCtpump"
+    },
+    {
+        "symbol": "$croco",
+        "id": "croco",
+        "name": "Croco",
+        "solana_contract_address": "G8cEYL7MhmWAUiozQbtwrZA7N224QBXu2nDN22xfMhFA"
+    },
+    {
+        "symbol": "bloop",
+        "id": "bloop-furpal",
+        "name": "Bloop Furpal",
+        "solana_contract_address": "HGfaYTieJ7rXrWD8taVux2PrSB69hjQypaopvFtSMaTT"
+    },
+    {
+        "symbol": "kek",
+        "id": "kek-on-sol",
+        "name": "Kek on Sol",
+        "solana_contract_address": "6P7xxdfAZzY4AYZuZCwcfgQLaXpDnkxYjPjrBN3Zpump"
+    },
+    {
+        "symbol": "toby",
+        "id": "toby",
+        "name": "toby",
+        "solana_contract_address": "Gx8jR2sT6mJCgxcLV3DAXpVKLtf3dHiQfHqwhrhtpump"
+    },
+    {
+        "symbol": "glub",
+        "id": "glub",
+        "name": "Glub",
+        "solana_contract_address": "2ee2GwuKBEGWUxSwQeSxT3NjG3rak3ULx8kHjVUR26Jv"
+    },
+    {
+        "symbol": "larpai",
+        "id": "larpai",
+        "name": "LarpAI",
+        "solana_contract_address": "5auoDa6TKL3FsdZiRr11PDWNiDrYBgK6xWzVvVZJpump"
+    },
+    {
+        "symbol": "boba",
+        "id": "boba-the-blob",
+        "name": "Boba The Blob",
+        "solana_contract_address": "GfF4LfgQDx9aV9C3TcUA4atjyoVJ9e1tf9Yc86awpump"
+    },
+    {
+        "symbol": "gracie",
+        "id": "first-ai-owned-dog",
+        "name": "First AI Owned Dog",
+        "solana_contract_address": "iUnnnnzeZvUKZiGaAyjC87dHfQrbj1Pdaoqh9i5pump"
+    },
+    {
+        "symbol": "findme",
+        "id": "findme",
+        "name": "FindMe",
+        "solana_contract_address": "CLFR99t87xxRQtEtkWkrGj82BiJ2228h7JPgkLWiZ45o"
+    },
+    {
+        "symbol": "jaw",
+        "id": "jaw",
+        "name": "JAW",
+        "solana_contract_address": "J11xXm277Uyhvo2SKsACt7zLrhwrAiFJtPEAeDEpump"
+    },
+    {
+        "symbol": "habi",
+        "id": "habi",
+        "name": "Habi",
+        "solana_contract_address": "25yPXcALwkJQg22yKD9HMjfbP5Pvhjh6XgQu7tcVpump"
+    },
+    {
+        "symbol": "rainbow",
+        "id": "rainbow-3",
+        "name": "RAINBOW",
+        "solana_contract_address": "Akk85Dnqmt7Y2dFD6HEXrWu5LBvYimqMSqTstZPxpump"
+    },
+    {
+        "symbol": "pungu",
+        "id": "pungu",
+        "name": "Pungu"
+    },
+    {
+        "symbol": "dca",
+        "id": "dca420-meme-index",
+        "name": "DCA420 Meme Index",
+        "solana_contract_address": "GbM86ZU8UhcSwiwkB7uLqWaPnGnQXNKExJebzDBspump"
+    },
+    {
+        "symbol": "sight",
+        "id": "spectral-sight",
+        "name": "Spectral Sight",
+        "solana_contract_address": "CauybpUD3sjHVC5UEUXVCwxpMTXnrgn3AEF9bE3xpump"
+    },
+    {
+        "symbol": "floof",
+        "id": "floof",
+        "name": "FLOOF",
+        "solana_contract_address": "3jzdrXXKxwkBk82u2eCWASZLCKoZs1LQTg87HBEAmBJw"
+    },
+    {
+        "symbol": "zaza",
+        "id": "zaza-2",
+        "name": "ZAZA",
+        "solana_contract_address": "GjmjiQEDTpyoq83ULjbLSNKcK1mEg36MmkiQ6Eh6DFkf"
+    },
+    {
+        "symbol": "bonkey",
+        "id": "baby-monkey",
+        "name": "Baby Monkey",
+        "solana_contract_address": "6y4rgKVoPUc8HMcnWfca8siuBa3gAjxNaRrHxVmMpump"
+    },
+    {
+        "symbol": "$\u03c9m\u03c3ga",
+        "id": "m-ga",
+        "name": "\u03a9M\u03a3GA",
+        "solana_contract_address": "8C5wsKz682s8ByYLxVpY8J3GHSAHTsT4fJPfT97Npump"
+    },
+    {
+        "symbol": "ct100",
+        "id": "ct100-index",
+        "name": "CT100 INDEX",
+        "solana_contract_address": "EYwNqD3BrrmHYFC5xfEsELZmKapsQbjv3xHsNdg4pump"
+    },
+    {
+        "symbol": "todd",
+        "id": "sol-cat-todd",
+        "name": "SOL CAT",
+        "solana_contract_address": "7bYVYg2TVoqUxbp1agZqoZrAVsCTzRFTWLozjAyKpump"
+    },
+    {
+        "symbol": "twinny",
+        "id": "twinny",
+        "name": "Twinny",
+        "solana_contract_address": "8wJZpmvohx4K9pXcDc2Rz1BobS5isaVXvA9XkMHnpump"
+    },
+    {
+        "symbol": "jillboden",
+        "id": "jill-boden",
+        "name": "Jill Boden",
+        "solana_contract_address": "BidenWjdX6XTBNdhQNbD3hXTAHVQD8wtFXvhLCqsVMV7"
+    },
+    {
+        "symbol": "golem",
+        "id": "xiv-the-awakening",
+        "name": "XIV: THE AWAKENING",
+        "solana_contract_address": "2medii362cxudkDskT83A14z7tUQGuGcqfy7sXGppump"
+    },
+    {
+        "symbol": "taro",
+        "id": "maru-taro",
+        "name": "Maru Taro",
+        "solana_contract_address": "8cvjcGD1CcSHXfc82FfHSrLzeooJJmjB2Dp1pV81pump"
+    },
+    {
+        "symbol": "billi",
+        "id": "billi",
+        "name": "Billi",
+        "solana_contract_address": "CmLfUYD69N4cdthVJBAcojPhZvFTwEz3Xo2TuBzLpump"
+    },
+    {
+        "symbol": "loaf",
+        "id": "the-almighty-loaf",
+        "name": "The Almighty Loaf",
+        "solana_contract_address": "74qkAUsBbK65kmxxLFxYacz4gDUvgacYUyEXNJSSpump"
+    },
+    {
+        "symbol": "$occer",
+        "id": "occer",
+        "name": "$OCCER",
+        "solana_contract_address": "Eu9tmWKKJT8o6kmYUpQ9VsxBF769d9xW6DpxVMXJvjJh"
+    },
+    {
+        "symbol": "urmom",
+        "id": "urmom",
+        "name": "URMOM",
+        "solana_contract_address": "GACxkcy9WDWHhB15oKLHp3PPzQV4zLt2m7dcGPoZLkZY"
+    },
+    {
+        "symbol": "mx",
+        "id": "mx69420",
+        "name": "MX69420",
+        "solana_contract_address": "7bpFPJqRpb8Wn8VX9rjNLWEsccCTjKqwmJ7wMX89VAzZ"
+    },
+    {
+        "symbol": "whc",
+        "id": "whales-club",
+        "name": "Whales Club",
+        "solana_contract_address": "9VLtWhS7Zope97RAJ1KBk2n8FHcNDu5QxqXWv1A3WMko"
+    },
+    {
+        "symbol": "hyrax",
+        "id": "screaming-hyrax-2",
+        "name": "Screaming Hyrax",
+        "solana_contract_address": "2Y5U2YMrWHJg8mkCL13N27S8jtxuQw2FWsxys7bGGTZK"
+    },
+    {
+        "symbol": "ginger",
+        "id": "ginger-2",
+        "name": "GINGER",
+        "solana_contract_address": "BCwXKTM8Jew3RBTn3wp7uRxdu1tj7D6SYNci7uakpump"
+    },
+    {
+        "symbol": "hello",
+        "id": "based-department",
+        "name": "Based Department",
+        "solana_contract_address": "HrBwc1Gwptdb4hVFjLp97MbBW2jyzh4R7kBsZT1tpump"
+    },
+    {
+        "symbol": "pepek",
+        "id": "pepek-philippe",
+        "name": "Pepek Philippe",
+        "solana_contract_address": "2FJkXdneMLkESaoU2U4nC1y5VNNFSxpRY4EJZwLpepek"
+    },
+    {
+        "symbol": "doctor",
+        "id": "dr-solwitz",
+        "name": "Dr Solwitz",
+        "solana_contract_address": "GSgFLVfDLkeS6WTUzGnUfLNVHuLW1Y9kqqaVaHvcuFGJ"
+    },
+    {
+        "symbol": "beluga",
+        "id": "beluga",
+        "name": "Beluga",
+        "solana_contract_address": "EcLwiJG3tvraFRG798JaUADgHcCn5zSVreHqxssUPCHd"
+    },
+    {
+        "symbol": "klein",
+        "id": "sophie-klein",
+        "name": "Sophie Klein",
+        "solana_contract_address": "CBVyaHfxMrcZuraP5GfGAYkTSXmiNDs28QdXrpKvpump"
+    },
+    {
+        "symbol": "monke",
+        "id": "monke-4",
+        "name": "MONKE",
+        "solana_contract_address": "BPwExs1wCtivjx8Sh8nDYoemxgXu1zVWxFxvVWqpump"
+    },
+    {
+        "symbol": "dox",
+        "id": "dox-squad",
+        "name": "Dox Squad",
+        "solana_contract_address": "8wa9yRNKp57Fy4RViUgBV21oR7SsgmrAkN576ThJzY2F"
+    },
+    {
+        "symbol": "yuge",
+        "id": "yuge-meme",
+        "name": "Yuge Meme",
+        "solana_contract_address": "5ve8Fw3gDFpdipxtk4UptKbrtimRLDy97KRKuLbQnECa"
+    },
+    {
+        "symbol": "wifc",
+        "id": "dogwifceo",
+        "name": "dogwifceo",
+        "solana_contract_address": "HrFM4YC2YAc5toWwXrFQGahpNinX53ZpzLTPj3jc2tZM"
+    },
+    {
+        "symbol": "forky",
+        "id": "forky",
+        "name": "FORKY",
+        "solana_contract_address": "F6KXgwa2cA9Ahp1mZJnrLKNSRTNnv4ayxDiDapn8pump"
+    },
+    {
+        "symbol": "mawa",
+        "id": "kumala-herris",
+        "name": "Kumala Herris",
+        "solana_contract_address": "8Sk1mazEDN1L6P6E9di4Xgza3icJw4Za9KUKqnUNEQrM"
+    },
+    {
+        "symbol": "cute",
+        "id": "pepe-uwu",
+        "name": "PEPE UWU",
+        "solana_contract_address": "6zmrmNUGdRwrqcchshVkBgAyLhLwZ7QvJRQiKktqVQLV"
+    },
+    {
+        "symbol": "pepinu",
+        "id": "pepinu-sol",
+        "name": "Pepinu (SOL)",
+        "solana_contract_address": "Fo9T5Rrj6zj7Nh98ac6efQNVwJ26FU7Jr5dCNJQyhqAR"
+    },
+    {
+        "symbol": "ffrog",
+        "id": "frankenfrog",
+        "name": "FrankenFrog",
+        "solana_contract_address": "9nJVEmiNFqLkueCGTsYtqAgx6v7wvckQEH5jzhBopump"
+    },
+    {
+        "symbol": "tpcat",
+        "id": "tang-ping-cat",
+        "name": "Tang Ping Cat",
+        "solana_contract_address": "AkYkgSStgAZ6BN8LceAPbsKXLaGiwJMcRt4VufaEpump"
+    },
+    {
+        "symbol": "dermo",
+        "id": "dermophis-donaldtrumpi",
+        "name": "Dermophis Donaldtrumpi",
+        "solana_contract_address": "A5GJ2a2UKqnQvmG2WN76hxfdv4foLnojT5cipoRfHRhE"
+    },
+    {
+        "symbol": "chilly",
+        "id": "chilly",
+        "name": "Chilly",
+        "solana_contract_address": "7Akh51JvZDvEi9a5KLHkkEfnajJzqRmnK2jVUvW1XRPA"
+    },
+    {
+        "symbol": "bcat",
+        "id": "bananacat-sol",
+        "name": "BananaCat (Sol)",
+        "solana_contract_address": "31GUGbRSct8MsJJnditGy98xMxowq58sFsZ9CGQRMLT8"
+    },
+    {
+        "symbol": "great",
+        "id": "thetrumptoken",
+        "name": "TheTrumpToken",
+        "solana_contract_address": "8RR17XBRY8v9tA9vuuFwrFyFEK5Z5X55Yj7AfEjv7RzL"
+    },
+    {
+        "symbol": "$muva",
+        "id": "muva",
+        "name": "MUVA",
+        "solana_contract_address": "CvM4hkeWFY7h5BYqeo7HvyKwi9qi8KqVipv41ieopump"
+    },
+    {
+        "symbol": "birddog",
+        "id": "bird-dog-on-sol",
+        "name": "Bird Dog on SOL",
+        "solana_contract_address": "3XTp12PmKMHxB6YkejaGPUjMGBLKRGgzHWgJuVTsBCoP"
+    },
+    {
+        "symbol": "party",
+        "id": "party-2",
+        "name": "Party",
+        "solana_contract_address": "PARcZnHixQXo126iE7LxEbyjmmJwwwSVXk6JJdo3zrZ"
+    },
+    {
+        "symbol": "eliza",
+        "id": "ai16zeliza",
+        "name": "ai16zeliza",
+        "solana_contract_address": "wUtwjNmjCP9TTTtoc5Xn5h5sZ2cYJm5w2w44b79yr2o"
+    },
+    {
+        "symbol": "$keydog",
+        "id": "keydog",
+        "name": "KEYDOG",
+        "solana_contract_address": "3fGoNjPohYRVPk9iJuwEW5WuURU5gmAdSRgNgeaanexQ"
+    },
+    {
+        "symbol": "willy",
+        "id": "willy-2",
+        "name": "Willy",
+        "solana_contract_address": "HPEuArjrUccrXWZhcQUhC2nhN7XgGyaogjy4BLN8pump"
+    },
+    {
+        "symbol": "silky",
+        "id": "silky",
+        "name": "silky",
+        "solana_contract_address": "2QRjZ12c9JDeoP4LRK1RnWYNeaWFXVFUYag2x9iGpump"
+    },
+    {
+        "symbol": "analos",
+        "id": "analos",
+        "name": "analoS",
+        "solana_contract_address": "7iT1GRYYhEop2nV1dyCwK2MGyLmPHq47WhPGSwiqcUg5"
+    },
+    {
+        "symbol": "trump",
+        "id": "bridged-maga-wormhole",
+        "name": "Bridged MAGA (Wormhole)",
+        "solana_contract_address": "HaP8r3ksG76PhQLTqR8FYBeNiQpejcFbQmiHbg787Ut1"
+    },
+    {
+        "symbol": "pedro",
+        "id": "pedro-meme",
+        "name": "PEDRO MEME",
+        "solana_contract_address": "6M1xpu6BTxbmxejFvDn73Ba8tGVMgXUnioEkVbtsGa1z"
+    },
+    {
+        "symbol": "wos",
+        "id": "wolf-of-solana",
+        "name": "Wolf Of Solana",
+        "solana_contract_address": "8TfYk26pFxnaCmZbjoSMCzktDU16H5CgZ1Z9eTnB12MR"
+    },
+    {
+        "symbol": "jani",
+        "id": "jani",
+        "name": "JANI",
+        "solana_contract_address": "BZVZFqfUaV2uEsBU9QCcVgsLJVMy9UCcSVbryzAFpump"
+    },
+    {
+        "symbol": "rcd",
+        "id": "reserve-currency-dogs",
+        "name": "Reserve Currency Dogs",
+        "solana_contract_address": "9dNqetYhHbXmgB9vsASSHEB7sxLSFZPw8hF86E1Epump"
+    },
+    {
+        "symbol": "jorgie",
+        "id": "monkey-taken-by-police",
+        "name": "Monkey Taken By Police",
+        "solana_contract_address": "AMgMqadZ7Qpe9PCQwehAG3Xbg5cf8JxCxH7sGCSupump"
+    },
+    {
+        "symbol": "fric",
+        "id": "fric",
+        "name": "FRIC",
+        "solana_contract_address": "EsP4kJfKUDLfX274WoBSiiEy74Sh4tZKUCDjfULHpump"
+    },
+    {
+        "symbol": "illusion",
+        "id": "illusion",
+        "name": "illusion",
+        "solana_contract_address": "5gdyZKYfAFNsJSR246Y6Kv6L6Jwu8S5Q6JHvRU3tpump"
+    },
+    {
+        "symbol": "live",
+        "id": "stream-until-100m-mc",
+        "name": "Stream until 100M MC",
+        "solana_contract_address": "9eF4iX4BzeKnvJ7gSw5L725jk48zJw2m66NFxHHvpump"
+    },
+    {
+        "symbol": "frog",
+        "id": "frog-2",
+        "name": "Frog",
+        "solana_contract_address": "J57SryZGyYt3qhsa3s9HAJCfHH8h3KGtFyYbVUhPpump"
+    }
+]
