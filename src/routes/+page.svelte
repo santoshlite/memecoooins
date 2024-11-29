@@ -1,7 +1,14 @@
 <script lang="ts">
 	import Icon from '@iconify/svelte';
-	import OnRampModal from '$lib/components/OnRampModal.svelte';
-	let showModal = false;
+	import { SignedIn, SignedOut, UserButton, useClerkContext } from 'svelte-clerk';
+	
+	const ctx = useClerkContext();
+
+	function handleSignIn() {
+		ctx.clerk?.openSignIn({
+			redirectUrl: window.location.href
+		});
+	}
 </script>
 
 <div class="flex h-screen w-full flex-col items-center justify-center p-4">
@@ -11,13 +18,20 @@
 		<div class="flex flex-col items-center space-y-4">
 			<img src="/img/blockrok_logo.png" alt="Blockrok" class="h-32" />
 			<p class="text-xl font-medium">The World's Largest Memecoin Asset Manager</p>
-			<button
-				class="hover:bg-g-600 flex items-center gap-2 rounded-lg bg-green-500 px-4 py-2 font-medium text-gray-100 transition-colors"
-				on:click={() => (showModal = true)}
-			>
-				<Icon icon="lucide:credit-card" class="h-5 w-5" />
-				<div>Deposit</div>
-			</button>
+
+			<SignedOut>
+				<button
+					class="hover:bg-green-600 flex items-center gap-2 rounded-lg bg-green-500 px-4 py-2 font-medium text-gray-100 transition-colors"
+					on:click={handleSignIn}
+				>
+					<Icon icon="lucide:credit-card" class="h-5 w-5" />
+					<div>Login</div>
+				</button>
+			</SignedOut>
+
+			<!-- <SignedIn>
+				<UserButton />
+			</SignedIn> -->
 		</div>
 
 		<div class="absolute bottom-0 mb-8 flex items-center gap-2 px-4 py-2 font-medium text-gray-100">
@@ -27,8 +41,4 @@
 	</div>
 </div>
 
-{#if showModal}
-	<OnRampModal 
-		onClose={() => showModal = false} 
-	/>
-{/if}
+

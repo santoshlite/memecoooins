@@ -3,7 +3,9 @@
 declare global {
 	namespace App {
 		// interface Error {}
-		// interface Locals {}
+		interface Locals {
+			auth: import('@clerk/backend').AuthObject;
+		}
 		// interface PageData {}
 		// interface PageState {}
 		// interface Platform {}
