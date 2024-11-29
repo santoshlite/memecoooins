@@ -1,20 +1,16 @@
 <script lang="ts">
-	// Import statements
-	import Icon from '@iconify/svelte';
-	import { SignedIn, SignedOut, UserButton } from 'svelte-clerk';
-	import { page } from '$app/stores';
 	import { onMount } from 'svelte';
-	import { goto } from '$app/navigation';
+	import { page } from '$app/stores';
+	import { createCheckoutSession, handlePaymentStatus } from '$lib/utils/payment';
+	import { SignedIn, SignedOut, UserButton } from 'svelte-clerk';
+	import Icon from '@iconify/svelte';
 	import StatusModal from '$lib/components/StatusModal.svelte';
 	import { handleSignIn } from '$lib/utils/auth';
-	import { createCheckoutSession, handlePaymentStatus } from '$lib/stores/payment';
 
-	// Modal state
 	let showModal = false;
 	let modalMessage = '';
 	let modalType: 'success' | 'error' = 'success';
 
-	// Payment handler
 	async function handleBuy() {
 		const result = await createCheckoutSession();
 		if (result.error) {
@@ -24,7 +20,6 @@
 		}
 	}
 
-	// Handle URL parameters for payment status
 	onMount(() => {
 		const paymentStatus = $page.url.searchParams.get('payment');
 		const status = handlePaymentStatus(paymentStatus);
@@ -36,18 +31,11 @@
 
 			// Clean up the URL
 			window.history.replaceState({}, '', '/');
-
-			if (status.type === 'success') {
-				setTimeout(() => goto('/wallet'), 2000);
-			}
 		}
 	});
 
 	function handleModalClose() {
 		showModal = false;
-		if (modalType === 'success') {
-			goto('/wallet');
-		}
 	}
 </script>
 

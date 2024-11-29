@@ -27,8 +27,8 @@ export async function POST() {
 					quantity: 1
 				}
 			],
-			success_url: `${DOMAIN}/success`,
-			cancel_url: `${DOMAIN}/cancel`
+			success_url: `${DOMAIN}/wallet`,
+			cancel_url: `${DOMAIN}/?payment=cancelled`
 		});
 
 		return json({ id: session.id });
