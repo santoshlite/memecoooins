@@ -1,6 +1,7 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
 	import { page } from '$app/stores';
+	import { goto } from '$app/navigation';
 	import { createCheckoutSession, handlePaymentStatus } from '$lib/utils/payment';
 	import { SignedIn, SignedOut, UserButton } from 'svelte-clerk';
 	import Icon from '@iconify/svelte';
@@ -31,7 +32,7 @@
 				showModal = true;
 				modalType = status.type as 'success' | 'error';
 				modalMessage = status.message;
-				window.history.replaceState({}, '', '/');
+				goto('/', { replaceState: true });
 			}
 		}
 
@@ -39,7 +40,7 @@
 		const trigger = $page.url.searchParams.get('trigger');
 		if (trigger === 'buy') {
 			handleBuy();
-			window.history.replaceState({}, '', '/');  // Clean up URL
+			goto('/', { replaceState: true });
 		}
 	});
 
