@@ -37,6 +37,9 @@ export const load: PageServerLoad = async ({ locals }) => {
 	});
 
 	return {
-		portfolio: portfolioWithPrices
+		user: {
+			...user,
+			portfolio: portfolioWithPrices
+		}
 	};
 };

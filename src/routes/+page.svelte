@@ -7,7 +7,6 @@
 	import Icon from '@iconify/svelte';
 	import StatusModal from '$lib/components/StatusModal.svelte';
 	import { createSignInHandler } from '$lib/utils/auth';
-    import { createAndFundUserWalletWithUSDC } from '$lib/utils/wallet';
 
 	let showModal = false;
 	let modalMessage = '';
@@ -88,13 +87,6 @@
 				</button>
 			</SignedIn>
 
-
-			<button
-				class="rounded-lg bg-green-500 px-4 py-2 font-medium text-gray-100 transition-colors hover:bg-green-600"
-				on:click={() => createAndFundUserWalletWithUSDC(2)}
-			>
-				Test Button To transfer funds to user wallet
-			</button>
 		</div>
 
 		<!-- Footer -->
