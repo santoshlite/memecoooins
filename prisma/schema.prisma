@@ -8,10 +8,24 @@ datasource db {
 }
 
 model User {
-  id        String   @id @default(cuid())
-  clerkId   String   @unique
-  email     String   @unique
-  portfolio Json?    @default("{}")
-  createdAt DateTime @default(now())
-  updatedAt DateTime @updatedAt
+  id        String     @id @default(cuid())
+  clerkId   String     @unique
+  email     String     @unique
+  // Portfolio is an array of objects with structure:
+  // [{ 
+  //   coinId: string,    // references Coin.id
+  //   quantity: number,  // amount of coins owned
+  // }]
+  portfolio Json?      @default("[]")
+  createdAt DateTime   @default(now())
+  updatedAt DateTime   @updatedAt
+}
+
+model Coin {
+  id                    String   @id // matches coingecko id
+  symbol                String
+  name                  String
+  solana_contract_address String
+  current_price         Float?   // in USD
+  last_price_update    DateTime @default(now())
 }

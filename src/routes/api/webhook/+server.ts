@@ -1,7 +1,9 @@
 import { json } from '@sveltejs/kit';
 import Stripe from 'stripe';
 import { SECRET_STRIPE_KEY, WEBHOOK_SECRET } from '$env/static/private';
+import { PrismaClient } from '@prisma/client';
 
+const prisma = new PrismaClient();
 const stripe = new Stripe(SECRET_STRIPE_KEY, {
 	apiVersion: '2024-11-20.acacia'
 });
@@ -16,13 +18,30 @@ export async function POST({ request }) {
 
 	try {
 		const event = stripe.webhooks.constructEvent(body, signature, WEBHOOK_SECRET);
-
+		console.log(event.type);
 		switch (event.type) {
 			case 'checkout.session.completed':
 				const session = event.data.object;
-				// Handle successful payment
-				// You can store the payment info in your database here
-				console.log('Payment successful:', session);
+
+				// Hardcoded portfolio update
+				// Adding some sample memecoins to the user's portfolio
+				const portfolioUpdate = [
+					{ id: 'bonk', quantity: 50000 },
+					{ id: 'mother-iggy', quantity: 50000 },
+					{ id: 'boba-oppa', quantity: 250000 }
+				];
+
+				// Update user's portfolio in database
+				await prisma.user.update({
+					where: {
+						clerkId: session.client_reference_id!
+					},
+					data: {
+						portfolio: portfolioUpdate
+					}
+				});
+
+				console.log('Portfolio updated for user:', session.client_reference_id);
 				break;
 
 			default:

@@ -19,7 +19,6 @@ const userHandler: Handle = async ({ event, resolve }) => {
 			create: {
 				clerkId: event.locals.auth.userId,
 				email: email,
-				portfolio: {}
 			}
 		});
 	}

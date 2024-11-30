@@ -948,11 +948,6 @@
         "solana_contract_address": "FvER7SsvY5GqAMawf7Qfb5MnUUmDdbPNPg4nCa4zHoLw"
     },
     {
-        "symbol": "tnsr",
-        "id": "tensorium",
-        "name": "Tensorium"
-    },
-    {
         "symbol": "gemini",
         "id": "gemini-2",
         "name": "Gemini",
@@ -5679,11 +5674,6 @@
         "id": "rainbow-3",
         "name": "RAINBOW",
         "solana_contract_address": "Akk85Dnqmt7Y2dFD6HEXrWu5LBvYimqMSqTstZPxpump"
-    },
-    {
-        "symbol": "pungu",
-        "id": "pungu",
-        "name": "Pungu"
     },
     {
         "symbol": "dca",
