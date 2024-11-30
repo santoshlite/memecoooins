@@ -4,6 +4,7 @@
 
 	export let data;
 	const { user } = data;
+	console.log('user', data.user);
 </script>
 
 <ProtectedRoute>
