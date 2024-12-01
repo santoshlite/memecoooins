@@ -2,6 +2,7 @@
   // Import necessary libraries
   import { onMount, onDestroy } from 'svelte';
   import Chart from 'chart.js/auto';
+  import html2canvas from 'html2canvas';
 
   // Exported variables and initial data
   export let data;
@@ -139,18 +140,33 @@
     }
   }
 
-  function sharePortfolio(portfolioId: string) {
-    const shareUrl = `${window.location.origin}/portfolio/${portfolioId}`;
+  async function sharePortfolio(portfolioId: string) {
+    try {
+      // Capture the portfolio section
+      const element = document.querySelector('.max-w-4xl');
+      if (!element) throw new Error('Portfolio element not found');
 
-    if (navigator.share) {
-      navigator.share({
-        title: 'My Memecoin Portfolio',
-        text: 'Check out my mysterious memecoin portfolio!',
-        url: shareUrl,
+      const canvas = await html2canvas(element as HTMLElement, {
+        backgroundColor: '#000', // Match your background
+        scale: 2, // Higher quality
       });
-    } else {
-      navigator.clipboard.writeText(shareUrl);
-      alert('Portfolio link copied to clipboard!');
+
+      // Convert canvas to blob
+      const blob = await new Promise<Blob>((resolve) => {
+        canvas.toBlob((blob) => {
+          resolve(blob!);
+        }, 'image/png');
+      });
+
+      // Download the image
+      const link = document.createElement('a');
+      link.href = URL.createObjectURL(blob);
+      link.download = 'portfolio.png';
+      link.click();
+      URL.revokeObjectURL(link.href);
+    } catch (error) {
+      console.error('Error sharing portfolio:', error);
+      alert('Failed to download portfolio. Please try again.');
     }
   }
 

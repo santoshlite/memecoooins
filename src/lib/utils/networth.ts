@@ -78,7 +78,7 @@ export async function updateUserNetWorth() {
 
     for (const user of users) {
       // Parse the portfolio JSON
-      const portfolio = JSON.parse(user.portfolio as string) as Array<{
+      let portfolio = user.portfolio as Array<{
         quantity: number;
         id: string;
       }>;
@@ -93,7 +93,7 @@ export async function updateUserNetWorth() {
       }, 0);
 
       // Parse existing history and add new entry
-      const history = JSON.parse(user.netWorthHistory as string) as Array<{
+      const history = user.netWorthHistory as Array<{
         netWorth: number;
         coinsWorth: { [key: string]: number };
       }>;
@@ -109,7 +109,7 @@ export async function updateUserNetWorth() {
       await prisma.user.update({
         where: { id: user.id },
         data: {
-          netWorthHistory: JSON.stringify(history),
+          netWorthHistory: history,
           lastNetWorthUpdate: new Date()
         }
       });
@@ -125,7 +125,9 @@ export async function runCronJobs() {
   try {
     console.log('Starting cron jobs...');
     await updateCoinPrices();
+    console.log('Updated coin prices');
     await updateUserNetWorth();
+    console.log('Updated user net worth');
     console.log('Completed cron jobs successfully');
   } catch (error) {
     console.error('Error in cron jobs:', error);
