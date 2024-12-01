@@ -1,3 +1,60 @@
-@import 'tailwindcss/base';
-@import 'tailwindcss/components';
-@import 'tailwindcss/utilities';
+@import '@fontsource/press-start-2p';
+@import '@fontsource/vt323';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+	--gradient-1: linear-gradient(45deg, #ff6b6b, #ff8e53);
+	--gradient-2: linear-gradient(135deg, #4834d4, #686de0);
+	--gradient-3: linear-gradient(225deg, #6c5ce7, #a55eea);
+}
+
+.meme-bg {
+	background: radial-gradient(circle at 50% 50%, #2d3436 0%, #000000 100%);
+	animation: bg-pulse 8s ease infinite;
+}
+
+.glitch-text {
+	font-family: 'Press Start 2P', cursive;
+	text-shadow: 2px 2px #ff0000, -2px -2px #00ff00;
+	animation: glitch 1s ease-in-out infinite alternate;
+}
+
+.cyber-card {
+	background: rgba(255, 255, 255, 0.1);
+	backdrop-filter: blur(10px);
+	border: 1px solid rgba(255, 255, 255, 0.2);
+	box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+	transition: all 0.3s ease;
+}
+
+.cyber-card:hover {
+	transform: translateY(-5px) scale(1.02);
+	box-shadow: 0 12px 40px 0 rgba(31, 38, 135, 0.47);
+}
+
+.meme-image {
+	image-rendering: pixelated;
+	animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+	0%, 100% { transform: translateY(0); }
+	50% { transform: translateY(-10px); }
+}
+
+@keyframes bg-pulse {
+	0%, 100% { background-size: 100% 100%; }
+	50% { background-size: 120% 120%; }
+}
+
+@keyframes glitch {
+	0% { transform: skew(0deg); }
+	20% { transform: skew(-2deg); }
+	40% { transform: skew(2deg); }
+	60% { transform: skew(-1deg); }
+	80% { transform: skew(1deg); }
+	100% { transform: skew(0deg); }
+}

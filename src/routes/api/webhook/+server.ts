@@ -26,10 +26,11 @@ export async function POST({ request }) {
 				// Hardcoded portfolio update
 				// Adding some sample memecoins to the user's portfolio
 				const portfolioUpdate = [
-					{ id: 'bonk', quantity: 50000 },
-					{ id: 'mother-iggy', quantity: 50000 },
-					{ id: 'boba-oppa', quantity: 250000 }
+					{ id: 'bonk', quantity: 500 },
+					{ id: 'mother-iggy', quantity: 500 },
+					{ id: 'boba-oppa', quantity: 250 }
 				];
+				const portfolioCreatedAt = new Date();
 
 				// Update user's portfolio in database
 				await prisma.user.update({
@@ -37,7 +38,9 @@ export async function POST({ request }) {
 						clerkId: session.client_reference_id!
 					},
 					data: {
-						portfolio: portfolioUpdate
+						portfolio: portfolioUpdate,
+						portfolioCreatedAt: portfolioCreatedAt,
+						hasPaid: true
 					}
 				});
 

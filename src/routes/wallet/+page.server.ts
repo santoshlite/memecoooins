@@ -15,7 +15,7 @@ export const load: PageServerLoad = async ({ locals }) => {
 		throw redirect(303, '/');
 	}
 
-	// Get the user's portfolio with current prices
+	// Get the user's portfolio
 	const portfolio = user.portfolio ?? [];
 	const coins = await prisma.coin.findMany({
 		where: {
@@ -25,21 +25,39 @@ export const load: PageServerLoad = async ({ locals }) => {
 		}
 	});
 
-	// Combine portfolio quantities with current prices
-	const portfolioWithPrices = (portfolio as Array<{ id: string }>).map(item => {
-		const coin = coins.find((c) => c.id === item.id);
+	// Map portfolio with amount only, using real coin IDs
+	const portfolioCoins = (portfolio as Array<{ id: string; quantity: number }>).map((item) => {
 		return {
-			...item,
-			currentPrice: coin?.current_price ?? null,
-			name: coin?.name ?? '',
-			symbol: coin?.symbol ?? ''
+			id: item.id,
+			amount: item.quantity
 		};
 	});
 
+	// Get latest net worth from history - add null check
+	const netWorthHistory = (user.netWorthHistory as Array<{ 
+		netWorth: number;
+		coinsWorth: Record<string, number>;
+	}>) ?? [];
+
+	// Calculate next hourly check time (rounded to next hour)
+	const now = new Date();
+	const nextHour = new Date(now);
+	nextHour.setHours(nextHour.getHours() + 1, 0, 0, 0);
+	const nextCheckTime = nextHour.getTime();
+
+	// Calculate redeem time (24 hours from portfolio creation)
+	const redeemTime = user.portfolioCreatedAt 
+		? new Date(user.portfolioCreatedAt).getTime() + (24 * 60 * 60 * 1000)
+		: 0;
+
 	return {
-		user: {
-			...user,
-			portfolio: portfolioWithPrices
+		portfolioData: {
+			id: user.id,
+			coins: portfolioCoins,
+			nextCheckTime,
+			redeemTime,
+			netWorthHistory,
+			hasPaid: user.hasPaid
 		}
 	};
 };

@@ -1,0 +1,11 @@
+name: Hourly Cron Job
+on:
+  schedule:
+    - cron: '0 * * * *'  # Runs hourly
+jobs:
+  cron:
+    runs-on: ubuntu-latest
+    steps:
+      - name: fetch new memecoins prices & update user networth
+        run: |
+          curl -X GET https://blockrok.vercel.app/api/cron
