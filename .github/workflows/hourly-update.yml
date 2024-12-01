@@ -1,0 +1,33 @@
+name: Hourly DB Update
+
+on:
+  schedule:
+    - cron: '59 * * * *'  # Runs every hour at minute 0
+  workflow_dispatch:      # Allows manual triggering for testing
+
+jobs:
+  update-db:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        run: |
+          npm install prisma @prisma/client
+          npm install node-fetch  # Node.js 20 has native fetch
+
+      - name: Generate Prisma client
+        run: npx prisma generate
+
+      - name: Run database update script
+        env:
+          DATABASE_URL: ${{ secrets.DATABASE_URL }}
+          COINGECKO_API_KEY: ${{ secrets.COINGECKO_API_KEY }}
+        run: node scripts/update-db.js
