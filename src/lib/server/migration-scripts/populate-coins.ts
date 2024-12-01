@@ -1,3 +1,4 @@
+
 import { prisma } from '../database';
 import memecoinsList from '$lib/data/memecoins_list.json';
 import dotenv from 'dotenv';
@@ -86,3 +87,18 @@ export async function populateCoins() {
 
   console.log('Finished populating coins');
 }
+
+async function main() {
+  try {
+    console.log('Starting to populate coins...');
+    await populateCoins();
+    console.log('Successfully populated coins!');
+  } catch (error) {
+    console.error('Error populating coins:', error);
+  } finally {
+    await prisma.$disconnect();
+    process.exit();
+  }
+}
+
+main();

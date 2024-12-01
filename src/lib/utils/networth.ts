@@ -3,7 +3,11 @@ import { COINGECKO_API_KEY } from '$env/static/private';
 
 export async function updateCoinPrices() {
   try {
-    const coins = await prisma.coin.findMany();
+    const coins = await prisma.coin.findMany({
+      where: {
+        active: true
+      }
+    });
     
     const batchSize = 250;
     const batches = [];
