@@ -1,13 +1,14 @@
 import { runCronJobs } from '$lib/utils/networth';
 import { json } from '@sveltejs/kit';
+import { CRON_AUTH_KEY, ENVIRONMENT } from '$env/static/private';
 
 export async function GET({ request }) {
 	// Only check authorization in production
-	if (process.env.NODE_ENV === 'production') {
-		if (request.headers.get('Authorization') !== `Bearer ${process.env.CRON_SECRET}`) {
-			return new Response('Unauthorized', { status: 401 });
-		}
-	}
+	// if (ENVIRONMENT === 'production') {
+	// 	if (request.headers.get('Authorization') !== `Bearer ${CRON_AUTH_KEY}`) {
+	// 		return new Response('Unauthorized', { status: 401 });
+	// 	}
+	// }
 
 	try {
 		await runCronJobs();

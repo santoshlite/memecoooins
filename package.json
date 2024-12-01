@@ -55,6 +55,8 @@
 		"prisma": "^6.0.0",
 		"stripe": "^17.4.0",
 		"svelte-clerk": "^0.4.9"
+	},
+	"engines": {
+		"node": "^20.0.0"
 	}
-
 }

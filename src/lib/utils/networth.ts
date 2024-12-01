@@ -3,18 +3,15 @@ import { COINGECKO_API_KEY } from '$env/static/private';
 
 export async function updateCoinPrices() {
   try {
-    // Get all coins
     const coins = await prisma.coin.findMany();
     
-    // Create batches of 100 coins (CoinGecko API limit)
-    const batchSize = 100;
+    const batchSize = 250;
     const batches = [];
     for (let i = 0; i < coins.length; i += batchSize) {
       batches.push(coins.slice(i, i + batchSize));
     }
 
-    // Update prices for each batch
-    for (const batch of batches) {
+    await Promise.all(batches.map(async (batch, index) => {
       const coinIds = batch.map((coin) => coin.id).join(',');
       const url = `https://api.coingecko.com/api/v3/simple/price?ids=${coinIds}&vs_currencies=usd`;
 
@@ -31,22 +28,28 @@ export async function updateCoinPrices() {
 
       const prices = await response.json();
 
-      // Update prices in database
-      for (const coin of batch) {
-        if (prices[coin.id]?.usd) {
-          await prisma.coin.update({
+      // Create an array of valid update operations first
+      const updates = batch
+        .filter(coin => prices[coin.id]?.usd)
+        .map(coin => 
+          prisma.coin.update({
             where: { id: coin.id },
             data: {
               current_price: prices[coin.id].usd,
               last_price_update: new Date()
             }
-          });
-        }
+          })
+        );
+
+      // Only run transaction if there are updates
+      if (updates.length > 0) {
+        await prisma.$transaction(updates);
       }
 
-      // Wait 1.5 seconds between batches to respect rate limits
-      await new Promise(resolve => setTimeout(resolve, 1500));
-    }
+      if (index < batches.length - 1) {
+        await new Promise(resolve => setTimeout(resolve, 500));
+      }
+    }));
   } catch (error) {
     console.error('Error updating coin prices:', error);
   }
@@ -54,68 +57,62 @@ export async function updateCoinPrices() {
 
 export async function updateUserNetWorth() {
   try {
-    // Get all users with portfolios
-    const users = await prisma.user.findMany({
-      where: {
-        portfolio: {
-          not: "[]"
+    // Fetch users and coins in parallel
+    const [users, coins] = await Promise.all([
+      prisma.user.findMany({
+        where: {
+          portfolio: {
+            not: "[]"
+          }
         }
-      }
-    });
+      }),
+      prisma.coin.findMany({
+        select: {
+          id: true,
+          current_price: true
+        }
+      })
+    ]);
 
-    // Get all coins with their current prices
-    const coins = await prisma.coin.findMany({
-      select: {
-        id: true,
-        current_price: true
-      }
-    });
-
-    // Create a map of coin prices for faster lookup
     const coinPrices = new Map(
       coins.map(coin => [coin.id, coin.current_price || 0])
     );
 
-    for (const user of users) {
-      // Parse the portfolio JSON
-      let portfolio = user.portfolio as Array<{
-        quantity: number;
-        id: string;
-      }>;
-
-      // Calculate coins worth and total net worth
-      const coinsWorth: { [key: string]: number } = {};
-      const netWorth = portfolio.reduce((total, holding) => {
-        const price = coinPrices.get(holding.id) || 0;
-        const worth = price * holding.quantity;
-        coinsWorth[holding.id] = worth;
-        return total + worth;
-      }, 0);
-
-      // Parse existing history and add new entry
-      const history = user.netWorthHistory as Array<{
-        netWorth: number;
-        coinsWorth: { [key: string]: number };
-      }>;
-      history.push({ netWorth, coinsWorth });
-
-      // Keep only last 24 entries (24 hours of history)
-      if (history.length > 24) {
-        // TODO: Should automatically sell the wallet!!!
-        history.shift();
-      }
-
-      // Update user with new net worth history
-      await prisma.user.update({
-        where: { id: user.id },
-        data: {
-          netWorthHistory: history,
-          lastNetWorthUpdate: new Date()
-        }
-      });
+    // Batch update users in chunks
+    const userBatchSize = 50;
+    const userBatches = [];
+    for (let i = 0; i < users.length; i += userBatchSize) {
+      userBatches.push(users.slice(i, i + userBatchSize));
     }
 
-    console.log('Successfully updated user net worth histories');
+    await Promise.all(userBatches.map(async (userBatch) => {
+      await prisma.$transaction(
+        userBatch.map(user => {
+          const portfolio = user.portfolio as Array<{ quantity: number; id: string; }>;
+          const coinsWorth: { [key: string]: number } = {};
+          const netWorth = portfolio.reduce((total, holding) => {
+            const worth = (coinPrices.get(holding.id) || 0) * holding.quantity;
+            coinsWorth[holding.id] = worth;
+            return total + worth;
+          }, 0);
+
+          const history = user.netWorthHistory as Array<{
+            netWorth: number;
+            coinsWorth: { [key: string]: number };
+          }>;
+          history.push({ netWorth, coinsWorth });
+          if (history.length > 24) history.shift();
+
+          return prisma.user.update({
+            where: { id: user.id },
+            data: {
+              netWorthHistory: history,
+              lastNetWorthUpdate: new Date()
+            }
+          });
+        })
+      );
+    }));
   } catch (error) {
     console.error('Error updating user net worth:', error);
   }
