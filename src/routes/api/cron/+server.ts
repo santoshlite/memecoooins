@@ -1,6 +1,5 @@
 import { runCronJobs } from '$lib/utils/networth';
 import { json } from '@sveltejs/kit';
-import { CRON_AUTH_KEY, ENVIRONMENT } from '$env/static/private';
 
 export async function GET({ request }) {
 	// Only check authorization in production

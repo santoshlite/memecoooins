@@ -34,7 +34,7 @@ export async function POST({ locals }) {
 				}
 			],
 			client_reference_id: locals.auth.userId, // Add user ID to track who made the purchase
-			success_url: `${DOMAIN}wallet`,
+			success_url: `${DOMAIN}/wallet`,
 			cancel_url: `${DOMAIN}`
 		});
 
