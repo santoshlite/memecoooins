@@ -31,7 +31,6 @@
 	font-weight: light;
 }
 
-
 @import '@fontsource/vt323';
 
 @tailwind base;
@@ -86,11 +85,11 @@
 	overflow: hidden;
 	box-shadow: 4px 4px 0 rgba(0, 0, 0, 0.2);
 	transition: transform 0.2s ease;
-  }
-  
-  .cyber-window:hover {
+}
+
+.cyber-window:hover {
 	transform: translateY(-2px);
-  }
+}
 
 .step {
 	padding: 16px;

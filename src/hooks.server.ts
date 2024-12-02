@@ -20,7 +20,7 @@ const userHandler: Handle = async ({ event, resolve }) => {
 				update: {},
 				create: {
 					clerkId: event.locals.auth.userId,
-					email: email,
+					email: email
 				}
 			});
 		} catch (error) {

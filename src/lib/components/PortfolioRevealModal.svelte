@@ -82,8 +82,8 @@
 	}
 
 	// Calculate total net worth
-	$: totalNetWorth = netWorthHistory?.length 
-		? netWorthHistory[netWorthHistory.length - 1]?.netWorth || 0 
+	$: totalNetWorth = netWorthHistory?.length
+		? netWorthHistory[netWorthHistory.length - 1]?.netWorth || 0
 		: 0;
 </script>
 
@@ -143,14 +143,14 @@
 									class="rounded-lg border-2 border-black bg-[#012bf4] px-6 py-4 text-white shadow-[-8px_8px_0px_0px_rgba(166,168,239,0.5)] transition-transform hover:-translate-y-0.5 hover:bg-[#0025d9]"
 								>
 									{#if loading}
-										<div class="flex items-center text-center gap-2">
+										<div class="flex items-center gap-2 text-center">
 											<div
 												class="h-4 w-4 animate-spin rounded-full border-2 border-white border-t-transparent"
 											></div>
 											Loading...
 										</div>
 									{:else}
-									🔎 REVEAL ALL
+										🔎 REVEAL ALL
 									{/if}
 								</button>
 							</div>
@@ -158,8 +158,8 @@
 					{:else}
 						<!-- Reveal Content -->
 						<div class="space-y-8">
-							<div class="text-center mb-8">
-								<p class="text-xl text-gray-600 mb-2">Your Ending Balance</p>
+							<div class="mb-8 text-center">
+								<p class="mb-2 text-xl text-gray-600">Your Ending Balance</p>
 								<p class="text-5xl font-black text-[#012bf4]">
 									${formatNumber(netWorthHistory[0]?.netWorth || 0)}
 								</p>
@@ -202,8 +202,11 @@
 							<!-- Private Key Section -->
 							<div class="rounded-lg border-2 border-black bg-[#ffe502] p-6">
 								<p class="mb-4 text-2xl font-bold">🔑 Your Private Key:</p>
-								<p class="mb-4 text-lg font-bold text-red-600">⚠️ WARNING: Copy and save this key immediately! For security purposes, it will not be shown again.</p>
-								
+								<p class="mb-4 text-lg font-bold text-red-600">
+									⚠️ WARNING: Copy and save this key immediately! For security purposes, it will not
+									be shown again.
+								</p>
+
 								<div class="flex gap-2">
 									<code
 										class="flex-1 overflow-x-auto rounded-lg border-2 border-black bg-white p-4 font-mono"

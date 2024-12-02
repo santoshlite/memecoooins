@@ -24,9 +24,7 @@ export async function POST({ locals }) {
 						currency: 'usd',
 						product_data: {
 							name: 'Random Memecoin Wallet',
-							images: [
-								'https://i.ibb.co/nn6YtSj/random-wallet.webp'
-							]
+							images: ['https://i.ibb.co/nn6YtSj/random-wallet.webp']
 						},
 						unit_amount: 5000 // Amount in cents ($50)
 					},

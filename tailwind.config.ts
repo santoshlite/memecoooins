@@ -4,12 +4,12 @@ export default {
 	theme: {
 		extend: {
 			fontFamily: {
-				sans: ['Degular', 'sans-serif'],
+				sans: ['Degular', 'sans-serif']
 			},
 			animation: {
 				'pulse-slow': 'pulse 1s infinite',
 				'bounce-slow': 'bounce 2s infinite',
-				'blink': 'blink 1s  infinite',
+				blink: 'blink 1s  infinite',
 				'blink-fast': 'blink 0.5s infinite'
 			},
 			keyframes: {
@@ -20,8 +20,5 @@ export default {
 			}
 		}
 	},
-	plugins: [
-		require('@tailwindcss/forms'),
-		require('@tailwindcss/typography')
-	]
+	plugins: [require('@tailwindcss/forms'), require('@tailwindcss/typography')]
 };

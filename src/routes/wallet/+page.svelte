@@ -341,7 +341,7 @@
 		<div class="mb-8 grid grid-cols-1 gap-4 md:grid-cols-2">
 			<button
 				on:click={() => sharePortfolio(portfolioData.id)}
-				class="rounded-lg text-lg border-2 border-black bg-[#012bf4] px-6 py-4 text-white shadow-[-8px_8px_0px_0px_rgba(166,168,239,0.5)] transition-transform hover:-translate-y-0.5 hover:bg-[#0025d9]"
+				class="rounded-lg border-2 border-black bg-[#012bf4] px-6 py-4 text-lg text-white shadow-[-8px_8px_0px_0px_rgba(166,168,239,0.5)] transition-transform hover:-translate-y-0.5 hover:bg-[#0025d9]"
 			>
 				🔗 SHARE THE SAUCE
 			</button>
@@ -352,14 +352,14 @@
 						showRevealModal = true;
 						showConfirmation = false;
 					}}
-					class="rounded-lg text-lg border-2 border-black bg-[#012bf4] px-6 py-4 text-white shadow-[-8px_8px_0px_0px_rgba(166,168,239,0.5)] transition-transform hover:-translate-y-0.5 hover:bg-[#0025d9]"
+					class="rounded-lg border-2 border-black bg-[#012bf4] px-6 py-4 text-lg text-white shadow-[-8px_8px_0px_0px_rgba(166,168,239,0.5)] transition-transform hover:-translate-y-0.5 hover:bg-[#0025d9]"
 				>
 					🔍 VIEW REVEALED COINS
 				</button>
 			{:else}
 				<button
 					on:click={() => (showRevealModal = true)}
-					class="rounded-lg text-lg border-2 border-black bg-[#012bf4] px-6 py-4 text-white shadow-[-8px_8px_0px_0px_rgba(166,168,239,0.5)] transition-transform hover:-translate-y-0.5 hover:bg-[#0025d9]"
+					class="rounded-lg border-2 border-black bg-[#012bf4] px-6 py-4 text-lg text-white shadow-[-8px_8px_0px_0px_rgba(166,168,239,0.5)] transition-transform hover:-translate-y-0.5 hover:bg-[#0025d9]"
 				>
 					💸 CASH OUT
 				</button>

@@ -33,7 +33,7 @@ export async function POST({ request, fetch }) {
 				);
 
 				console.log('portfolio', portfolio);
-				console.log('last net worth history', netWorthHistory)
+				console.log('last net worth history', netWorthHistory);
 
 				const portfolioCreatedAt = new Date();
 				const lastNetWorthUpdate = new Date();

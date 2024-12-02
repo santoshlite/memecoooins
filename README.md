@@ -99,6 +99,7 @@ cp .env.example .env
 # Launch development server
 pnpm run dev
 ```
+
 </div>
 
 <div id="architecture">

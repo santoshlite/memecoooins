@@ -46,7 +46,6 @@ export const load: PageServerLoad = async ({ locals, depends }) => {
 		};
 	}
 
-
 	const coins = await prisma.coin.findMany({
 		where: {
 			id: {
@@ -54,7 +53,6 @@ export const load: PageServerLoad = async ({ locals, depends }) => {
 			}
 		}
 	});
-
 
 	const portfolioCoins = (portfolio as Array<{ id: string; quantity: number }>).map((item) => {
 		return {
@@ -85,7 +83,7 @@ export const load: PageServerLoad = async ({ locals, depends }) => {
 			nextCheckTime,
 			redeemTime,
 			netWorthHistory,
-			hasPaid: user.hasPaid,
+			hasPaid: user.hasPaid
 		},
 		coins: coins, // full coin row for the coins in the user's portfolio
 		user: user

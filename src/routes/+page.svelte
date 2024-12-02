@@ -213,7 +213,8 @@
 					<h3 class="mb-4 text-2xl text-[#012bf4]">Step 3</h3>
 					<p class="text-4xl font-black leading-tight">CASH OUT OR KEEP RIDING THE WAVE</p>
 					<p class="mt-4 font-mono text-gray-500">
-						The choice is yours. Cash out anytime to get your wallet's private key and full access. After 24 hours, your wallet will be automatically redeemed.
+						The choice is yours. Cash out anytime to get your wallet's private key and full access.
+						After 24 hours, your wallet will be automatically redeemed.
 					</p>
 				</div>
 			</div>

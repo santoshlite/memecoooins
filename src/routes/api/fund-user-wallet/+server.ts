@@ -1,8 +1,22 @@
 import { PLATFORM_PRIVATE_KEY } from '$env/static/private';
 import { json } from '@sveltejs/kit';
-import { PublicKey, Transaction, Connection, Keypair, SystemProgram, LAMPORTS_PER_SOL, ComputeBudgetProgram } from '@solana/web3.js';
+import {
+	PublicKey,
+	Transaction,
+	Connection,
+	Keypair,
+	SystemProgram,
+	LAMPORTS_PER_SOL,
+	ComputeBudgetProgram
+} from '@solana/web3.js';
 import bs58 from 'bs58';
-import { getOrCreateAssociatedTokenAccount, createTransferInstruction, getAssociatedTokenAddress, createAssociatedTokenAccountInstruction, getAccount } from '@solana/spl-token';
+import {
+	getOrCreateAssociatedTokenAccount,
+	createTransferInstruction,
+	getAssociatedTokenAddress,
+	createAssociatedTokenAccountInstruction,
+	getAccount
+} from '@solana/spl-token';
 import { RPC_URL } from '$env/static/private';
 
 const connection = new Connection(RPC_URL);
@@ -24,10 +38,10 @@ async function sendAndConfirmTransaction(
 	for (let attempt = 0; attempt < MAX_RETRIES; attempt++) {
 		try {
 			console.log(`\nAttempt ${attempt + 1} of ${MAX_RETRIES}`);
-			
+
 			// Get fresh blockhash
 			const { blockhash, lastValidBlockHeight } = await connection.getLatestBlockhash('processed');
-			
+
 			// Create a new transaction instance each time
 			const newTransaction = new Transaction().add(...transaction.instructions);
 			newTransaction.recentBlockhash = blockhash;
@@ -47,20 +61,20 @@ async function sendAndConfirmTransaction(
 			console.log('Raw transaction sent:', signature);
 
 			// Wait for confirmation with timeout
-			const confirmationPromise = connection.confirmTransaction({
-				signature,
-				blockhash,
-				lastValidBlockHeight
-			}, 'processed'); // Changed from 'confirmed' to 'processed'
+			const confirmationPromise = connection.confirmTransaction(
+				{
+					signature,
+					blockhash,
+					lastValidBlockHeight
+				},
+				'processed'
+			); // Changed from 'confirmed' to 'processed'
 
 			const timeoutPromise = new Promise((_, reject) => {
 				setTimeout(() => reject(new Error('Confirmation timeout')), 30000);
 			});
 
-			const confirmation = await Promise.race([
-				confirmationPromise,
-				timeoutPromise
-			]);
+			const confirmation = await Promise.race([confirmationPromise, timeoutPromise]);
 
 			// Quick status check
 			const status = await connection.getSignatureStatus(signature);
@@ -81,11 +95,11 @@ async function sendAndConfirmTransaction(
 				type: error.constructor.name,
 				timestamp: new Date().toISOString()
 			});
-			
+
 			if (attempt === MAX_RETRIES - 1) throw error;
-			
+
 			console.log(`Waiting ${RETRY_DELAY}ms before next attempt...`);
-			await new Promise(resolve => setTimeout(resolve, RETRY_DELAY));
+			await new Promise((resolve) => setTimeout(resolve, RETRY_DELAY));
 		}
 	}
 	throw new Error('Failed to send transaction after all retries');
@@ -94,7 +108,7 @@ async function sendAndConfirmTransaction(
 export async function POST({ request }) {
 	try {
 		const { userWalletAddress, amount } = await request.json();
-		
+
 		if (!userWalletAddress || !amount) {
 			throw new Error('Missing required parameters');
 		}
@@ -106,7 +120,7 @@ export async function POST({ request }) {
 		});
 
 		const userPublicKey = new PublicKey(userWalletAddress);
-		
+
 		// Platform wallet checks
 		const platformSolBalance = await connection.getBalance(platformWallet.publicKey);
 		console.log('Platform wallet status:', {
@@ -114,7 +128,7 @@ export async function POST({ request }) {
 			solBalance: platformSolBalance / LAMPORTS_PER_SOL,
 			timestamp: new Date().toISOString()
 		});
-		
+
 		if (platformSolBalance < 0.005 * LAMPORTS_PER_SOL) {
 			throw new Error('Insufficient SOL balance in platform wallet');
 		}
@@ -134,10 +148,7 @@ export async function POST({ request }) {
 
 		// Get user USDC account
 		console.log('Getting user USDC account address...');
-		const userATA = await getAssociatedTokenAddress(
-			USDC_MINT_ADDRESS,
-			userPublicKey
-		);
+		const userATA = await getAssociatedTokenAddress(USDC_MINT_ADDRESS, userPublicKey);
 		console.log('User USDC ATA:', userATA.toString());
 
 		// Create transaction
@@ -183,7 +194,7 @@ export async function POST({ request }) {
 			solAmount: 0.005,
 			usdcAmount: amount
 		});
-		
+
 		transaction.add(
 			SystemProgram.transfer({
 				fromPubkey: platformWallet.publicKey,
@@ -214,29 +225,27 @@ export async function POST({ request }) {
 		});
 
 		// Sign and send
-		const signature = await sendAndConfirmTransaction(
-			connection,
-			transaction,
-			[platformWallet]
-		);
+		const signature = await sendAndConfirmTransaction(connection, transaction, [platformWallet]);
 
 		console.log('Transaction successful:', {
 			signature,
 			timestamp: new Date().toISOString()
 		});
-		
-		return json({ 
-			success: true, 
+
+		return json({
+			success: true,
 			signature,
 			userATA: userATA.toString()
 		});
-
 	} catch (error) {
 		console.error('Transaction failed:', error);
-		return json({ 
-			success: false, 
-			error: error instanceof Error ? error.message : 'Unknown error',
-			errorType: error.constructor.name
-		}, { status: 500 });
+		return json(
+			{
+				success: false,
+				error: error instanceof Error ? error.message : 'Unknown error',
+				errorType: error.constructor.name
+			},
+			{ status: 500 }
+		);
 	}
 }
