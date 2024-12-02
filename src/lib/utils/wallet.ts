@@ -11,7 +11,7 @@ import { PrismaClient } from '@prisma/client';
 import type { Memecoin } from '$lib/interfaces/utils';
 import { encrypt, decrypt } from '$lib/utils/encryption';
 
-const amount = 0.5;
+const amount = 50;
 
 export async function transferUSDCToUser(userPublicKey: string, amount: number) {
 	const response = await fetch('/api/fund-user-wallet', {
@@ -114,32 +114,32 @@ export async function walletSetup(clerkId: string, fetch: Function) {
 	);
 
 	return {
-        portfolio,
-        netWorthHistory
-    };
+		portfolio,
+		netWorthHistory
+	};
 }
 
 export async function redeemWallet(clerkId: string) {
-    try {
-        const response = await fetch('/api/redeem', {
-            method: 'POST',
-            headers: {
-                'Content-Type': 'application/json'
-            },
-            body: JSON.stringify({ clerkId })
-        });
+	try {
+		const response = await fetch('/api/redeem', {
+			method: 'POST',
+			headers: {
+				'Content-Type': 'application/json'
+			},
+			body: JSON.stringify({ clerkId })
+		});
 
-        const data = await response.json();
+		const data = await response.json();
 
-        if (!response.ok || !data.success) {
-            throw new Error(data.error || 'Failed to redeem wallet');
-        }
+		if (!response.ok || !data.success) {
+			throw new Error(data.error || 'Failed to redeem wallet');
+		}
 
-        return {
-            privateKey: data.privateKey
-        };
-    } catch (error) {
-        console.error('Error in redeem process:', error);
-        throw new Error(error instanceof Error ? error.message : 'Failed to redeem wallet');
-    }
+		return {
+			privateKey: data.privateKey
+		};
+	} catch (error) {
+		console.error('Error in redeem process:', error);
+		throw new Error(error instanceof Error ? error.message : 'Failed to redeem wallet');
+	}
 }

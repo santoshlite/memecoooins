@@ -232,7 +232,7 @@ export async function POST({ request, fetch }) {
 		}
 
 		// Recalculate allocations based on actual number of selected memecoins
-		const allocations = allocateUSDC(amount, selectedMemecoins.length, 0.01);
+		const allocations = allocateUSDC(amount, selectedMemecoins.length, 1);
 
 		const memecoinsWithAllocation = selectedMemecoins.map((memecoin, index) => ({
 			...memecoin,

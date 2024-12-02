@@ -30,6 +30,8 @@
 		: 0;
 
 	let showRevealModal = false;
+	let localHasRedeemed = data.user.hasRedeemed;
+	let showConfirmation = !localHasRedeemed;
 
 	// Lifecycle hooks
 	onMount(() => {
@@ -46,15 +48,15 @@
 						{
 							label: 'Net Worth',
 							data: networthHistory.map((h) => h.netWorth),
-							borderColor: '#6c5ce7',
-							backgroundColor: 'rgba(108, 92, 231, 0.1)',
+							borderColor: '#012bf4',
+							backgroundColor: 'rgba(1, 43, 244, 0.1)',
 							borderWidth: 3,
 							tension: 0.4,
 							fill: true,
-							pointBackgroundColor: '#a55eea',
+							pointBackgroundColor: '#031a94',
 							pointBorderColor: '#fff',
 							pointHoverRadius: 8,
-							pointHoverBackgroundColor: '#ff6b6b'
+							pointHoverBackgroundColor: '#ffe502'
 						}
 					]
 				},
@@ -72,23 +74,29 @@
 					scales: {
 						y: {
 							grid: {
-								color: 'rgba(255, 255, 255, 0.1)'
+								color: 'rgba(171, 162, 253, 0.2)',
+								lineWidth: 1,
+								drawBorder: false
 							},
 							ticks: {
-								color: '#fff',
+								color: '#012bf4',
 								font: {
-									family: 'VT323'
+									family: 'Degular',
+									size: 14
 								}
 							}
 						},
 						x: {
 							grid: {
-								color: 'rgba(255, 255, 255, 0.1)'
+								color: 'rgba(171, 162, 253, 0.2)',
+								lineWidth: 1,
+								drawBorder: false
 							},
 							ticks: {
-								color: '#fff',
+								color: '#012bf4',
 								font: {
-									family: 'VT323'
+									family: 'Degular',
+									size: 14
 								}
 							}
 						}
@@ -178,155 +186,180 @@
 	function handleBack() {
 		goto('/');
 	}
+
+	function handleRedeem() {
+		localHasRedeemed = true;
+	}
 </script>
 
 <svelte:head>
-	<title>Portfolio Dashboard 🚀</title>
+	<title>MEMEMCOOOINS | Portfolio Dashboard</title>
 	<meta name="description" content="Your crypto portfolio tracker" />
 </svelte:head>
 
-<div class="meme-bg min-h-screen p-4 text-white">
+<div
+	class="min-h-screen bg-[#d3c0fe] bg-[linear-gradient(to_right,#aba2fd_1px,transparent_1px),linear-gradient(to_bottom,#aba2fd_1px,transparent_1px)] bg-[size:48px_48px] p-4 sm:p-8"
+>
 	<div class="mx-auto max-w-4xl">
-		<!-- Back Button and Logo -->
+		<!-- Back Button -->
 		<div class="mb-8 flex items-center justify-between">
 			<button
 				on:click={handleBack}
-				class="cyber-card group flex items-center gap-2 rounded-xl p-3 transition-all duration-300 hover:scale-105"
+				class="flex items-center gap-2 rounded-lg border-2 border-black bg-[#012bf4] px-4 py-2 text-white shadow-[-8px_8px_0px_0px_rgba(166,168,239,0.5)] transition-transform hover:-translate-y-0.5 hover:bg-[#0025d9]"
 			>
-				<Icon
-					icon="lucide:arrow-left"
-					class="h-5 w-5 text-purple-400 group-hover:text-purple-300"
-				/>
-				<span class="font-vt323 hidden text-lg sm:inline">BACK</span>
+				<Icon icon="lucide:arrow-left" class="h-5 w-5" />
+				<span class="hidden font-semibold sm:inline">BACK</span>
 			</button>
 		</div>
 
-		<!-- Header -->
-		<h1 class="glitch-text mb-8 text-center text-2xl md:text-4xl">✨ Portfolio Dashboard ✨</h1>
-
-		<!-- Portfolio Details -->
-		<div class="cyber-card mb-8 rounded-xl p-6">
-			<div>
-				<div class="mb-8 flex items-center justify-between">
-					<h2 class="font-vt323 text-3xl">💰 BAG STATUS</h2>
-					{#if currentNetWorth !== null}
-						<p class="font-press-start-2p text-2xl text-green-400">
-							${currentNetWorth.toLocaleString()}
+		{#if localHasRedeemed}
+			<div class="cyber-window mx-auto mb-8">
+				<div class="window-header bg-red-600">
+					<div class="window-dots">
+						<div class="dot"></div>
+						<div class="dot"></div>
+						<div class="dot"></div>
+					</div>
+					<span class="mx-4 text-white">⚠️ &nbsp; Wallet Status</span>
+				</div>
+				<div class="window-content bg-yellow-300 p-6 text-center">
+					<div class="flex items-center justify-center gap-3">
+						<Icon icon="lucide:alert-triangle" class="h-6 w-6 text-red-600" />
+						<p class="font-press-start-2p text-lg text-red-600">
+							You've already redeemed your wallet! Nothing to do here :/
 						</p>
+					</div>
+				</div>
+			</div>
+		{/if}
+
+		<!-- Timers Window -->
+		{#if !localHasRedeemed}
+			<div
+				class="mx-auto mb-8 overflow-hidden rounded-lg border-2 border-black shadow-[-8px_8px_0px_0px_rgba(166,168,239,0.5)] transition-transform hover:rotate-1"
+			>
+				<div class="flex items-center justify-between bg-[#012bf4] px-4 py-2">
+					<span class="text-white">⏰ &nbsp; Timers</span>
+					<div class="flex gap-2">
+						<div class="h-3 w-3 rounded-full bg-[#031a94]"></div>
+						<div class="h-3 w-3 rounded-full bg-[#031a94]"></div>
+						<div class="h-3 w-3 rounded-full bg-[#031a94]"></div>
+					</div>
+				</div>
+				<div class="grid grid-cols-1 gap-6 border-t-2 border-black bg-[#ffe502] p-8 md:grid-cols-2">
+					<!-- Next Update Timer -->
+					<div
+						class="rounded-lg border-2 border-black bg-white p-6 text-center shadow-[4px_4px_0px_0px_rgba(166,168,239,0.2)]"
+					>
+						<h3 class="mb-4 text-xl">NEXT UPDATE IN</h3>
+						<p class="text-4xl font-bold text-[#012bf4]">{formatTime(nextUpdateTimeLeft)}</p>
+					</div>
+
+					<!-- Auto Redeem Timer -->
+					<div
+						class="rounded-lg border-2 border-black bg-white p-6 text-center shadow-[4px_4px_0px_0px_rgba(166,168,239,0.2)]"
+					>
+						<h3 class="mb-4 text-xl">AUTO-REDEEM IN</h3>
+						<p class="text-4xl font-bold text-[#012bf4]">{formatTime(autoRedeemTimeLeft)}</p>
+					</div>
+				</div>
+			</div>
+		{/if}
+
+		<!-- Portfolio Status Window -->
+		<div
+			class="mx-auto mb-8 overflow-hidden rounded-lg border-2 border-black shadow-[-8px_8px_0px_0px_rgba(166,168,239,0.5)] transition-transform hover:scale-[1.01]"
+		>
+			<div class="flex items-center justify-between bg-[#012bf4] px-4 py-2">
+				<span class="text-white">💰 &nbsp; BAG STATUS</span>
+				<div class="flex gap-2">
+					<div class="h-3 w-3 rounded-full bg-[#031a94]"></div>
+					<div class="h-3 w-3 rounded-full bg-[#031a94]"></div>
+					<div class="h-3 w-3 rounded-full bg-[#031a94]"></div>
+				</div>
+			</div>
+			<div class="border-t-2 border-black bg-white p-8">
+				<div class="mb-8 flex items-center justify-between">
+					<h2 class="font-vt323 text-3xl">Current Worth</h2>
+					{#if currentNetWorth !== null}
+						<p class="text-5xl font-bold text-[#012bf4]">${currentNetWorth.toLocaleString()}</p>
 					{:else}
-						<div class="text-center">
-							<p class="font-press-start-2p text-xl text-purple-400">Waiting for first update...</p>
-						</div>
+						<p class="text-xl text-gray-500">Waiting for first update...</p>
 					{/if}
 				</div>
 
-				<div class="space-y-4">
+				<div class="space-y-12">
 					{#each portfolioData?.coins ?? [] as coin, index}
-						<div class="cyber-card rounded-lg p-4 transition-transform hover:scale-105">
+						<div class="relative">
 							<div class="flex items-center justify-between">
 								<div>
-									<p class="font-vt323 text-xl text-purple-400">
-										Mystery Coin #{index + 1} 🤫
-									</p>
-									<p class="font-press-start-2p text-sm text-gray-400">
+									<h3 class="mb-2 text-2xl text-[#012bf4]">Mystery Coin #{index + 1}</h3>
+									<p class="text-3xl font-black leading-tight">
 										{(coin?.amount ?? 0).toLocaleString()} coins
 									</p>
+									<!-- <p class="mt-4 font-mono text-gray-500">Current value in USD</p> -->
 								</div>
-								<p class="font-press-start-2p text-lg text-green-400">
-									{#if portfolioData?.netWorthHistory?.length > 0}
-										${(
-											portfolioData.netWorthHistory[portfolioData.netWorthHistory.length - 1]
-												?.coinsWorth?.[coin.id] ?? 0
-										).toLocaleString()}
-									{:else}
-										$???
-									{/if}
+								<p class="text-3xl font-black text-neutral-600">
+									${(
+										portfolioData.netWorthHistory[portfolioData.netWorthHistory.length - 1]
+											?.coinsWorth?.[coin.id] ?? 0
+									).toLocaleString()}
 								</p>
 							</div>
 						</div>
+
+						{#if index !== portfolioData?.coins.length - 1}
+							<div class="my-2 w-full border-0 border-b-4 border-dotted border-[#012bf4]"></div>
+						{/if}
 					{/each}
 				</div>
 			</div>
 		</div>
 
-		{#if !data.user.hasRedeemed}
-			<!-- Countdown Timers -->
-			<div class="mb-8 grid grid-cols-1 gap-6 md:grid-cols-2">
-				<!-- Next Update Countdown -->
-				<div class="cyber-card rounded-xl p-6 text-center">
-					<h3 class="font-vt323 mb-2 text-xl">⏰ NEXT UPDATE IN</h3>
-					<div class="relative">
-						<div class="cyber-card overflow-hidden rounded-xl p-4 text-center">
-							<div
-								class="animate-pulse-slow absolute inset-0 bg-gradient-to-r from-purple-500/10 to-pink-500/10"
-							></div>
-							<p class="font-vt323 glitch-text text-4xl tracking-wider">
-								{formatTime(nextUpdateTimeLeft)}
-							</p>
-						</div>
-					</div>
-				</div>
-
-				<!-- Auto Redeem Countdown -->
-				<div class="cyber-card rounded-xl p-6 text-center">
-					<h3 class="font-vt323 mb-2 text-xl">⚡ AUTO-REDEEM IN</h3>
-					<div class="relative">
-						<div class="cyber-card overflow-hidden rounded-xl p-4 text-center">
-							<div
-								class="animate-pulse-slow absolute inset-0 bg-gradient-to-r from-purple-500/10 to-pink-500/10"
-							></div>
-							<p class="font-vt323 glitch-text text-4xl tracking-wider">
-								{formatTime(autoRedeemTimeLeft)}
-							</p>
-						</div>
-					</div>
+		<!-- Chart Window -->
+		<div
+			class="mx-auto mb-8 overflow-hidden rounded-lg border-2 border-black shadow-[-8px_8px_0px_0px_rgba(166,168,239,0.5)] transition-transform hover:scale-[1.01]"
+		>
+			<div class="flex items-center justify-between bg-[#012bf4] px-4 py-2">
+				<span class="text-white">📈 &nbsp; Performance</span>
+				<div class="flex gap-2">
+					<div class="h-3 w-3 rounded-full bg-[#031a94]"></div>
+					<div class="h-3 w-3 rounded-full bg-[#031a94]"></div>
+					<div class="h-3 w-3 rounded-full bg-[#031a94]"></div>
 				</div>
 			</div>
-		{/if}
-
-		<!-- Networth Graph -->
-		{#if networthHistory.length > 0}
-			<div class="cyber-card mb-6 rounded-xl p-4">
-				<canvas bind:this={canvas}></canvas>
+			<div class="border-t-2 border-black bg-white p-8">
+				{#if networthHistory.length > 0}
+					<canvas bind:this={canvas}></canvas>
+				{:else}
+					<p class="text-center text-2xl text-gray-500">📊 Waiting for first update...</p>
+				{/if}
 			</div>
-		{:else}
-			<div class="cyber-card mb-6 rounded-xl p-8 text-center">
-				<p class="font-vt323 mb-4 text-2xl">📊 Waiting for first update...</p>
-			</div>
-		{/if}
-
-		<!-- Status Message -->
-		{#if currentNetWorth !== null}
-			<div class="cyber-card relative mb-6 overflow-hidden rounded-xl p-4 text-center">
-				<div
-					class="animate-pulse-slow absolute inset-0 opacity-10"
-					style="background: {isPositive ? 'var(--gradient-1)' : 'var(--gradient-2)'}"
-				></div>
-				<p class="font-press-start-2p mb-2 text-sm">STATUS UPDATE:</p>
-				<p class="font-vt323 animate-bounce-slow text-2xl">{statusMessage}</p>
-				<p
-					class="font-press-start-2p mt-4 text-sm"
-					class:text-green-400={isPositive}
-					class:text-red-400={!isPositive}
-				>
-					{isPositive ? '↗️' : '↘️'} ${Math.abs(netWorthChange).toLocaleString()}
-				</p>
-			</div>
-		{/if}
+		</div>
 
 		<!-- Action Buttons -->
-		<div class="mb-20 grid grid-cols-1 gap-4 md:grid-cols-2">
+		<div class="mb-8 grid grid-cols-1 gap-4 md:grid-cols-2">
 			<button
 				on:click={() => sharePortfolio(portfolioData.id)}
-				class="cyber-card font-press-start-2p w-full rounded-xl px-6 py-4 text-sm transition-all hover:text-purple-400"
+				class="rounded-lg text-lg border-2 border-black bg-[#012bf4] px-6 py-4 text-white shadow-[-8px_8px_0px_0px_rgba(166,168,239,0.5)] transition-transform hover:-translate-y-0.5 hover:bg-[#0025d9]"
 			>
 				🔗 SHARE THE SAUCE
 			</button>
 
-			{#if !data.user.hasRedeemed}
+			{#if localHasRedeemed}
+				<button
+					on:click={() => {
+						showRevealModal = true;
+						showConfirmation = false;
+					}}
+					class="rounded-lg text-lg border-2 border-black bg-[#012bf4] px-6 py-4 text-white shadow-[-8px_8px_0px_0px_rgba(166,168,239,0.5)] transition-transform hover:-translate-y-0.5 hover:bg-[#0025d9]"
+				>
+					🔍 VIEW REVEALED COINS
+				</button>
+			{:else}
 				<button
 					on:click={() => (showRevealModal = true)}
-					class="cyber-card font-press-start-2p w-full rounded-xl px-6 py-4 text-sm transition-all hover:text-green-400"
+					class="rounded-lg text-lg border-2 border-black bg-[#012bf4] px-6 py-4 text-white shadow-[-8px_8px_0px_0px_rgba(166,168,239,0.5)] transition-transform hover:-translate-y-0.5 hover:bg-[#0025d9]"
 				>
 					💸 CASH OUT
 				</button>
@@ -342,25 +375,7 @@
 	netWorthHistory={networthHistory}
 	coins={data.coins}
 	clerkId={data.user.clerkId}
+	hasRedeemed={localHasRedeemed}
+	onRedeem={handleRedeem}
+	skipConfirmation={localHasRedeemed}
 />
-
-{#if data.user.hasRedeemed}
-  <div class="cyber-window mx-auto mb-8 max-w-xl">
-    <div class="window-header bg-red-600">
-      <div class="window-dots">
-        <div class="dot"></div>
-        <div class="dot"></div>
-        <div class="dot"></div>
-      </div>
-      <span class="text-white">⚠️ Wallet Status</span>
-    </div>
-    <div class="window-content bg-yellow-300 p-6 text-center">
-      <div class="flex items-center justify-center gap-3">
-        <Icon icon="lucide:alert-triangle" class="h-6 w-6 text-red-600" />
-        <p class="font-press-start-2p text-sm text-red-600">
-          You've already redeemed your wallet!
-        </p>
-      </div>
-    </div>
-  </div>
-{/if}

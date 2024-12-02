@@ -19,6 +19,19 @@
 	font-style: italic;
 }
 
+@font-face {
+	font-family: 'Degular';
+	src: url('/fonts/fonnts.com-DegularDemo-Light.otf') format('opentype');
+	font-weight: light;
+}
+
+@font-face {
+	font-family: 'Degular';
+	src: url('/fonts/fonnts.com-DegularDemo-Semibold.otf') format('opentype');
+	font-weight: light;
+}
+
+
 @import '@fontsource/vt323';
 
 @tailwind base;
@@ -72,36 +85,12 @@
 	border-radius: 8px;
 	overflow: hidden;
 	box-shadow: 4px 4px 0 rgba(0, 0, 0, 0.2);
-}
-
-.cyber-window:hover {
+	transition: transform 0.2s ease;
+  }
+  
+  .cyber-window:hover {
 	transform: translateY(-2px);
-}
-
-.window-header {
-	background: #1a1a1a;
-	padding: 8px 16px;
-	display: flex;
-	align-items: center;
-	gap: 8px;
-}
-
-.window-dots {
-	display: flex;
-	gap: 6px;
-}
-
-.dot {
-	width: 12px;
-	height: 12px;
-	border-radius: 50%;
-	background: #fff;
-}
-
-.window-content {
-	background: #fff;
-	border-top: 2px solid #000;
-}
+  }
 
 .step {
 	padding: 16px;
