@@ -8,30 +8,28 @@ datasource db {
 }
 
 model User {
-  id                  String   @id @default(cuid())
-  clerkId             String   @unique
-  email               String   @unique
-  createdAt           DateTime @default(now())
-  updatedAt           DateTime @updatedAt
-
-  // portfolio related fields
-  hasPaid             Boolean  @default(false)
+  id                  String    @id @default(cuid())
+  clerkId             String    @unique
+  email               String    @unique
+  createdAt           DateTime  @default(now())
+  updatedAt           DateTime  @updatedAt
+  hasPaid             Boolean   @default(false)
   /// {
-  ///   quantity: number,
-  ///   id: string
+  /// quantity: number,
+  /// id: string
   /// }
-  portfolio           Json?    @default("[]")
+  portfolio           Json?     @default("[]")
   /// {
-  ///   netWorth: number,
-  ///   coinsWorth: {
-  ///     [coinId: string]: number
-  ///   }
+  /// netWorth: number,
+  /// coinsWorth: {
+  /// [coinId: string]: number
   /// }
-  netWorthHistory     Json?    @default("[]")
+  /// }
+  netWorthHistory     Json?     @default("[]")
   lastNetWorthUpdate  DateTime?
   portfolioCreatedAt  DateTime?
   encryptedPrivatekey String?
-  hasRedeemed         Boolean  @default(false)
+  hasRedeemed         Boolean   @default(false)
   walletAddress       String?
 }
 

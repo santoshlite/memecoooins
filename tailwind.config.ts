@@ -4,8 +4,7 @@ export default {
 	theme: {
 		extend: {
 			fontFamily: {
-				'press-start-2p': ['"Press Start 2P"', 'cursive'],
-				'vt323': ['VT323', 'monospace']
+				sans: ['Degular', 'sans-serif'],
 			},
 			animation: {
 				'pulse-slow': 'pulse 3s cubic-bezier(0.4, 0, 0.6, 1) infinite',

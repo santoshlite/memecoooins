@@ -1,10 +1,17 @@
 import { Keypair, Connection } from '@solana/web3.js';
 import { PublicKey, Transaction } from '@solana/web3.js';
 import bs58 from 'bs58';
-import { getOrCreateAssociatedTokenAccount, createTransferInstruction } from '@solana/spl-token';
+import {
+	getOrCreateAssociatedTokenAccount,
+	createTransferInstruction,
+	getAssociatedTokenAddress
+} from '@solana/spl-token';
 import memecoinsList from '$lib/data/memecoins_list.json';
 import { PrismaClient } from '@prisma/client';
-import type { MemecoinWithAllocation } from '$lib/interfaces/utils';
+import type { Memecoin } from '$lib/interfaces/utils';
+import { encrypt, decrypt } from '$lib/utils/encryption';
+
+const amount = 0.5;
 
 export async function transferUSDCToUser(userPublicKey: string, amount: number) {
 	const response = await fetch('/api/fund-user-wallet', {
@@ -31,9 +38,11 @@ export async function transferUSDCToUser(userPublicKey: string, amount: number) 
 }
 
 export async function performSwaps(
-	userWalletPrivateKey: Uint8Array,
-	memecoinsWithAllocation: MemecoinWithAllocation[],
-    clerkId: string
+	encryptedPrivateKey: string,
+	amount: number,
+	memecoins: Memecoin[],
+	clerkId: string,
+	fetch: Function
 ) {
 	const response = await fetch('/api/swap', {
 		method: 'POST',
@@ -41,9 +50,10 @@ export async function performSwaps(
 			'Content-Type': 'application/json'
 		},
 		body: JSON.stringify({
-			userWalletPrivateKey,
-			memecoinsWithAllocation,
-            clerkId
+			encryptedPrivateKey,
+			amount,
+			memecoins,
+			clerkId
 		})
 	});
 
@@ -54,110 +64,82 @@ export async function performSwaps(
 	} else {
 		console.log('Swap performed successfully');
 		console.log('RECEIVED', data.memecoinsReceived);
+		return { portfolio: data.portfolio, netWorthHistory: data.netWorthHistory };
 	}
-}
-
-export function generateSolanaWallet() {
-	const keypair = Keypair.generate();
-	const publicKey = keypair.publicKey.toString();
-
-	// Convert Uint8Array to hex string without using Buffer
-	const privateKey = Array.from(keypair.secretKey)
-		.map((b) => b.toString(16).padStart(2, '0'))
-		.join('');
-
-	// Store securely
-	if (window?.isSecureContext) {
-		const encryptedPrivateKey = btoa(privateKey);
-		sessionStorage.setItem('walletPrivateKey', encryptedPrivateKey);
-	}
-
-	return { publicKey };
-}
-
-export function getStoredWallet(): Uint8Array | null {
-	const encryptedPrivateKey = sessionStorage.getItem('walletPrivateKey');
-	if (!encryptedPrivateKey) return null;
-
-	const privateKeyHex = atob(encryptedPrivateKey);
-	// Convert hex string back to Uint8Array
-	const privateKeyBytes = new Uint8Array(
-		privateKeyHex.match(/.{1,2}/g)?.map((byte) => parseInt(byte, 16)) || []
-	);
-
-	return privateKeyBytes;
-}
-
-function allocateUSDC(totalAmount: number, numAllocations: number, minAllocation: number) {
-	// Ensure there's enough totalAmount to meet the minimum allocation requirement
-	if (totalAmount < numAllocations * minAllocation) {
-		throw new Error('Total amount is insufficient to meet the minimum allocation requirement.');
-	}
-
-	// Initialize allocations with the minimum allocation
-	const allocations = Array(numAllocations).fill(minAllocation);
-	let remainingAmount = totalAmount - numAllocations * minAllocation;
-
-	// Generate random weights for allocations
-	const weights = Array(numAllocations)
-		.fill(0)
-		.map(() => Math.random());
-	const totalWeight = weights.reduce((sum, weight) => sum + weight, 0);
-
-	// Allocate the remaining amount based on weights
-	for (let i = 0; i < numAllocations; i++) {
-		allocations[i] += parseFloat(((weights[i] / totalWeight) * remainingAmount).toFixed(2));
-	}
-
-	// Ensure total allocations match totalAmount due to rounding errors
-	let allocationSum = allocations.reduce((sum, value) => parseFloat((sum + value).toFixed(2)), 0);
-	let diff = parseFloat((totalAmount - allocationSum).toFixed(2));
-
-	// Adjust allocations to fix rounding differences
-	for (let i = 0; diff !== 0 && i < allocations.length; i++) {
-		const adjustment = diff > 0 ? 0.01 : -0.01;
-		allocations[i] = parseFloat((allocations[i] + adjustment).toFixed(2));
-		diff = parseFloat(
-			(totalAmount - allocations.reduce((sum, value) => sum + value, 0)).toFixed(2)
-		);
-	}
-
-	return allocations;
 }
 
 // Function to create a new wallet and fund it with USDC
-export async function walletSetup(clerkId: string) {
+export async function walletSetup(clerkId: string, fetch: Function) {
 	// Step 1: Generate a new wallet for the user
 	const userKeypair = Keypair.generate();
 	const userPublicKey = userKeypair.publicKey.toString();
-	const amount = 0.5; // worth of memecoins
+	const userPrivateKey = Array.from(userKeypair.secretKey)
+		.map((b) => b.toString(16).padStart(2, '0'))
+		.join('');
 
-	// Step 2: Transfer right amount of USDC to the user's wallet
-	await transferUSDCToUser(userPublicKey, amount);
+	// console.log('private key', userPrivateKey);
+	const encryptedPrivateKey = await encrypt(userPrivateKey, fetch);
 
-	// Step 3: Generate random portfolio of memecoins given the amount of USDC
-	const shuffledMemecoins = [...memecoinsList];
+	// console.log('encrypted Private key', encryptedPrivateKey);
 
-	for (let i = shuffledMemecoins.length - 1; i > 0; i--) {
-		const j = Math.floor(Math.random() * (i + 1));
-		[shuffledMemecoins[i], shuffledMemecoins[j]] = [shuffledMemecoins[j], shuffledMemecoins[i]];
+	// Save wallet data to database
+	const response = await fetch('/api/save-wallet', {
+		method: 'POST',
+		headers: { 'Content-Type': 'application/json' },
+		body: JSON.stringify({
+			clerkId,
+			publicKey: userPublicKey,
+			encryptedPrivateKey: encryptedPrivateKey
+		})
+	});
+
+	if (!response.ok) {
+		throw new Error('Failed to save wallet');
 	}
 
-	const selectedMemecoins = shuffledMemecoins.slice(0, 4);
+	// Step 2: Transfer USDC and wait for proper confirmation
+	// const fundingResult = await transferUSDCToUser(userPublicKey, amount);
+	// console.log('Funding transaction:', fundingResult);
 
-	const allocations = allocateUSDC(amount, selectedMemecoins.length, 0.1);
+	// console.log('waiting 1 min real quick...');
+	// await new Promise((resolve) => setTimeout(resolve, 60000)); // 2 minutes
 
-	// given memecoinslist take json object and add allocation field to each object
-	const memecoinsWithAllocation = selectedMemecoins.map((memecoin, index) => ({
-		...memecoin,
-		allocation: allocations[index]
-	}));
+	// Step 3 & 4: Now proceed with swaps
+	const { portfolio, netWorthHistory } = await performSwaps(
+		encryptedPrivateKey,
+		amount,
+		memecoinsList as Memecoin[],
+		clerkId as string,
+		fetch
+	);
 
-	// Step 4: Execute the transactions using Jupiter API
-	const userWalletPrivateKey = getStoredWallet();
-	if (!userWalletPrivateKey) {
-		throw new Error('User wallet private key not found');
-	} else {
-		await performSwaps(userWalletPrivateKey, memecoinsWithAllocation as MemecoinWithAllocation[], clerkId as string);
-	}
+	return {
+        portfolio,
+        netWorthHistory
+    };
+}
+
+export async function redeemWallet(clerkId: string) {
+    try {
+        const response = await fetch('/api/redeem', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({ clerkId })
+        });
+
+        const data = await response.json();
+
+        if (!response.ok || !data.success) {
+            throw new Error(data.error || 'Failed to redeem wallet');
+        }
+
+        return {
+            privateKey: data.privateKey
+        };
+    } catch (error) {
+        console.error('Error in redeem process:', error);
+        throw new Error(error instanceof Error ? error.message : 'Failed to redeem wallet');
+    }
 }

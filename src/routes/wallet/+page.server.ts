@@ -2,21 +2,51 @@ import { redirect } from '@sveltejs/kit';
 import type { PageServerLoad } from './$types';
 import { prisma } from '$lib/server/database';
 
-export const load: PageServerLoad = async ({ locals }) => {
+export const load: PageServerLoad = async ({ locals, depends }) => {
+	depends('portfolio:status');
+
 	if (!locals.auth.userId) {
 		throw redirect(303, '/');
 	}
 
-	const user = await prisma.user.findUnique({
-		where: { clerkId: locals.auth.userId }
-	});
+	let retryCount = 0;
+	let user;
 
-	if (!user) {
+	while (retryCount < 3) {
+		user = await prisma.user.findUnique({
+			where: { clerkId: locals.auth.userId }
+		});
+
+		if (!user) {
+			throw redirect(303, '/');
+		}
+
+		if (user.hasPaid && user.portfolio && Object.keys(user.portfolio).length > 0) {
+			break;
+		}
+
+		await new Promise((resolve) => setTimeout(resolve, 1000));
+		retryCount++;
+	}
+
+	if (!user.hasPaid) {
 		throw redirect(303, '/');
 	}
 
-	// Get the user's portfolio
-	const portfolio = user.portfolio ?? [];
+	const portfolio = user.portfolio ?? {};
+
+	console.log('user', user);
+
+	if (Object.keys(portfolio).length === 0) {
+		return {
+			user: {
+				...user,
+				portfolio: {}
+			}
+		};
+	}
+
+
 	const coins = await prisma.coin.findMany({
 		where: {
 			id: {
@@ -25,7 +55,7 @@ export const load: PageServerLoad = async ({ locals }) => {
 		}
 	});
 
-	// Map portfolio with amount only, using real coin IDs
+
 	const portfolioCoins = (portfolio as Array<{ id: string; quantity: number }>).map((item) => {
 		return {
 			id: item.id,
@@ -33,21 +63,19 @@ export const load: PageServerLoad = async ({ locals }) => {
 		};
 	});
 
-	// Get latest net worth from history - add null check
-	const netWorthHistory = (user.netWorthHistory as Array<{ 
-		netWorth: number;
-		coinsWorth: Record<string, number>;
-	}>) ?? [];
+	const netWorthHistory =
+		(user.netWorthHistory as Array<{
+			netWorth: number;
+			coinsWorth: Record<string, number>;
+		}>) ?? [];
 
-	// Calculate next hourly check time (rounded to next hour)
 	const now = new Date();
 	const nextHour = new Date(now);
 	nextHour.setHours(nextHour.getHours() + 1, 0, 0, 0);
 	const nextCheckTime = nextHour.getTime();
 
-	// Calculate redeem time (24 hours from portfolio creation)
-	const redeemTime = user.portfolioCreatedAt 
-		? new Date(user.portfolioCreatedAt).getTime() + (24 * 60 * 60 * 1000)
+	const redeemTime = user.portfolioCreatedAt
+		? new Date(user.portfolioCreatedAt).getTime() + 24 * 60 * 60 * 1000
 		: 0;
 
 	return {
@@ -57,7 +85,9 @@ export const load: PageServerLoad = async ({ locals }) => {
 			nextCheckTime,
 			redeemTime,
 			netWorthHistory,
-			hasPaid: user.hasPaid
-		}
+			hasPaid: user.hasPaid,
+		},
+		coins: coins, // full coin row for the coins in the user's portfolio
+		user: user
 	};
 };

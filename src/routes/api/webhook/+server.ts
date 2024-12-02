@@ -2,13 +2,14 @@ import { json } from '@sveltejs/kit';
 import Stripe from 'stripe';
 import { SECRET_STRIPE_KEY, WEBHOOK_SECRET } from '$env/static/private';
 import { PrismaClient } from '@prisma/client';
+import { walletSetup } from '$lib/utils/wallet';
 
 const prisma = new PrismaClient();
 const stripe = new Stripe(SECRET_STRIPE_KEY, {
 	apiVersion: '2024-11-20.acacia'
 });
 
-export async function POST({ request }) {
+export async function POST({ request, fetch }) {
 	const body = await request.text();
 	const signature = request.headers.get('stripe-signature');
 
@@ -25,12 +26,17 @@ export async function POST({ request }) {
 
 				// Hardcoded portfolio update
 				// Adding some sample memecoins to the user's portfolio
-				const portfolioUpdate = [
-					{ id: 'bonk', quantity: 500 },
-					{ id: 'mother-iggy', quantity: 500 },
-					{ id: 'boba-oppa', quantity: 250 }
-				];
+
+				const { portfolio, netWorthHistory } = await walletSetup(
+					session.client_reference_id as string,
+					fetch
+				);
+
+				console.log('portfolio', portfolio);
+				console.log('last net worth history', netWorthHistory)
+
 				const portfolioCreatedAt = new Date();
+				const lastNetWorthUpdate = new Date();
 
 				// Update user's portfolio in database
 				await prisma.user.update({
@@ -38,13 +44,13 @@ export async function POST({ request }) {
 						clerkId: session.client_reference_id!
 					},
 					data: {
-						portfolio: portfolioUpdate,
+						netWorthHistory: netWorthHistory,
+						lastNetWorthUpdate: lastNetWorthUpdate,
+						portfolio: portfolio,
 						portfolioCreatedAt: portfolioCreatedAt,
 						hasPaid: true
 					}
 				});
-
-				console.log('Portfolio updated for user:', session.client_reference_id);
 				break;
 
 			default:

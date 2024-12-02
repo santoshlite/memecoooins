@@ -47,6 +47,9 @@ importers:
       '@tailwindcss/typography':
         specifier: ^0.5.15
         version: 0.5.15(tailwindcss@3.4.15)
+      assert:
+        specifier: ^2.1.0
+        version: 2.1.0
       bs58:
         specifier: ^6.0.0
         version: 6.0.0
@@ -56,15 +59,30 @@ importers:
       cross-fetch:
         specifier: ^4.0.0
         version: 4.0.0
+      crypto-browserify:
+        specifier: ^3.12.1
+        version: 3.12.1
       dotenv:
         specifier: ^16.4.5
         version: 16.4.5
       html2canvas:
         specifier: ^1.4.1
         version: 1.4.1
+      https-browserify:
+        specifier: ^1.0.0
+        version: 1.0.0
+      os-browserify:
+        specifier: ^0.3.0
+        version: 0.3.0
       prisma:
         specifier: ^6.0.0
         version: 6.0.0
+      stream-browserify:
+        specifier: ^3.0.0
+        version: 3.0.0
+      stream-http:
+        specifier: ^3.2.0
+        version: 3.2.0
       stripe:
         specifier: ^17.4.0
         version: 17.4.0
