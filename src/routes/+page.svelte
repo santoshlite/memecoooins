@@ -168,7 +168,7 @@
 						class="mt-4 flex w-full items-center justify-center gap-2 rounded-lg bg-[#012bf4] px-6 py-3 text-xl font-bold text-white hover:bg-[#0025d9]"
 						on:click={handleBuy}
 					>
-						GET A MY WALLET
+						GET A WALLET
 					</button>
 				{/if}
 			</SignedIn>
