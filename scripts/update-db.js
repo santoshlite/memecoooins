@@ -109,11 +109,24 @@ async function updateUserNetWorth() {
 				userBatch.map((user) => {
 					const portfolio = user.portfolio || [];
 					const coinsWorth = {};
+					
+					console.log(`\nProcessing User ${user.id}:`);
+					console.log('Portfolio:', JSON.stringify(portfolio, null, 2));
+					
 					const netWorth = portfolio.reduce((total, holding) => {
-						const worth = (coinPrices.get(holding.id) || 0) * holding.quantity;
+						const price = coinPrices.get(holding.id) || 0;
+						const worth = price * holding.quantity;
 						coinsWorth[holding.id] = worth;
+						
+						console.log(`- Coin ${holding.id}:`);
+						console.log(`  Quantity: ${holding.quantity}`);
+						console.log(`  Price: $${price}`);
+						console.log(`  Worth: $${worth.toFixed(2)}`);
+						
 						return total + worth;
 					}, 0);
+
+					console.log(`Total Net Worth for User ${user.id}: $${netWorth.toFixed(2)}\n`);
 
 					const history = user.netWorthHistory || [];
 					history.push({ netWorth, coinsWorth });
@@ -140,7 +153,7 @@ async function main() {
 	const startTime = new Date();
 	try {
 		console.log('Starting database update...', new Date().toISOString());
-		await updateCoinPrices();
+		// await updateCoinPrices();
 		console.log('Coin prices updated successfully.');
 		await updateUserNetWorth();
 		console.log('User net worth updated successfully.');

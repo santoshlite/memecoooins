@@ -248,10 +248,10 @@ export async function POST({ request, fetch }) {
 		const portfolio = await Promise.all(
 			memecoinsWithAllocation.map(async (entry: MemecoinWithAllocation) => ({
 				id: entry.id,
-				quantity: await getExpectedOutput(
+				quantity: (await getExpectedOutput(
 					entry.solana_contract_address,
 					Math.floor(entry.allocation * 10 ** 6) // Convert to proper USDC units
-				)
+				)) / 10 ** 6
 			}))
 		);
 
